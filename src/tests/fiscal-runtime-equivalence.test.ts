@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto"
-import { readFileSync, writeFileSync } from "node:fs"
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
+import { dirname } from "node:path"
 import { fileURLToPath } from "node:url"
 import { afterAll, afterEach, beforeEach, describe, expect, it, vi } from "vitest"
 import { createElement } from "react"
@@ -165,4 +166,4 @@ describe("5D.2a equivalencia completa con composición productiva anterior", () 
     expect(m).not.toHaveProperty("signature")
   })
 })
-afterAll(() => writeFileSync(evidence("5d2a/equivalence.json"), JSON.stringify({ ...counts, monetaryDifferences: [], oracle: "explicit previous contextual composition + archived Fraction controls", timing: "performance.now fixed at zero for deterministic comparisons" }, null, 2) + "\n"))
+afterAll(() => { const path = evidence("5d2a/equivalence.json"); mkdirSync(dirname(path), { recursive: true }); writeFileSync(path, JSON.stringify({ ...counts, monetaryDifferences: [], oracle: "explicit previous contextual composition + archived Fraction controls", timing: "performance.now fixed at zero for deterministic comparisons" }, null, 2) + "\n") })
