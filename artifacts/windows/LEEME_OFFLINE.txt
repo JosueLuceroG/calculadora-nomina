@@ -1,54 +1,55 @@
-CALCULADORA DE NÓMINA — INSTALADOR OFFLINE
-Versión: 0.1.1-rc.1 — Windows x64 — SIN FIRMA AUTHENTICODE
+CALCULADORA DE NÓMINA
+Versión 0.1.1-rc.1 para Windows 11 de 64 bits
+Instalador offline
 
-Archivo: CalculadoraNomina_0.1.1-rc.1_offline_x64-setup.exe
+Gracias por probar la aplicación. Este archivo corresponde al instalador que
+incluye WebView2, pensado para equipos sin internet.
+
+ARCHIVO
+CalculadoraNomina_0.1.1-rc.1_offline_x64-setup.exe
 Tamaño: 222,910,288 bytes (212.58 MiB)
 SHA-256:
 6e049470e1dc1cfd2814f1eeb81f9143e7a32c941db5b9897dc9793c3ff8fbbe
 
-QUÉ ES
-Instalador autocontenido: incluye el instalador offline de Microsoft Edge
-WebView2. Si el equipo destino no tiene WebView2, no necesita descargarlo
-durante la instalación. No requiere internet para instalar ni para calcular.
-Plataforma validada: Windows 11 x64. Windows 10 no se validó en este corte.
+QUÉ INCLUYE
+La aplicación y el instalador offline de Microsoft Edge WebView2. No necesitas
+internet para instalar ni para calcular. La plataforma validada es Windows 11
+de 64 bits. Windows 10 no se validó en esta versión.
 
-PASOS PARA EL USUARIO
-1. Verificar el SHA-256 del archivo antes de ejecutarlo. En PowerShell:
+CÓMO INSTALAR
+1. Comprueba el SHA-256 del archivo (opcional, pero recomendable).
+   En PowerShell:
    Get-FileHash -LiteralPath ".\CalculadoraNomina_0.1.1-rc.1_offline_x64-setup.exe" -Algorithm SHA256
-   Debe coincidir exactamente con el valor anterior.
-2. Cerrar cualquier versión anterior de la calculadora.
-3. Ejecutar el instalador y seguir el asistente. La instalación es para el
-   usuario actual; Windows puede pedir confirmación al instalar WebView2.
-4. Si aparece "Windows protegió tu PC" o "editor desconocido", elegir
-   "Más información" y luego "Ejecutar de todas formas". Esto ocurre porque
-   el archivo NO está firmado con un certificado Authenticode. No desactivar
-   Windows SmartScreen.
-5. Abrir "Calculadora de Nómina" desde Inicio.
+   El resultado debe coincidir con el valor de arriba.
+2. Cierra la calculadora si ya la tienes abierta.
+3. Abre el instalador y sigue el asistente.
+4. Abre "Calculadora de Nómina" desde el menú Inicio.
 
-DATOS Y PRIVACIDAD
-Historial y preferencias:
+SI WINDOWS MUESTRA UN AVISO
+El instalador todavía no tiene firma digital. Es posible que Windows muestre
+"Windows protegió tu PC" o "editor desconocido". Puedes elegir "Más información"
+y después "Ejecutar de todas formas". No desactives SmartScreen.
+
+TUS DATOS
+El historial y las preferencias se guardan en:
 %LOCALAPPDATA%\mx.calculadoranomina.desktop\payroll.sqlite3
-La base local NO está cifrada. Respaldar el archivo si se necesita conservar.
-El guardado automático comienza desactivado en un perfil nuevo.
-Los PDF se guardan en la carpeta que elija el usuario.
-Para desinstalar conservando el Historial, dejar SIN MARCAR
-«Eliminar los datos de aplicación».
+
+La base local no está cifrada. El guardado automático empieza desactivado en un
+perfil nuevo. Los PDF se guardan en la carpeta que elijas. Si desinstalas y
+quieres conservar el historial, deja sin marcar "Eliminar los datos de la
+aplicación".
 
 ALCANCE
-Herramienta de estimación 2026 para salario ordinario fijo gravado, zona
-general, periodos de 7/15/30 días. No es CFDI, nómina oficial ni cálculo
-homologado con SUA/CONTPAQi. La revisión fiscal competente 2026 sigue
-pendiente; no usar como sustituto de un cálculo fiscal aprobado.
-No volver a instalar 0.1.0 después de guardar documentos con esta versión:
-el lector antiguo no conoce el nuevo productor documental.
+La aplicación estima nómina de 2026 para salario ordinario fijo, totalmente
+gravado, en la zona general, con periodos de 7, 15 o 30 días.
 
-FIRMA
-Este instalador no está firmado. Windows puede mostrar advertencias de
-editor desconocido. La integridad se comprueba con el SHA-256 anterior.
-Para eliminar esas advertencias se requiere un certificado Authenticode
-auténtico del editor; no se generaron certificados ficticios.
+No es CFDI, no sustituye SUA o CONTPAQi y no es un cálculo fiscal certificado.
+No cubre ingresos variables, exentos, incidencias, otros patrones, IMSS manual,
+pago fiscal diario independiente ni el ejercicio 2027. "IMSS No" no significa
+una exención legal.
 
-CONSERVAR
-Guardar este archivo y su SHA-256. El instalador compacto anterior
-(CalculadoraNomina_0.1.1-rc.1_x64-setup.exe) sigue disponible, pero requiere
-internet si el equipo no tiene WebView2.
+Esta es una versión de prueba. La revisión fiscal y la instalación en un Windows
+limpio siguen pendientes. No uses el resultado como cálculo oficial.
+
+MÁS INFORMACIÓN
+https://github.com/JosueLuceroG/calculadora-nomina

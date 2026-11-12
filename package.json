@@ -39,11 +39,8 @@
     "vite": "^7.0.0",
     "vitest": "^4.0.0"
   },
-  "description": "Calculadora de nómina mexicana 2026 para Windows: estimación bruto↔neto, historial local y reportes PDF.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "Calculadora de nómina mexicana 2026 para Windows: bruto a neto, neto a bruto, historial local y reportes PDF.",
+  "homepage": "https://github.com/JosueLuceroG/calculadora-nomina#readme",
   "keywords": [
     "nomina",
     "payroll",
