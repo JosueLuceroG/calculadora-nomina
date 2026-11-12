@@ -1,0 +1,13 @@
+import assert from "node:assert/strict"
+import {createHash} from "node:crypto"
+import {existsSync,mkdirSync,readFileSync,readdirSync,writeFileSync} from "node:fs"
+import {join} from "node:path"
+import {fileURLToPath} from "node:url"
+const root=fileURLToPath(new URL("../",import.meta.url)),out=join(root,"docs/evidence/5b10"),file=join(out,"protected-baseline.json")
+mkdirSync(out,{recursive:true})
+const tree=d=>readdirSync(join(root,d),{withFileTypes:true}).flatMap(e=>e.isDirectory()?tree(join(d,e.name)):[join(d,e.name).replaceAll("\\","/")])
+const hash=p=>createHash("sha256").update(readFileSync(join(root,p))).digest("hex")
+const integration=["package.json","package-lock.json","src-tauri/Cargo.toml","src-tauri/Cargo.lock","src-tauri/src/lib.rs"]
+const paths=()=>[...tree("src"),...tree("src-tauri/src"),"package.json","package-lock.json","src-tauri/Cargo.toml","src-tauri/Cargo.lock","src-tauri/tauri.conf.json","vite.config.ts","design/UI_APROBADA.png"]
+if(process.argv.includes("--before")){assert(!existsSync(file));const lock=JSON.parse(readFileSync(join(root,"package-lock.json"),"utf8"));writeFileSync(file,JSON.stringify({capturedOn:new Date().toISOString(),hashes:Object.fromEntries(paths().filter(p=>!integration.includes(p)).map(p=>[p,hash(p)])),integrationBefore:Object.fromEntries(integration.map(p=>[p,hash(p)])),npmVersionsBefore:Object.fromEntries(Object.entries(lock.packages).filter(([p,v])=>p&&v.version).map(([p,v])=>[p,v.version])),productionAssets:existsSync(join(root,"dist/assets"))?Object.fromEntries(tree("dist/assets").map(p=>[p,hash(p)])):{}},null,2))}
+else{const b=JSON.parse(readFileSync(file,"utf8")),lock=JSON.parse(readFileSync(join(root,"package-lock.json"),"utf8")),differences=Object.entries(b.hashes).filter(([p,h])=>hash(p)!==h).map(([p])=>p),changedExistingNpm=Object.entries(b.npmVersionsBefore).filter(([p,v])=>lock.packages[p]?.version!==v).map(([p,v])=>({path:p,before:v,after:lock.packages[p]?.version??null})),current=tree("dist/assets"),report={checkedOn:new Date().toISOString(),protectedFiles:Object.keys(b.hashes).length,differences,changedExistingNpm,productionAssets:Object.entries(b.productionAssets).map(([p,before])=>{const afterPath=current.find(c=>c.endsWith(p.endsWith(".css")?".css":".js"));return{path:p,before,afterPath,after:afterPath?hash(afterPath):null}}),declaredIntegration:integration.map(p=>({path:p,before:b.integrationBefore[p],after:hash(p)})),addedFiles:Object.fromEntries(paths().filter(p=>!(p in b.hashes)&&!integration.includes(p)).map(p=>[p,hash(p)]))};writeFileSync(join(out,"protected-final.json"),JSON.stringify(report,null,2));assert.deepEqual(differences,[]);assert.deepEqual(changedExistingNpm,[]);console.log(JSON.stringify(report,null,2))}

@@ -1,0 +1,39 @@
+import type {CalculationController,CalculationState,CalculationSubmission} from './calculation-controller'
+import {snapshotFiscalCapture} from './fiscal-adapter'
+import type {FiscalCapture,FiscalOutcome,MinimumDeclaration} from './fiscal-adapter'
+import {createFiscalExecutionApi,FiscalExecutionFailure} from './fiscal-execution-api'
+import type {FiscalExecutionApi,PreparedExecution,Selection,NativeContext} from './fiscal-execution-api'
+import {prepareExternalExecution} from './prepared-external-execution'
+import {hashObject} from '../documents/evidence-v3'
+export type TransientExecution=Readonly<{stage:string;executionId:string|null;context:NativeContext|null;fingerprint:string|null;persistenceAllowed:false;channel?:'qa'|'production'}>
+const observations=new WeakMap<CalculationState,TransientExecution>()
+export const transientExecution=(s:CalculationState|null|undefined)=>s?observations.get(s)??null:null
+export type ExternalCalculationController=CalculationController&Readonly<{submitSelected:(capture:FiscalCapture,selection:Selection,referenceMode?:'manual'|'automatic')=>CalculationSubmission;rejectRouting:(capture:FiscalCapture,code:string)=>void}>
+type Task={id:number;key:string;abort:AbortController;reference?:PreparedExecution;resolve:(s:CalculationState)=>void;fingerprint:string;selection?:Selection;referenceMode:'manual'|'automatic'}
+const ownedResults=new WeakMap<CalculationState,{api:FiscalExecutionApi;reference:PreparedExecution}>()
+export function externalResultPort(state:CalculationState){const owned=ownedResults.get(state);if(!owned||state.phase!=='result')throw new FiscalExecutionFailure('FOREIGN_EXECUTION_REFERENCE');return Object.freeze({finalize:()=>owned.api.finalize(owned.reference),store:(route:'manual'|'automatic')=>owned.api.store(owned.reference,route),reconcile:(id:string,sha:string)=>owned.api.reconcile(id,sha)})}
+const scenarioFor=(date:string):MinimumDeclaration=>Object.freeze({kind:'contextual-retention-2026-v2',salaryBasis:'fixed-period',monthlyCondition:'unknown',referenceMonth:date.slice(0,7)})
+export function createExternalCalculationController(api:FiscalExecutionApi=createFiscalExecutionApi()):ExternalCalculationController{
+ let sequence=0,disposed=false,task:Task|null=null,last:Task|null=null,state:CalculationState=Object.freeze({phase:'idle',requestId:0,snapshot:null,outcome:null,captureIssues:[],error:null});const listeners=new Set<(s:CalculationState)=>void>()
+  function publish(phase:CalculationState['phase'],snapshot:FiscalCapture|null,outcome:FiscalOutcome|null=null,error:CalculationState['error']=null,info:Partial<TransientExecution>={}){const s:CalculationState=Object.freeze({phase,requestId:sequence,snapshot,outcome,captureIssues:Object.freeze([]),error});observations.set(s,Object.freeze({stage:phase,executionId:null,context:null,fingerprint:null,persistenceAllowed:false,...info}));if(phase==='result'&&last?.reference)ownedResults.set(s,{api,reference:last.reference});state=s;for(const l of [...listeners])l(s);return s}
+ function invalidate(){const previous=task??last;task=null;last=null;if(previous){previous.abort.abort();void (previous.reference?api.cancel(previous.reference):api.cancelPending(previous.key)).catch(()=>{});}return previous}
+ const current=(t:Task)=>!disposed&&task===t&&!t.abort.signal.aborted&&sequence===t.id
+  function submitScenario(capture:FiscalCapture,scenario:MinimumDeclaration,expected?:Selection,referenceMode:'manual'|'automatic'='manual'):CalculationSubmission{
+  if(disposed)return {accepted:false,requestId:null,reason:'disposed',completion:Promise.resolve(state)};const snapshot=snapshotFiscalCapture(capture);const fingerprint=hashObject({capture:snapshot,scenario,expected:expected??null})
+   const previous=invalidate();sequence++;let resolve!:(s:CalculationState)=>void;const completion=new Promise<CalculationState>(r=>{resolve=r});const t:Task={id:sequence,key:crypto.randomUUID(),abort:new AbortController(),resolve,fingerprint,referenceMode};task=t;const initial=publish('calculating',snapshot);previous?.resolve(initial)
+  const run=async()=>{let timer:ReturnType<typeof setInterval>|undefined;try{
+   if(previous){await (previous.reference?api.cancel(previous.reference):api.cancelPending(previous.key)).catch(()=>{});if(!current(t))return}
+   const selection=expected??await api.source();if(!current(t))return;t.selection=selection;if(selection.kind!=='external')throw new FiscalExecutionFailure('EXTERNAL_SELECTION_REQUIRED')
+    t.reference=await api.prepare(snapshot,scenario,selection,t.id,t.key,referenceMode);if(!current(t)){await api.cancel(t.reference);return}
+    const execution=await prepareExternalExecution(api,t.reference);if(!current(t)){await api.cancel(t.reference);return}const context=execution.provider.material.context,channel=execution.provider.material.packageEnvelope.signed.channel;t.fingerprint=hashObject({capture:snapshot,scenario,selection,context,operation:snapshot.form.mode});publish('calculating',snapshot,null,null,{stage:'running',executionId:t.reference.state.executionId,context,fingerprint:t.fingerprint,channel})
+   let polling:Promise<void>|null=null,securityError:unknown;timer=setInterval(()=>{if(!current(t)||polling||!t.reference)return;polling=api.status(t.reference).then(()=>{},e=>{if((e as {code?:string}).code!=='BUSY'){securityError=e;t.abort.abort()}}).finally(()=>{polling=null})},250)
+   const outcome=await execution.calculate(t.abort.signal).catch(e=>{throw securityError??e});if(timer)clearInterval(timer);if(polling)await polling;if(securityError)throw securityError;if(!current(t))return
+   if(outcome.kind==='inverse'&&outcome.report.metrics.stopReason==='aborted'){task=null;publish('cancelled',snapshot);t.resolve(state);return}
+    await api.status(t.reference);if(!current(t))return;await api.complete(t.reference,outcome);if(!current(t))return;task=null;last=t;publish('result',snapshot,outcome,null,{stage:'complete-transient',executionId:t.reference.state.executionId,context,fingerprint:t.fingerprint,channel});t.resolve(state)
+  }catch(e){if(task!==t||disposed||sequence!==t.id)return;task=null;last=t;const code=e instanceof FiscalExecutionFailure?e.code:'EXTERNAL_EXECUTION_ERROR';publish('error',snapshot,null,Object.freeze({code,message:`No se completó la ejecución externa (${code}). No se guardó ningún resultado.`}));t.resolve(state)}finally{if(timer)clearInterval(timer);if(task!==t&&last!==t)t.resolve(state)}}
+  void run();return {accepted:true,requestId:t.id,reason:'started',completion}
+ }
+ function subscribe(l:(s:CalculationState)=>void){listeners.add(l);return()=>{listeners.delete(l)}}
+ function reset(phase:CalculationState['phase'],snapshot:FiscalCapture|null){const old=invalidate();sequence++;const s=publish(phase,snapshot);old?.resolve(s)}
+  return Object.freeze({getState:()=>state,subscribe,submit:c=>submitScenario(c,scenarioFor(c.form.effectiveDate)),submitSelected:(c,s,mode)=>submitScenario(c,scenarioFor(c.form.effectiveDate),s,mode),rejectRouting:(c,code)=>{reset('error',snapshotFiscalCapture(c));publish('error',snapshotFiscalCapture(c),null,{code,message:`No se pudo resolver la selección fiscal (${code}). No se sustituyó por otro paquete.`})},edit:c=>{if(!disposed)reset('idle',snapshotFiscalCapture(c))},cancel:()=>{if(!disposed)reset('cancelled',state.snapshot)},clear:()=>{if(!disposed)reset('idle',null)},dispose:()=>{if(!disposed){reset('disposed',null);disposed=true;listeners.clear()}},confirmMinimum:(id,declaration)=>{if(disposed||task||state.phase!=='result'||state.requestId!==id||!state.snapshot||!last?.selection||declaration.referenceMonth!==state.snapshot.form.effectiveDate.slice(0,7))return {accepted:false,requestId:null,reason:'stale-or-incompatible-confirmation',completion:Promise.resolve(state)};return submitScenario(state.snapshot,declaration,last.selection,last.referenceMode)}})
+}

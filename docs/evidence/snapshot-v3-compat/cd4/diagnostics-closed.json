@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "automatic": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "coverage": null,
+      "label": "partial",
+      "manual": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "run": "docs/evidence/snapshot-v3-compat/cd4/runs/partial-5bb679e2-be3c-451c-afff-ee2ddb99f44e",
+      "status": "not-determinable",
+      "writeGeneration": null
+    },
+    {
+      "automatic": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "coverage": "limited",
+      "label": "no-candidate",
+      "manual": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "run": "docs/evidence/snapshot-v3-compat/cd4/runs/no-candidate-6a986ee8-9cbe-4de6-a0ec-9fedd649980c",
+      "status": "not-determinable",
+      "writeGeneration": null
+    },
+    {
+      "automatic": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "coverage": "limited",
+      "label": "limited-candidate",
+      "manual": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "run": "docs/evidence/snapshot-v3-compat/cd4/runs/limited-candidate-62d5f697-f906-49d4-86b1-7b77ef6675d2",
+      "status": "estimated",
+      "writeGeneration": null
+    },
+    {
+      "automatic": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "coverage": "limited",
+      "label": "stress",
+      "manual": "DOCUMENT_MANUAL_FLOW_REQUIRED",
+      "run": "docs/evidence/snapshot-v3-compat/cd4/runs/stress-9ab0185c-34f4-4641-9875-2163acb9fa5e",
+      "status": "not-determinable",
+      "writeGeneration": null
+    }
+  ],
+  "explicitDiagnosticManualConsentImplemented": false,
+  "salaryRows": 0
+}

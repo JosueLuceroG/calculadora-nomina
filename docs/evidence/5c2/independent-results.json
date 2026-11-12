@@ -1,0 +1,5391 @@
+{
+  "passed": 1260,
+  "componentComparisons": 20160,
+  "cases": [
+    {
+      "id": "2026-01-31/weekly/2205.21/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.21/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.27/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.28/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.29/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/weekly/2205.35/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.45/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.59/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.60/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.61/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/fortnightly/4725.75/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/8821.12/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9450.90/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.19/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.20/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.21/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9451.50/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.46/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.47/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9582.48/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/9766.24/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-01-31/monthly/15000.00/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.21/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.27/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.28/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.29/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/weekly/2205.35/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.45/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.59/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.60/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.61/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/fortnightly/4725.75/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/8821.12/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9450.90/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.19/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.20/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.21/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9451.50/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.46/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.47/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9582.48/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/9766.24/False/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/True/actual-calendar/outside-profile/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/fixed-period/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/fixed-period/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/fixed-period/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/agreed-daily-reference/unknown/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/agreed-daily-reference/minimum-only-assumed/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/agreed-daily-reference/outside-profile/None",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/unknown/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/unknown/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/unknown/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/minimum-only-assumed/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/minimum-only-assumed/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/minimum-only-assumed/31",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/outside-profile/28",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/outside-profile/30",
+      "matches": true
+    },
+    {
+      "id": "2026-02-01/monthly/15000.00/False/actual-calendar/outside-profile/31",
+      "matches": true
+    }
+  ],
+  "inverseWindowsPassed": 42,
+  "inverse": [
+    {
+      "id": "2026-01-31/True/fixed-period/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/fixed-period/unknown/9451.18/9082.02",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/fixed-period/unknown/9582.40/9196.29",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/agreed-daily-reference/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/agreed-daily-reference/unknown/9451.18/9082.02",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/agreed-daily-reference/unknown/9582.40/9196.29",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/agreed-daily-reference/minimum-only-assumed/9451.18/9451.20",
+      "candidates": [
+        "9451.20"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/agreed-daily-reference/minimum-only-assumed/9451.18/9082.02",
+      "candidates": [],
+      "complete": true,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/True/agreed-daily-reference/minimum-only-assumed/9582.40/9196.29",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/fixed-period/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/fixed-period/unknown/9451.18/9082.02",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/fixed-period/unknown/9582.40/9435.10",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/fixed-period/unknown/9582.40/9451.20",
+      "candidates": [
+        "9600.54"
+      ],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/unknown/9451.18/9082.02",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/unknown/9582.40/9435.10",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/unknown/9582.40/9451.20",
+      "candidates": [
+        "9600.54"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/minimum-only-assumed/9451.18/9451.20",
+      "candidates": [
+        "9451.20"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/minimum-only-assumed/9451.18/9082.02",
+      "candidates": [],
+      "complete": true,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/minimum-only-assumed/9582.40/9435.10",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-01-31/False/agreed-daily-reference/minimum-only-assumed/9582.40/9451.20",
+      "candidates": [
+        "9600.54"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/fixed-period/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/fixed-period/unknown/9451.18/9082.02",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/fixed-period/unknown/9582.40/9195.73",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/agreed-daily-reference/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/agreed-daily-reference/unknown/9451.18/9082.02",
+      "candidates": [
+        "9451.21"
+      ],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/agreed-daily-reference/unknown/9582.40/9195.73",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/agreed-daily-reference/minimum-only-assumed/9451.18/9451.20",
+      "candidates": [
+        "9451.20"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/agreed-daily-reference/minimum-only-assumed/9451.18/9082.02",
+      "candidates": [
+        "9451.21"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/True/agreed-daily-reference/minimum-only-assumed/9582.40/9195.73",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/fixed-period/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/fixed-period/unknown/9451.18/9082.02",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/fixed-period/unknown/9582.40/9434.54",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/fixed-period/unknown/9582.40/9451.20",
+      "candidates": [
+        "9601.17"
+      ],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/unknown/9451.18/9451.20",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/unknown/9451.18/9082.02",
+      "candidates": [],
+      "complete": false,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/unknown/9582.40/9434.54",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/unknown/9582.40/9451.20",
+      "candidates": [
+        "9601.17"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/minimum-only-assumed/9451.18/9451.20",
+      "candidates": [
+        "9451.20"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/minimum-only-assumed/9451.18/9082.02",
+      "candidates": [],
+      "complete": true,
+      "minimumProven": false,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/minimum-only-assumed/9582.40/9434.54",
+      "candidates": [
+        "9582.48"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    },
+    {
+      "id": "2026-02-01/False/agreed-daily-reference/minimum-only-assumed/9582.40/9451.20",
+      "candidates": [
+        "9601.17"
+      ],
+      "complete": true,
+      "minimumProven": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[package]
+name = "nomina-fiscal-package"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+publish = false
+
+[dependencies]
+serde = { version = "=1.0.229", features = ["derive"] }
+serde_json = "=1.0.154"
+serde_jcs = "=0.2.0"
+sha2 = "=0.10.9"
+base64 = "=0.22.1"
+ed25519-dalek = { version = "=2.2.0", default-features = false, features = ["std"] }
+url = "=2.5.8"
+
+[dev-dependencies]
+getrandom = "=0.2.17"

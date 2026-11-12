@@ -1,0 +1,21 @@
+import {createNativeFiscalApi,FiscalImportFailure,importMessage,type FiscalApi,type ImportInfo,type ImportState,type ImportKind,type Installed,type Details} from './fiscal-package-api'
+export type Model=Readonly<{info:ImportInfo|null;session:ImportState|null;items:readonly Installed[];next:string|null;generation:number|null;details:Details|null;detailSection:string;error:string|null;busy:boolean}>
+export function createFiscalPackageController(api:FiscalApi=createNativeFiscalApi()){
+ let state:Model={info:null,session:null,items:[],next:null,generation:null,details:null,detailSection:"sources",error:null,busy:false},alive=true,sequence=0
+ const listeners=new Set<(m:Model)=>void>(),publish=(patch:Partial<Model>)=>{if(alive){state=Object.freeze({...state,...patch});listeners.forEach(fn=>fn(state))}},code=(e:unknown)=>e instanceof FiscalImportFailure?e.code:'UNAVAILABLE'
+ async function list(more=false){try{const p=await api.list(more?state.next??'':'',more?state.generation??undefined:undefined);publish({items:more?[...state.items,...p.items]:p.items,next:p.next,generation:p.generation,error:null})}catch(e){publish({error:importMessage(code(e))})}}
+ function accepted(s:ImportState){const was=state.session?.phase;publish({session:s,error:s.error?importMessage(s.error):null,busy:false});if(s.phase==='committed'&&was!=='committed')void list()}
+ return {getState:()=>state,subscribe(fn:(m:Model)=>void){listeners.add(fn);return()=>{listeners.delete(fn)}},
+ async initialize(){try{publish({info:await api.info()})}catch(e){publish({error:importMessage(code(e))})}},
+ async begin(kind:ImportKind){if(state.busy||['selecting','verifying','confirming'].includes(state.session?.phase??''))return;const run=++sequence;publish({busy:true,error:null,details:null});if(state.session&&!['committed','unknown'].includes(state.session.phase))await api.cancel(state.session.sessionId).catch(()=>{});try{const s=await api.begin(kind);if(run===sequence)accepted(s);else await api.cancel(s.sessionId).catch(()=>{})}catch(e){if(run===sequence)publish({busy:false,error:importMessage(code(e))})}},
+ async poll(){const s=state.session;if(!s||!['selecting','verifying','confirming'].includes(s.phase))return;try{const result=await api.get(s.sessionId);if(state.session?.sessionId===result.sessionId)accepted(result)}catch(e){publish({error:importMessage(code(e))})}},
+ async confirm(){const s=state.session;if(!s||s.phase!=='ready'||!s.previewNonce||state.busy)return;publish({busy:true,session:{...s,phase:'confirming'},error:null});try{accepted(await api.confirm(s.sessionId,s.previewNonce))}catch(e){publish({busy:false,session:{...s,phase:'unknown'},error:importMessage(code(e))})}},
+ async discard(){++sequence;const s=state.session;if(s){try{const result=await api.cancel(s.sessionId);publish({session:result,details:null,busy:false,error:null})}catch(e){publish({error:importMessage(code(e))})}}},
+ async refresh(){const s=state.session;if(!s||state.busy)return;publish({busy:true,details:null});try{accepted(await api.refresh(s.sessionId))}catch(e){publish({busy:false,error:importMessage(code(e))})}},
+ async details(section:string,more=false){const s=state.session;if(!s)return;try{const p=await api.details(s.sessionId,section,more?state.details?.next??0:0);if(state.session?.sessionId===s.sessionId)publish({details:{items:more?[...state.details?.items??[],...p.items]:p.items,next:p.next},detailSection:section})}catch(e){publish({error:importMessage(code(e))})}},
+ async reconcile(){const s=state.session;if(!s)return;try{const receipt=await api.operation(s.operationId);if(receipt)accepted({...s,phase:'committed',receipt,error:null});else publish({error:'No hay constancia confirmada de esta operación. Conserva su identificador y vuelve a consultar; no se afirmó rollback.'})}catch(e){publish({error:importMessage(code(e))})}},
+ list,
+ leave(){++sequence;const s=state.session;if(!s){publish({busy:false});return}if(!['committed','confirming','unknown'].includes(s.phase)){void api.cancel(s.sessionId).catch(()=>{});publish({session:null,details:null,busy:false})}},
+ dispose(){alive=false;++sequence;const s=state.session;if(s&&!['committed','confirming','unknown'].includes(s.phase))void api.cancel(s.sessionId).catch(()=>{});listeners.clear()},
+ }
+}

@@ -1,0 +1,19 @@
+use super::*;
+use tauri::{Runtime,WebviewWindow,State as TauriState};
+type Service=Arc<ExecutionService>;
+pub(crate) fn caller<R:Runtime>(w:&WebviewWindow<R>,s:&Service)->Result<Owner>{crate::fiscal_import::commands::caller(w,&s.imports).map_err(|e|fail(&e.code))}
+fn bounded(s:State)->Result<State>{if serde_json::to_vec(&s).map_err(|_|fail("SERIALIZATION_ERROR"))?.len()>65536{return Err(fail("RESPONSE_LIMIT"));}Ok(s)}
+#[tauri::command]
+pub async fn fiscal_execution_prepare<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:PrepareRequest,reference_mode:Option<String>)->Result<State>{let s=state.inner().clone();let owner=caller(&window,&s)?;s.enabled()?;validate(&request)?;let work=s.imports.work().map_err(|e|fail(&e.code))?;bounded(tauri::async_runtime::spawn_blocking(move||{let _work=work;s.prepare_bound(&owner,&request,reference_mode.as_deref().unwrap_or("manual"))}).await.map_err(|_|fail("UNAVAILABLE"))??)}
+#[tauri::command]
+pub async fn fiscal_execution_material<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:ReferenceRequest)->Result<super::service::MaterialResponse>{let s=state.inner().clone();let owner=caller(&window,&s)?;s.enabled()?;reference(&request)?;let work=s.imports.work().map_err(|e|fail(&e.code))?;let body=tauri::async_runtime::spawn_blocking(move||{let _work=work;s.material(&owner,&request)}).await.map_err(|_|fail("UNAVAILABLE"))??;if body.len()>MATERIAL_MAX{return Err(fail("MATERIAL_TOO_LARGE"));}Ok(body)}
+#[tauri::command]
+pub async fn fiscal_execution_status<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:ReferenceRequest)->Result<State>{let s=state.inner().clone();let owner=caller(&window,&s)?;s.enabled()?;reference(&request)?;let work=s.imports.work().map_err(|e|fail(&e.code))?;bounded(tauri::async_runtime::spawn_blocking(move||{let _work=work;s.status(&owner,&request)}).await.map_err(|_|fail("UNAVAILABLE"))??)}
+#[tauri::command]
+pub async fn fiscal_execution_cancel<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:ReferenceRequest)->Result<State>{let s=state.inner();let owner=caller(&window,s)?;s.enabled()?;reference(&request)?;bounded(s.cancel(&owner,&request)?)}
+#[tauri::command]
+pub async fn fiscal_execution_complete<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:CompleteRequest)->Result<State>{let s=state.inner().clone();let owner=caller(&window,&s)?;s.enabled()?;uuid(&request.handle)?;if request.result_wire.len()>RESULT_MAX{return Err(fail("RESULT_TOO_LARGE"));}let work=s.imports.work().map_err(|e|fail(&e.code))?;bounded(tauri::async_runtime::spawn_blocking(move||{let _work=work;s.complete(&owner,&request)}).await.map_err(|_|fail("UNAVAILABLE"))??)}
+#[tauri::command]
+pub async fn fiscal_execution_finalize<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:FinalizeRequest)->Result<FinalizationResponse>{let s=state.inner().clone();let owner=caller(&window,&s)?;s.enabled()?;uuid(&request.handle)?;if !nomina_fiscal_package::validation_2026::digest(&request.expected_result_sha256){return Err(fail("INVALID_HASH"));}let work=s.imports.work().map_err(|e|fail(&e.code))?;tauri::async_runtime::spawn_blocking(move||{let _work=work;s.finalize(&owner,&request)}).await.map_err(|_|fail("UNAVAILABLE"))?}
+#[tauri::command]
+pub async fn fiscal_execution_reconcile<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,storage:TauriState<'_,crate::storage::commands::StorageState>,request:ReconcileRequest)->Result<crate::storage::StoreOutcome>{caller(&window,state.inner())?;uuid(&request.execution_id)?;if !nomina_fiscal_package::validation_2026::digest(&request.expected_document_sha256){return Err(fail("INVALID_HASH"));}let s=storage.inner().clone();tauri::async_runtime::spawn_blocking(move||s.reconcile_v3(&request.execution_id,&request.expected_document_sha256).map_err(Error::from)).await.map_err(|_|fail("UNAVAILABLE"))?}

@@ -1,0 +1,10 @@
+{
+  "kind": "QA public inputs only",
+  "createdAt": "2026-10-26T21:51:31Z",
+  "privateMaterial": "ephemeral; never serialized",
+  "files": [
+    "package1.nomina-fiscal",
+    "package2.nomina-fiscal"
+  ],
+  "content1": "7e9f13084e64633b29959d79eec5f9c02333fe2695809c662d71fa7fc8393ab0"
+}

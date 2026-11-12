@@ -1,0 +1,38 @@
+.fiscal-packages{margin-top:24px;padding:28px;min-width:0}
+.fiscal-packages-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:18px}
+.fiscal-packages-heading h2{display:flex;align-items:center;gap:10px;font-size:1.3rem;font-weight:700;letter-spacing:-.025em;color:var(--detail-heading-ink)}
+.fiscal-packages-heading p,.fiscal-packages>p{color:var(--detail-label-ink);font-size:.9rem;line-height:1.6}
+.fiscal-packages-badge{border:1px solid var(--surface-border);background:var(--badge-fill);color:var(--badge-ink);border-radius:999px;padding:6px 12px;font-size:.78rem;white-space:nowrap}
+.fiscal-packages-actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.fiscal-packages-note{background:var(--inset-panel-fill);border:1px solid var(--detail-border);border-radius:12px;padding:14px 16px;margin:14px 0;overflow-wrap:anywhere}
+.fiscal-packages-trust{border-top:1px solid var(--detail-border);padding-top:16px;margin-top:18px;font-size:.88rem}
+.fiscal-packages-trust summary{cursor:pointer;color:var(--primary);font-weight:600}
+.fiscal-packages-trust summary svg{display:inline-block;vertical-align:middle}
+.fiscal-packages-trust p{margin:12px 0;line-height:1.6}
+.fiscal-packages-error{border:1px solid var(--error-border);color:var(--error-ink);border-radius:12px;padding:14px;margin:16px 0}
+.fiscal-packages-review{border-top:1px solid var(--detail-border);margin-top:20px;padding-top:20px}
+.fiscal-packages-review h3,.fiscal-packages-installed h3{font-weight:700;color:var(--detail-heading-ink);margin-bottom:16px}
+.fiscal-packages-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 24px;font-size:.85rem}
+.fiscal-packages-facts dt{color:var(--detail-label-ink);margin-bottom:4px}
+.fiscal-packages-facts dd{font-weight:600;overflow-wrap:anywhere}
+.fiscal-packages-details{max-height:360px;overflow:auto;border:1px solid var(--detail-border);border-radius:12px;padding:16px;font-size:.82rem}
+.fiscal-packages-details pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;margin:8px 0 16px}
+.fiscal-packages-receipt{background:var(--confirmation-fill);border:1px solid var(--confirmation-border);border-radius:12px;padding:16px;overflow-wrap:anywhere;font-size:.85rem;line-height:1.7}
+.fiscal-packages-installed{margin-top:24px;border-top:1px solid var(--detail-border);padding-top:20px}
+.fiscal-packages-installed article{border:1px solid var(--detail-border);border-radius:12px;padding:16px;margin-top:10px;font-size:.85rem;line-height:1.7}
+.fiscal-packages-installed code{overflow-wrap:anywhere;font-size:.74rem}
+@media(max-width:700px){.fiscal-packages{padding:20px}.fiscal-packages-facts{grid-template-columns:1fr}.fiscal-packages-heading{flex-wrap:wrap}}
+.fiscal-activation-dialog{background:var(--card);color:var(--foreground);border:1px solid var(--detail-border);border-radius:20px;padding:28px;margin:auto;inset:0;width:min(680px,calc(100vw - 40px));max-height:85vh;overflow:auto;box-shadow:var(--shadow-surface)}
+.fiscal-activation-dialog::backdrop{background:rgb(0 0 0 / 45%)}
+.fiscal-activation-dialog h2{font-size:1.3rem;font-weight:700;margin-bottom:14px}
+.fiscal-activation-dialog p{font-size:.9rem;line-height:1.6;margin:16px 0}
+.fiscal-activation-dialog dd{overflow-wrap:anywhere}
+.fiscal-source-notice{background:var(--inset-panel-fill);color:var(--detail-label-ink);border:1px solid var(--detail-border);border-radius:14px;padding:14px 18px;margin-bottom:18px;display:flex;gap:16px;align-items:center;justify-content:space-between;font-size:.88rem;line-height:1.6;overflow-wrap:anywhere}
+.fiscal-source-notice p{min-width:0}
+.fiscal-execution-notice{padding:20px;margin-bottom:18px;overflow-wrap:anywhere}
+.fiscal-execution-notice h3{font-weight:700;margin-bottom:8px}
+.fiscal-execution-notice p{font-size:.88rem;line-height:1.6;margin:8px 0}
+.fiscal-operation-input{display:block;width:100%;padding:10px 12px;border:1px solid var(--input);border-radius:10px;background:var(--control-fill);color:var(--foreground);margin:10px 0}
+.fiscal-operation-input:focus-visible{outline:2px solid var(--ring);outline-offset:3px}
+.fiscal-activation-controls{border:0;margin:0;padding:0;min-width:0}
+@media(max-width:700px){.fiscal-source-notice{align-items:flex-start;flex-direction:column}.fiscal-activation-dialog{padding:20px}}

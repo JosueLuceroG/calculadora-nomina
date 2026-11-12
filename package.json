@@ -1,0 +1,58 @@
+{
+  "name": "calculadora-nomina",
+  "private": true,
+  "version": "0.1.1-rc.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc -b",
+    "build": "tsc -b && vite build",
+    "build:installer:test": "tauri build --config src-tauri/tauri.release.conf.json --bundles nsis --no-sign --ci -- --locked --offline --no-default-features",
+    "test": "vitest run",
+    "preview": "vite preview --host 127.0.0.1",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@noble/curves": "2.4.0",
+    "@noble/hashes": "2.4.0",
+    "@radix-ui/react-slot": "^1.2.3",
+    "canonicalize": "5.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "decimal.js": "^10.6.0",
+    "jspdf": "4.2.1",
+    "jspdf-autotable": "5.0.9",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.0.0",
+    "vitest": "^4.0.0"
+  },
+  "description": "Calculadora de nómina mexicana 2026 para Windows: estimación bruto↔neto, historial local y reportes PDF.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "nomina",
+    "payroll",
+    "mexico",
+    "isr",
+    "imss",
+    "tauri",
+    "react"
+  ],
+  "author": "Josue Lucero",
+  "license": "MIT"
+}

@@ -1,0 +1,2804 @@
+{
+  "method": "Python Fraction exact; fresh DOF HTML and independent SAT PDF cross-check; no production imports",
+  "sourceCutoff": "2026-10-16",
+  "sources": [
+    {
+      "id": "isr-dof",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5777219",
+      "sha256": "DF156A17C76681448F7CF8E234C2D085B885E5B69FD5D0EAB30703EAFDB575FF"
+    },
+    {
+      "id": "isr-sat",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anexos/Anexo-8-RMF-2026_DOF-28122025.pdf",
+      "sha256": "69EBAF8A78A3BDE5D631AD2A994E81EC6D07E2D4E39085C8C948D138F782C1F4"
+    },
+    {
+      "id": "subsidy-2026",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5777649",
+      "sha256": "C2FF90539073ECF0EEEFC72BB570950EDAE32021E1891CFC0C7532EF68D5717F"
+    },
+    {
+      "id": "subsidy-2024",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5725287",
+      "sha256": "A80A0763F73BCA8DEC37FFCB70C19FC35CEB6B67C57C54C11718FE108CD52915"
+    },
+    {
+      "id": "subsidy-amendment-2025",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5746529",
+      "sha256": "FDF2DBACE0DDCA9BBCBD7A6E71581A42F7393D7D5DB6C0138FFC3C0169E04172"
+    },
+    {
+      "id": "minimum-2026",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5775534",
+      "sha256": "82CBE329E1B0AF07798A241AC5E398BD0A43B1DD396777BDAA60D3FF970AFBC3"
+    },
+    {
+      "id": "uma-2025",
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/uma/uma2025.pdf",
+      "sha256": "EB88864CB07D7CBEA007D48C3AEC3D05EF07EB70376AB4D8208C967D82D8EAF4"
+    },
+    {
+      "id": "uma-2026",
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/uma/uma2026.pdf",
+      "sha256": "9C9C4FF3DA9B34852D5E3B8165C50C346FF3EF7BA74737489F6D1F544C353E1C"
+    },
+    {
+      "id": "lss",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf",
+      "sha256": "8A28A16E1DCE1F8E666F4CCE5ED19745BC912B2AB1CA49787D5D4BEF229398ED"
+    },
+    {
+      "id": "lisr",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf",
+      "sha256": "803C2875C09C751C1966B8EB4DCA99F460B237DA4EF67EE04B4FA325D8C2F786"
+    },
+    {
+      "id": "lft",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+      "sha256": "12F09393A1951A91C3F57F579BF611B034EDF1A5F78CDBFB828E23FF3A9ACBF7"
+    },
+    {
+      "id": "lss-reforms",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/ref/lss.htm",
+      "sha256": "E230EF1BCF91F339932E9337A0F974CD17A94D5A9AD2113D45D39ED6DE90C1B6"
+    },
+    {
+      "id": "lisr-reforms",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/ref/lisr.htm",
+      "sha256": "197AB5CF502880699CC963474E234AD301246A6ED243C1353887BA65FE96F1CF"
+    },
+    {
+      "id": "lft-reforms",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/ref/lft.htm",
+      "sha256": "C3850D0E45B01726DBAB4FD7A8C28B1CFB86EFD890BEBA16AF6F4284D5002B47"
+    },
+    {
+      "id": "sidof-cutoff",
+      "url": "https://sidof.segob.gob.mx/",
+      "sha256": "75DBBA4ED07E4CFD5D02EED68D3084AABB4FF2DFA30ECB439B9AF2EB10A1825A"
+    },
+    {
+      "id": "uma-deindexation",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5423663",
+      "sha256": "6EE3F5B387DB634F7B6F60ADD6F6BAFF90BF445ECA90ED250BA2B8A5BFD151B6"
+    },
+    {
+      "id": "sidof-13",
+      "url": "https://sidof.segob.gob.mx/welcome/13-10-2026",
+      "sha256": "9E1EE4BD0EC0CE4F38ADC4100D339F842C3745E95A9DA0EC3F18AE052E78A12C"
+    },
+    {
+      "id": "sidof-14",
+      "url": "https://sidof.segob.gob.mx/welcome/14-10-2026",
+      "sha256": "B17F842AB1C29CDD94F4AA371CA69DF31B8A4CED0E9E227CA4A955552A26394D"
+    },
+    {
+      "id": "sidof-15",
+      "url": "https://sidof.segob.gob.mx/welcome/15-10-2026",
+      "sha256": "C27C7CF924AA0544E754AB6038A70D15BDF896FD81401EB2D7B47F5BA48D7A32"
+    },
+    {
+      "id": "sat-normativity",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/index.html",
+      "sha256": "73D8976E2D1AD739A43E10D7DB78CE2129D8F0EF91B8CBC5B398EB7D0C4E9895"
+    },
+    {
+      "id": "sat-rmf-2026-index",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/normatividad_rmf_rgce2026.html",
+      "sha256": "F4B2FCB7F04E61A163B89592F4F62EC6E889EF81064A5C2727473DC9CBDAE57D"
+    },
+    {
+      "id": "sat-anticipated-4th-oct15",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anticipadas/4aRM_RMF2026-Segunda_version_anticipada_15102026.pdf",
+      "sha256": "11268F10E0E2E6B1C7A747BFD2E2E28D4729F0B9BD9BBAED6F2F6474D5412E2D"
+    },
+    {
+      "id": "sat-annex7-oct2",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anexos/Anexo7_PrimeraModificacionRMF2026_DOF_02102026.pdf",
+      "sha256": "9724D5984B946950789E0FD98F0696FB27864C88D367471236B38094479E6098"
+    },
+    {
+      "id": "sat-3rd-rmf-oct2",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/rmf/3aRM_RMF2026_DOF_02102026.pdf",
+      "sha256": "AD76E833FA529562767539BCF682A4D88D0F22D193EC11100B87826D130FF77B"
+    },
+    {
+      "id": "sat-rmf-base",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/rmf/RMF_2026-DOF-28122025.pdf",
+      "sha256": "6F71CE0CCCF430171FE858C5D244B1C321FA68306F962D44EC4977858A52919A"
+    },
+    {
+      "id": "racerf",
+      "url": "https://www.imss.gob.mx/sites/all/statics/pdf/reglamentos/4046_RLSSMACERF.pdf",
+      "sha256": "78FB70D213053E46D3E739B9D80BF7DA733D80F27446AF7D5812FC6DE80533C9"
+    },
+    {
+      "id": "sua-official",
+      "url": "https://www.imss.gob.mx/patrones/sua",
+      "sha256": "D8C64EF1E8D1A4085251F88B86DB22C9B1D188996222CEC5ABF39DF09FFA1933"
+    },
+    {
+      "id": "imss-procedure-sbc-sua",
+      "url": "https://www.imss.gob.mx/sites/all/statics/pdf/procedimientos/1A42-B03-012.pdf",
+      "sha256": "421BD77A9AF7491F0C2A253DBD88685DD358835AB2F2650E4E3F6CF327D4803D"
+    },
+    {
+      "id": "sat-1st-rmf-july9",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/rmf/1aRM_RMF2026.pdf",
+      "sha256": "FF4B0ED8957F4FF5CBB678F8FDD2E4DA84B3A4A96D259027ED0D817C255E6E37"
+    },
+    {
+      "id": "sat-2nd-rmf-oct1",
+      "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/rmf/2aRM_RMF2026_01102026.pdf",
+      "sha256": "E46DB09FCBC46D87259B28A8683FE5A611BDE9854A16D271BF35A5217CD9ED5B"
+    }
+  ],
+  "tariffs": {
+    "weekly": [
+      {
+        "lower": "0.01",
+        "upper": "194.46",
+        "fixedFee": "0.00",
+        "ratePercent": "1.92"
+      },
+      {
+        "lower": "194.47",
+        "upper": "1650.67",
+        "fixedFee": "3.71",
+        "ratePercent": "6.40"
+      },
+      {
+        "lower": "1650.68",
+        "upper": "2900.87",
+        "fixedFee": "96.95",
+        "ratePercent": "10.88"
+      },
+      {
+        "lower": "2900.88",
+        "upper": "3372.11",
+        "fixedFee": "232.96",
+        "ratePercent": "16.00"
+      },
+      {
+        "lower": "3372.12",
+        "upper": "4037.32",
+        "fixedFee": "308.35",
+        "ratePercent": "17.92"
+      },
+      {
+        "lower": "4037.33",
+        "upper": "8142.75",
+        "fixedFee": "427.56",
+        "ratePercent": "21.36"
+      },
+      {
+        "lower": "8142.76",
+        "upper": "12834.08",
+        "fixedFee": "1304.45",
+        "ratePercent": "23.52"
+      },
+      {
+        "lower": "12834.09",
+        "upper": "24502.45",
+        "fixedFee": "2407.86",
+        "ratePercent": "30.00"
+      },
+      {
+        "lower": "24502.46",
+        "upper": "32669.91",
+        "fixedFee": "5908.35",
+        "ratePercent": "32.00"
+      },
+      {
+        "lower": "32669.92",
+        "upper": "98009.66",
+        "fixedFee": "8521.94",
+        "ratePercent": "34.00"
+      },
+      {
+        "lower": "98009.67",
+        "upper": null,
+        "fixedFee": "30737.49",
+        "ratePercent": "35.00"
+      }
+    ],
+    "fortnightly": [
+      {
+        "lower": "0.01",
+        "upper": "416.70",
+        "fixedFee": "0.00",
+        "ratePercent": "1.92"
+      },
+      {
+        "lower": "416.71",
+        "upper": "3537.15",
+        "fixedFee": "7.95",
+        "ratePercent": "6.40"
+      },
+      {
+        "lower": "3537.16",
+        "upper": "6216.15",
+        "fixedFee": "207.75",
+        "ratePercent": "10.88"
+      },
+      {
+        "lower": "6216.16",
+        "upper": "7225.95",
+        "fixedFee": "499.20",
+        "ratePercent": "16.00"
+      },
+      {
+        "lower": "7225.96",
+        "upper": "8651.40",
+        "fixedFee": "660.75",
+        "ratePercent": "17.92"
+      },
+      {
+        "lower": "8651.41",
+        "upper": "17448.75",
+        "fixedFee": "916.20",
+        "ratePercent": "21.36"
+      },
+      {
+        "lower": "17448.76",
+        "upper": "27501.60",
+        "fixedFee": "2795.25",
+        "ratePercent": "23.52"
+      },
+      {
+        "lower": "27501.61",
+        "upper": "52505.25",
+        "fixedFee": "5159.70",
+        "ratePercent": "30.00"
+      },
+      {
+        "lower": "52505.26",
+        "upper": "70006.95",
+        "fixedFee": "12660.75",
+        "ratePercent": "32.00"
+      },
+      {
+        "lower": "70006.96",
+        "upper": "210020.70",
+        "fixedFee": "18261.30",
+        "ratePercent": "34.00"
+      },
+      {
+        "lower": "210020.71",
+        "upper": null,
+        "fixedFee": "65866.05",
+        "ratePercent": "35.00"
+      }
+    ],
+    "monthly": [
+      {
+        "lower": "0.01",
+        "upper": "844.59",
+        "fixedFee": "0.00",
+        "ratePercent": "1.92"
+      },
+      {
+        "lower": "844.60",
+        "upper": "7168.51",
+        "fixedFee": "16.22",
+        "ratePercent": "6.40"
+      },
+      {
+        "lower": "7168.52",
+        "upper": "12598.02",
+        "fixedFee": "420.95",
+        "ratePercent": "10.88"
+      },
+      {
+        "lower": "12598.03",
+        "upper": "14644.64",
+        "fixedFee": "1011.68",
+        "ratePercent": "16.00"
+      },
+      {
+        "lower": "14644.65",
+        "upper": "17533.64",
+        "fixedFee": "1339.14",
+        "ratePercent": "17.92"
+      },
+      {
+        "lower": "17533.65",
+        "upper": "35362.83",
+        "fixedFee": "1856.84",
+        "ratePercent": "21.36"
+      },
+      {
+        "lower": "35362.84",
+        "upper": "55736.68",
+        "fixedFee": "5665.16",
+        "ratePercent": "23.52"
+      },
+      {
+        "lower": "55736.69",
+        "upper": "106410.50",
+        "fixedFee": "10457.09",
+        "ratePercent": "30.00"
+      },
+      {
+        "lower": "106410.51",
+        "upper": "141880.66",
+        "fixedFee": "25659.23",
+        "ratePercent": "32.00"
+      },
+      {
+        "lower": "141880.67",
+        "upper": "425641.99",
+        "fixedFee": "37009.69",
+        "ratePercent": "34.00"
+      },
+      {
+        "lower": "425642.00",
+        "upper": null,
+        "fixedFee": "133488.54",
+        "ratePercent": "35.00"
+      }
+    ]
+  },
+  "tariffProof": [
+    {
+      "periodicity": "weekly",
+      "dofTableIndex": 37,
+      "context": "s artículos 96 de la Ley del ISR y 175 de su Reglamento, así como la regla 3.12.2. Límite inferior Límite superior Cuota fija Por ciento para aplicarse sobre el excedente del límite inferior $ $ $ % 0.01 27.78 0.00 1.92 27.79 235.81 0.53 6.40 235.82 414.41 13.85 10.88 414.42 481.73 33.28 16.00 481.74 576.76 44.05 17.92 576.77 1,163.25 61.08 21.36 1,163.26 1,833.44 186.35 23.52 1,833.45 3,500.35 343.98 30.00 3,500.36 4,667.13 844.05 32.00 4,667.14 14,001.38 1,217.42 34.00 14,001.39 En adelante 4,391.07 35.00 II. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 7 días, correspondiente a 2026 a que se refieren los artículos 96 de la Ley del ISR y 175 de su Reglamento, así como la regla 3.12.2. ",
+      "rowsCheckedAgainstSatPdf": 11
+    },
+    {
+      "periodicity": "fortnightly",
+      "dofTableIndex": 39,
+      "context": " su Reglamento, así como la regla 3.12.2. Límite inferior Límite superior Cuota fija Por ciento para aplicarse sobre el excedente del límite inferior $ $ $ % 0.01 277.80 0.00 1.92 277.81 2,358.10 5.30 6.40 2,358.11 4,144.10 138.50 10.88 4,144.11 4,817.30 332.80 16.00 4,817.31 5,767.60 440.50 17.92 5,767.61 11,632.50 610.80 21.36 11,632.51 18,334.40 1,863.50 23.52 18,334.41 35,003.50 3,439.80 30.00 35,003.51 46,671.30 8,440.50 32.00 46,671.31 140,013.80 12,174.20 34.00 140,013.81 En adelante 43,910.70 35.00 IV. Tarifa aplicable cuando hagan pagos que correspondan a un periodo de 15 días, correspondiente a 2026 a que se refieren los artículos 96 de la Ley del ISR y 175 de su Reglamento, así como la regla 3.12.2. ",
+      "rowsCheckedAgainstSatPdf": 11
+    },
+    {
+      "periodicity": "monthly",
+      "dofTableIndex": 40,
+      "context": "y del ISR y 175 de su Reglamento, así como la regla 3.12.2. Límite inferior Límite superior Cuota fija Por ciento para aplicarse sobre el excedente del límite inferior $ $ $ % 0.01 416.70 0.00 1.92 416.71 3,537.15 7.95 6.40 3,537.16 6,216.15 207.75 10.88 6,216.16 7,225.95 499.20 16.00 7,225.96 8,651.40 660.75 17.92 8,651.41 17,448.75 916.20 21.36 17,448.76 27,501.60 2,795.25 23.52 27,501.61 52,505.25 5,159.70 30.00 52,505.26 70,006.95 12,660.75 32.00 70,006.96 210,020.70 18,261.30 34.00 210,020.71 En adelante 65,866.05 35.00 V. Tarifa aplicable durante 2026 para el cálculo de los pagos provisionales mensuales a que se refieren los artículos 96 de la Ley del ISR y 175 de su Reglamento, así como la regla 3.12.2. ",
+      "rowsCheckedAgainstSatPdf": 11
+    }
+  ],
+  "profilePolicies": {
+    "days": {
+      "weekly": 7,
+      "fortnightly": 15,
+      "monthly": 30
+    },
+    "integrationDivisor": "365",
+    "rounding": "half-up after each branch/period; estimated SBC to cents",
+    "minimumDaily": "315.04",
+    "minimumThirtyDays": "9451.20",
+    "minimumPublishedMonthly": "9582.47"
+  },
+  "direct": [
+    {
+      "id": "M01-on",
+      "family": "M01",
+      "request": {
+        "gross": "15000.00",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "15000.00",
+          "daily": "500.00",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "524.66",
+          "sbc": "524.66",
+          "isrTariff": "1402.82",
+          "isrProvisional": "1402.82",
+          "isrWithheld": "1402.82",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "394.54",
+          "imssDeducted": "394.54",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "13202.64",
+          "branch.pensioner-medical.calculated": "59.02",
+          "branch.pensioner-medical.deducted": "59.02",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "39.35",
+          "branch.cash-benefits.deducted": "39.35",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "98.37",
+          "branch.disability-life.deducted": "98.37",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "177.07",
+          "branch.unemployment-old-age.deducted": "177.07",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "20.73",
+          "branch.excess-medical.deducted": "20.73",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "14644.65",
+          "upper": "17533.64",
+          "fixedFee": "1339.14",
+          "ratePercent": "17.92"
+        }
+      }
+    },
+    {
+      "id": "M01-off",
+      "family": "M01",
+      "request": {
+        "gross": "15000.00",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": false,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "15000.00",
+          "daily": "500.00",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "524.66",
+          "sbc": "524.66",
+          "isrTariff": "1402.82",
+          "isrProvisional": "1402.82",
+          "isrWithheld": "1402.82",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "394.54",
+          "imssDeducted": "0.00",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "394.54",
+          "net": "13597.18",
+          "branch.pensioner-medical.calculated": "59.02",
+          "branch.pensioner-medical.deducted": "0.00",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "59.02",
+          "branch.cash-benefits.calculated": "39.35",
+          "branch.cash-benefits.deducted": "0.00",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "39.35",
+          "branch.disability-life.calculated": "98.37",
+          "branch.disability-life.deducted": "0.00",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "98.37",
+          "branch.unemployment-old-age.calculated": "177.07",
+          "branch.unemployment-old-age.deducted": "0.00",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "177.07",
+          "branch.excess-medical.calculated": "20.73",
+          "branch.excess-medical.deducted": "0.00",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "20.73"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "14644.65",
+          "upper": "17533.64",
+          "fixedFee": "1339.14",
+          "ratePercent": "17.92"
+        }
+      }
+    },
+    {
+      "id": "M02-week",
+      "family": "M02",
+      "request": {
+        "gross": "3500.00",
+        "periodicity": "weekly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "3500.00",
+          "daily": "500.00",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "524.66",
+          "sbc": "524.66",
+          "isrTariff": "331.27",
+          "isrProvisional": "331.27",
+          "isrWithheld": "331.27",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "92.06",
+          "imssDeducted": "92.06",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "3076.67",
+          "branch.pensioner-medical.calculated": "13.77",
+          "branch.pensioner-medical.deducted": "13.77",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "9.18",
+          "branch.cash-benefits.deducted": "9.18",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "22.95",
+          "branch.disability-life.deducted": "22.95",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "41.32",
+          "branch.unemployment-old-age.deducted": "41.32",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "4.84",
+          "branch.excess-medical.deducted": "4.84",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "3372.12",
+          "upper": "4037.32",
+          "fixedFee": "308.35",
+          "ratePercent": "17.92"
+        }
+      }
+    },
+    {
+      "id": "M02-fortnight",
+      "family": "M02",
+      "request": {
+        "gross": "7500.00",
+        "periodicity": "fortnightly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "7500.00",
+          "daily": "500.00",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "524.66",
+          "sbc": "524.66",
+          "isrTariff": "709.86",
+          "isrProvisional": "709.86",
+          "isrWithheld": "709.86",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "197.27",
+          "imssDeducted": "197.27",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "6592.87",
+          "branch.pensioner-medical.calculated": "29.51",
+          "branch.pensioner-medical.deducted": "29.51",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "19.67",
+          "branch.cash-benefits.deducted": "19.67",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "49.19",
+          "branch.disability-life.deducted": "49.19",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "88.54",
+          "branch.unemployment-old-age.deducted": "88.54",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "10.36",
+          "branch.excess-medical.deducted": "10.36",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7225.96",
+          "upper": "8651.40",
+          "fixedFee": "660.75",
+          "ratePercent": "17.92"
+        }
+      }
+    },
+    {
+      "id": "M03-january",
+      "family": "M03",
+      "request": {
+        "gross": "10000.00",
+        "periodicity": "monthly",
+        "date": "2026-01-31",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "10000.00",
+          "daily": "333.33",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "349.77",
+          "sbc": "349.77",
+          "isrTariff": "729.02",
+          "isrProvisional": "192.81",
+          "isrWithheld": "192.81",
+          "subsidyDetermined": "536.21",
+          "subsidyPotential": "536.21",
+          "subsidyApplied": "536.21",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "250.45",
+          "imssDeducted": "250.45",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "9556.74",
+          "branch.pensioner-medical.calculated": "39.35",
+          "branch.pensioner-medical.deducted": "39.35",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "26.23",
+          "branch.cash-benefits.deducted": "26.23",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "65.58",
+          "branch.disability-life.deducted": "65.58",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "118.05",
+          "branch.unemployment-old-age.deducted": "118.05",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "1.24",
+          "branch.excess-medical.deducted": "1.24",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "113.14",
+        "umaMonthly": "3439.46",
+        "subsidyRate": "1559/10000",
+        "sbcCeiling": "2828.50",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M03-february",
+      "family": "M03",
+      "request": {
+        "gross": "10000.00",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "10000.00",
+          "daily": "333.33",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "349.77",
+          "sbc": "349.77",
+          "isrTariff": "729.02",
+          "isrProvisional": "193.37",
+          "isrWithheld": "193.37",
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": "535.65",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "249.21",
+          "imssDeducted": "249.21",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "9557.42",
+          "branch.pensioner-medical.calculated": "39.35",
+          "branch.pensioner-medical.deducted": "39.35",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "26.23",
+          "branch.cash-benefits.deducted": "26.23",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "65.58",
+          "branch.disability-life.deducted": "65.58",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "118.05",
+          "branch.unemployment-old-age.deducted": "118.05",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "0.00",
+          "branch.excess-medical.deducted": "0.00",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M04-P0",
+      "family": "M04",
+      "request": {
+        "gross": "30000.00",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "30000.00",
+          "daily": "1000.00",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "1049.32",
+          "sbc": "1049.32",
+          "isrTariff": "4519.65",
+          "isrProvisional": "4519.65",
+          "isrWithheld": "4519.65",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "831.34",
+          "imssDeducted": "831.34",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "24649.01",
+          "branch.pensioner-medical.calculated": "118.05",
+          "branch.pensioner-medical.deducted": "118.05",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "78.70",
+          "branch.cash-benefits.deducted": "78.70",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "196.75",
+          "branch.disability-life.deducted": "196.75",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "354.15",
+          "branch.unemployment-old-age.deducted": "354.15",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "83.69",
+          "branch.excess-medical.deducted": "83.69",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "17533.65",
+          "upper": "35362.83",
+          "fixedFee": "1856.84",
+          "ratePercent": "21.36"
+        }
+      }
+    },
+    {
+      "id": "M04-P1",
+      "family": "M04",
+      "request": {
+        "gross": "30000.00",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "30",
+          "annualVacationDays": "20",
+          "vacationPremiumPercent": "50"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "30000.00",
+          "daily": "1000.00",
+          "factor4": "1.1096",
+          "benefitDays": "40.00",
+          "sdi": "1109.59",
+          "sbc": "1109.59",
+          "isrTariff": "4519.65",
+          "isrProvisional": "4519.65",
+          "isrWithheld": "4519.65",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "881.51",
+          "imssDeducted": "881.51",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "24598.84",
+          "branch.pensioner-medical.calculated": "124.83",
+          "branch.pensioner-medical.deducted": "124.83",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "83.22",
+          "branch.cash-benefits.deducted": "83.22",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "208.05",
+          "branch.disability-life.deducted": "208.05",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "374.49",
+          "branch.unemployment-old-age.deducted": "374.49",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "90.92",
+          "branch.excess-medical.deducted": "90.92",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "81/73",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "17533.65",
+          "upper": "35362.83",
+          "fixedFee": "1856.84",
+          "ratePercent": "21.36"
+        }
+      }
+    },
+    {
+      "id": "M05-below-on",
+      "family": "M05",
+      "request": {
+        "gross": "9451.19",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "not-supported",
+        "components": {
+          "gross": "9451.19",
+          "daily": "315.04",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "330.58",
+          "sbc": "330.58",
+          "isrTariff": "669.30",
+          "isrProvisional": "133.65",
+          "isrWithheld": null,
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": null,
+          "subsidyDisplaced": null,
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": null,
+          "subsidyCash": "0.00",
+          "imssCalculated": null,
+          "imssDeducted": null,
+          "imssAbsorbed": null,
+          "imssExcluded": null,
+          "net": null,
+          "branch.pensioner-medical.calculated": null,
+          "branch.pensioner-medical.deducted": null,
+          "branch.pensioner-medical.absorbed": null,
+          "branch.pensioner-medical.excluded": null,
+          "branch.cash-benefits.calculated": null,
+          "branch.cash-benefits.deducted": null,
+          "branch.cash-benefits.absorbed": null,
+          "branch.cash-benefits.excluded": null,
+          "branch.disability-life.calculated": null,
+          "branch.disability-life.deducted": null,
+          "branch.disability-life.absorbed": null,
+          "branch.disability-life.excluded": null,
+          "branch.unemployment-old-age.calculated": null,
+          "branch.unemployment-old-age.deducted": null,
+          "branch.unemployment-old-age.absorbed": null,
+          "branch.unemployment-old-age.excluded": null,
+          "branch.excess-medical.calculated": null,
+          "branch.excess-medical.deducted": null,
+          "branch.excess-medical.absorbed": null,
+          "branch.excess-medical.excluded": null
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M05-below-off",
+      "family": "M05",
+      "request": {
+        "gross": "9451.19",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": false,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "not-supported",
+        "components": {
+          "gross": "9451.19",
+          "daily": "315.04",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "330.58",
+          "sbc": "330.58",
+          "isrTariff": "669.30",
+          "isrProvisional": "133.65",
+          "isrWithheld": null,
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": null,
+          "subsidyDisplaced": null,
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": null,
+          "subsidyCash": "0.00",
+          "imssCalculated": null,
+          "imssDeducted": null,
+          "imssAbsorbed": null,
+          "imssExcluded": null,
+          "net": null,
+          "branch.pensioner-medical.calculated": null,
+          "branch.pensioner-medical.deducted": null,
+          "branch.pensioner-medical.absorbed": null,
+          "branch.pensioner-medical.excluded": null,
+          "branch.cash-benefits.calculated": null,
+          "branch.cash-benefits.deducted": null,
+          "branch.cash-benefits.absorbed": null,
+          "branch.cash-benefits.excluded": null,
+          "branch.disability-life.calculated": null,
+          "branch.disability-life.deducted": null,
+          "branch.disability-life.absorbed": null,
+          "branch.disability-life.excluded": null,
+          "branch.unemployment-old-age.calculated": null,
+          "branch.unemployment-old-age.deducted": null,
+          "branch.unemployment-old-age.absorbed": null,
+          "branch.unemployment-old-age.excluded": null,
+          "branch.excess-medical.calculated": null,
+          "branch.excess-medical.deducted": null,
+          "branch.excess-medical.absorbed": null,
+          "branch.excess-medical.excluded": null
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M05-unconfirmed",
+      "family": "M05",
+      "request": {
+        "gross": "9451.20",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "not-determinable",
+        "components": {
+          "gross": "9451.20",
+          "daily": "315.04",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "330.58",
+          "sbc": "330.58",
+          "isrTariff": "669.31",
+          "isrProvisional": "133.66",
+          "isrWithheld": null,
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": null,
+          "subsidyDisplaced": null,
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": null,
+          "subsidyCash": "0.00",
+          "imssCalculated": "235.53",
+          "imssDeducted": "0.00",
+          "imssAbsorbed": "235.53",
+          "imssExcluded": "0.00",
+          "net": null,
+          "branch.pensioner-medical.calculated": "37.19",
+          "branch.pensioner-medical.deducted": "0.00",
+          "branch.pensioner-medical.absorbed": "37.19",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "24.79",
+          "branch.cash-benefits.deducted": "0.00",
+          "branch.cash-benefits.absorbed": "24.79",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "61.98",
+          "branch.disability-life.deducted": "0.00",
+          "branch.disability-life.absorbed": "61.98",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "111.57",
+          "branch.unemployment-old-age.deducted": "0.00",
+          "branch.unemployment-old-age.absorbed": "111.57",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "0.00",
+          "branch.excess-medical.deducted": "0.00",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M05-confirmed",
+      "family": "M05",
+      "request": {
+        "gross": "9451.20",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": true
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "9451.20",
+          "daily": "315.04",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "330.58",
+          "sbc": "330.58",
+          "isrTariff": "669.31",
+          "isrProvisional": "133.66",
+          "isrWithheld": "0.00",
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "535.65",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "535.65",
+          "subsidyCash": "0.00",
+          "imssCalculated": "235.53",
+          "imssDeducted": "0.00",
+          "imssAbsorbed": "235.53",
+          "imssExcluded": "0.00",
+          "net": "9451.20",
+          "branch.pensioner-medical.calculated": "37.19",
+          "branch.pensioner-medical.deducted": "0.00",
+          "branch.pensioner-medical.absorbed": "37.19",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "24.79",
+          "branch.cash-benefits.deducted": "0.00",
+          "branch.cash-benefits.absorbed": "24.79",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "61.98",
+          "branch.disability-life.deducted": "0.00",
+          "branch.disability-life.absorbed": "61.98",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "111.57",
+          "branch.unemployment-old-age.deducted": "0.00",
+          "branch.unemployment-old-age.absorbed": "111.57",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "0.00",
+          "branch.excess-medical.deducted": "0.00",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M05-above",
+      "family": "M05",
+      "request": {
+        "gross": "9451.21",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "9451.21",
+          "daily": "315.04",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "330.58",
+          "sbc": "330.58",
+          "isrTariff": "669.31",
+          "isrProvisional": "133.66",
+          "isrWithheld": "133.66",
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": "535.65",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "235.53",
+          "imssDeducted": "235.53",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "9082.02",
+          "branch.pensioner-medical.calculated": "37.19",
+          "branch.pensioner-medical.deducted": "37.19",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "24.79",
+          "branch.cash-benefits.deducted": "24.79",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "61.98",
+          "branch.disability-life.deducted": "61.98",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "111.57",
+          "branch.unemployment-old-age.deducted": "111.57",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "0.00",
+          "branch.excess-medical.deducted": "0.00",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M05-published-monthly-reference",
+      "family": "M05",
+      "request": {
+        "gross": "9582.47",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "9582.47",
+          "daily": "319.42",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "335.17",
+          "sbc": "335.17",
+          "isrTariff": "683.59",
+          "isrProvisional": "147.94",
+          "isrWithheld": "147.94",
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": "535.65",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "238.81",
+          "imssDeducted": "238.81",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "9195.72",
+          "branch.pensioner-medical.calculated": "37.71",
+          "branch.pensioner-medical.deducted": "37.71",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "25.14",
+          "branch.cash-benefits.deducted": "25.14",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "62.84",
+          "branch.disability-life.deducted": "62.84",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "113.12",
+          "branch.unemployment-old-age.deducted": "113.12",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "0.00",
+          "branch.excess-medical.deducted": "0.00",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M06-january",
+      "family": "M06",
+      "request": {
+        "gross": "100000.00",
+        "periodicity": "monthly",
+        "date": "2026-01-31",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "100000.00",
+          "daily": "3333.33",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "3497.72",
+          "sbc": "2828.50",
+          "isrTariff": "23736.08",
+          "isrProvisional": "23736.08",
+          "isrWithheld": "23736.08",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "2314.00",
+          "imssDeducted": "2314.00",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "73949.92",
+          "branch.pensioner-medical.calculated": "318.21",
+          "branch.pensioner-medical.deducted": "318.21",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "212.14",
+          "branch.cash-benefits.deducted": "212.14",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "530.34",
+          "branch.disability-life.deducted": "530.34",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "954.62",
+          "branch.unemployment-old-age.deducted": "954.62",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "298.69",
+          "branch.excess-medical.deducted": "298.69",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "113.14",
+        "umaMonthly": "3439.46",
+        "subsidyRate": "1559/10000",
+        "sbcCeiling": "2828.50",
+        "tariffRow": {
+          "lower": "55736.69",
+          "upper": "106410.50",
+          "fixedFee": "10457.09",
+          "ratePercent": "30.00"
+        }
+      }
+    },
+    {
+      "id": "M06-february",
+      "family": "M06",
+      "request": {
+        "gross": "100000.00",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "100000.00",
+          "daily": "3333.33",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "3497.72",
+          "sbc": "2932.75",
+          "isrTariff": "23736.08",
+          "isrProvisional": "23736.08",
+          "isrWithheld": "23736.08",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "2399.28",
+          "imssDeducted": "2399.28",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "73864.64",
+          "branch.pensioner-medical.calculated": "329.93",
+          "branch.pensioner-medical.deducted": "329.93",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "219.96",
+          "branch.cash-benefits.deducted": "219.96",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "549.89",
+          "branch.disability-life.deducted": "549.89",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "989.80",
+          "branch.unemployment-old-age.deducted": "989.80",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "309.70",
+          "branch.excess-medical.deducted": "309.70",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "55736.69",
+          "upper": "106410.50",
+          "fixedFee": "10457.09",
+          "ratePercent": "30.00"
+        }
+      }
+    },
+    {
+      "id": "M07-eligible",
+      "family": "M07",
+      "request": {
+        "gross": "11492.66",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "11492.66",
+          "daily": "383.09",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "401.98",
+          "sbc": "401.98",
+          "isrTariff": "891.42",
+          "isrProvisional": "355.77",
+          "isrWithheld": "355.77",
+          "subsidyDetermined": "535.65",
+          "subsidyPotential": "535.65",
+          "subsidyApplied": "535.65",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "292.42",
+          "imssDeducted": "292.42",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "10844.47",
+          "branch.pensioner-medical.calculated": "45.22",
+          "branch.pensioner-medical.deducted": "45.22",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "30.15",
+          "branch.cash-benefits.deducted": "30.15",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "75.37",
+          "branch.disability-life.deducted": "75.37",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "135.67",
+          "branch.unemployment-old-age.deducted": "135.67",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "6.01",
+          "branch.excess-medical.deducted": "6.01",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M07-ineligible",
+      "family": "M07",
+      "request": {
+        "gross": "11492.67",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "11492.67",
+          "daily": "383.09",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "401.98",
+          "sbc": "401.98",
+          "isrTariff": "891.42",
+          "isrProvisional": "891.42",
+          "isrWithheld": "891.42",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "292.42",
+          "imssDeducted": "292.42",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "10308.83",
+          "branch.pensioner-medical.calculated": "45.22",
+          "branch.pensioner-medical.deducted": "45.22",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "30.15",
+          "branch.cash-benefits.deducted": "30.15",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "75.37",
+          "branch.disability-life.deducted": "75.37",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "135.67",
+          "branch.unemployment-old-age.deducted": "135.67",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "6.01",
+          "branch.excess-medical.deducted": "6.01",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "7168.52",
+          "upper": "12598.02",
+          "fixedFee": "420.95",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M08-lower-row",
+      "family": "M08",
+      "request": {
+        "gross": "6216.15",
+        "periodicity": "fortnightly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "6216.15",
+          "daily": "414.41",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "434.85",
+          "sbc": "434.85",
+          "isrTariff": "499.22",
+          "isrProvisional": "499.22",
+          "isrWithheld": "499.22",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "159.90",
+          "imssDeducted": "159.90",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "5557.03",
+          "branch.pensioner-medical.calculated": "24.46",
+          "branch.pensioner-medical.deducted": "24.46",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "16.31",
+          "branch.cash-benefits.deducted": "16.31",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "40.77",
+          "branch.disability-life.deducted": "40.77",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "73.38",
+          "branch.unemployment-old-age.deducted": "73.38",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "4.98",
+          "branch.excess-medical.deducted": "4.98",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "3537.16",
+          "upper": "6216.15",
+          "fixedFee": "207.75",
+          "ratePercent": "10.88"
+        }
+      }
+    },
+    {
+      "id": "M08-upper-row",
+      "family": "M08",
+      "request": {
+        "gross": "6216.16",
+        "periodicity": "fortnightly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false
+      },
+      "expected": {
+        "status": "estimated",
+        "components": {
+          "gross": "6216.16",
+          "daily": "414.41",
+          "factor4": "1.0493",
+          "benefitDays": "18.00",
+          "sdi": "434.85",
+          "sbc": "434.85",
+          "isrTariff": "499.20",
+          "isrProvisional": "499.20",
+          "isrWithheld": "499.20",
+          "subsidyDetermined": "0.00",
+          "subsidyPotential": "0.00",
+          "subsidyApplied": "0.00",
+          "subsidyDisplaced": "0.00",
+          "subsidyExcess": "0.00",
+          "subsidyTotalUnused": "0.00",
+          "subsidyCash": "0.00",
+          "imssCalculated": "159.90",
+          "imssDeducted": "159.90",
+          "imssAbsorbed": "0.00",
+          "imssExcluded": "0.00",
+          "net": "5557.06",
+          "branch.pensioner-medical.calculated": "24.46",
+          "branch.pensioner-medical.deducted": "24.46",
+          "branch.pensioner-medical.absorbed": "0.00",
+          "branch.pensioner-medical.excluded": "0.00",
+          "branch.cash-benefits.calculated": "16.31",
+          "branch.cash-benefits.deducted": "16.31",
+          "branch.cash-benefits.absorbed": "0.00",
+          "branch.cash-benefits.excluded": "0.00",
+          "branch.disability-life.calculated": "40.77",
+          "branch.disability-life.deducted": "40.77",
+          "branch.disability-life.absorbed": "0.00",
+          "branch.disability-life.excluded": "0.00",
+          "branch.unemployment-old-age.calculated": "73.38",
+          "branch.unemployment-old-age.deducted": "73.38",
+          "branch.unemployment-old-age.absorbed": "0.00",
+          "branch.unemployment-old-age.excluded": "0.00",
+          "branch.excess-medical.calculated": "4.98",
+          "branch.excess-medical.deducted": "4.98",
+          "branch.excess-medical.absorbed": "0.00",
+          "branch.excess-medical.excluded": "0.00"
+        },
+        "rationalFactor": "383/365",
+        "umaDaily": "117.31",
+        "umaMonthly": "3566.22",
+        "subsidyRate": "751/5000",
+        "sbcCeiling": "2932.75",
+        "tariffRow": {
+          "lower": "6216.16",
+          "upper": "7225.95",
+          "fixedFee": "499.20",
+          "ratePercent": "16.00"
+        }
+      }
+    }
+  ],
+  "inverse": [
+    {
+      "id": "M09-week",
+      "family": "M09",
+      "request": {
+        "targetNet": "3076.67",
+        "periodicity": "weekly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false,
+        "domain": null
+      },
+      "referenceWindows": [
+        [
+          "3498.00",
+          "3502.00"
+        ]
+      ],
+      "independentCoverage": "exhaustive-only-in-listed-windows-not-global-proof",
+      "expectedCandidates": [
+        {
+          "gross": "3499.99",
+          "net": "3076.67",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "3499.99",
+              "daily": "500.00",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "524.66",
+              "sbc": "524.66",
+              "isrTariff": "331.26",
+              "isrProvisional": "331.26",
+              "isrWithheld": "331.26",
+              "subsidyDetermined": "0.00",
+              "subsidyPotential": "0.00",
+              "subsidyApplied": "0.00",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "92.06",
+              "imssDeducted": "92.06",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "3076.67",
+              "branch.pensioner-medical.calculated": "13.77",
+              "branch.pensioner-medical.deducted": "13.77",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "9.18",
+              "branch.cash-benefits.deducted": "9.18",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "22.95",
+              "branch.disability-life.deducted": "22.95",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "41.32",
+              "branch.unemployment-old-age.deducted": "41.32",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "4.84",
+              "branch.excess-medical.deducted": "4.84",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "3372.12",
+              "upper": "4037.32",
+              "fixedFee": "308.35",
+              "ratePercent": "17.92"
+            }
+          }
+        },
+        {
+          "gross": "3500.00",
+          "net": "3076.67",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "3500.00",
+              "daily": "500.00",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "524.66",
+              "sbc": "524.66",
+              "isrTariff": "331.27",
+              "isrProvisional": "331.27",
+              "isrWithheld": "331.27",
+              "subsidyDetermined": "0.00",
+              "subsidyPotential": "0.00",
+              "subsidyApplied": "0.00",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "92.06",
+              "imssDeducted": "92.06",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "3076.67",
+              "branch.pensioner-medical.calculated": "13.77",
+              "branch.pensioner-medical.deducted": "13.77",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "9.18",
+              "branch.cash-benefits.deducted": "9.18",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "22.95",
+              "branch.disability-life.deducted": "22.95",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "41.32",
+              "branch.unemployment-old-age.deducted": "41.32",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "4.84",
+              "branch.excess-medical.deducted": "4.84",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "3372.12",
+              "upper": "4037.32",
+              "fixedFee": "308.35",
+              "ratePercent": "17.92"
+            }
+          }
+        }
+      ],
+      "expectedNearest": null
+    },
+    {
+      "id": "M09-month",
+      "family": "M09",
+      "request": {
+        "targetNet": "10500.00",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false,
+        "domain": null
+      },
+      "referenceWindows": [
+        [
+          "11092.00",
+          "11094.00"
+        ],
+        [
+          "11713.00",
+          "11716.00"
+        ]
+      ],
+      "independentCoverage": "exhaustive-only-in-listed-windows-not-global-proof",
+      "expectedCandidates": [
+        {
+          "gross": "11093.07",
+          "net": "10500.00",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "11093.07",
+              "daily": "369.77",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "388.00",
+              "sbc": "388.00",
+              "isrTariff": "847.94",
+              "isrProvisional": "312.29",
+              "isrWithheld": "312.29",
+              "subsidyDetermined": "535.65",
+              "subsidyPotential": "535.65",
+              "subsidyApplied": "535.65",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "280.78",
+              "imssDeducted": "280.78",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "10500.00",
+              "branch.pensioner-medical.calculated": "43.65",
+              "branch.pensioner-medical.deducted": "43.65",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "29.10",
+              "branch.cash-benefits.deducted": "29.10",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "72.75",
+              "branch.disability-life.deducted": "72.75",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "130.95",
+              "branch.unemployment-old-age.deducted": "130.95",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "4.33",
+              "branch.excess-medical.deducted": "4.33",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "7168.52",
+              "upper": "12598.02",
+              "fixedFee": "420.95",
+              "ratePercent": "10.88"
+            }
+          }
+        },
+        {
+          "gross": "11714.44",
+          "net": "10500.00",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "11714.44",
+              "daily": "390.48",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "409.74",
+              "sbc": "409.74",
+              "isrTariff": "915.55",
+              "isrProvisional": "915.55",
+              "isrWithheld": "915.55",
+              "subsidyDetermined": "0.00",
+              "subsidyPotential": "0.00",
+              "subsidyApplied": "0.00",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "298.89",
+              "imssDeducted": "298.89",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "10500.00",
+              "branch.pensioner-medical.calculated": "46.10",
+              "branch.pensioner-medical.deducted": "46.10",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "30.73",
+              "branch.cash-benefits.deducted": "30.73",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "76.83",
+              "branch.disability-life.deducted": "76.83",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "138.29",
+              "branch.unemployment-old-age.deducted": "138.29",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "6.94",
+              "branch.excess-medical.deducted": "6.94",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "7168.52",
+              "upper": "12598.02",
+              "fixedFee": "420.95",
+              "ratePercent": "10.88"
+            }
+          }
+        }
+      ],
+      "expectedNearest": null
+    },
+    {
+      "id": "M10-on",
+      "family": "M10",
+      "request": {
+        "targetNet": "13202.64",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false,
+        "domain": null
+      },
+      "referenceWindows": [
+        [
+          "14999.00",
+          "15001.00"
+        ]
+      ],
+      "independentCoverage": "exhaustive-only-in-listed-windows-not-global-proof",
+      "expectedCandidates": [
+        {
+          "gross": "15000.00",
+          "net": "13202.64",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "15000.00",
+              "daily": "500.00",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "524.66",
+              "sbc": "524.66",
+              "isrTariff": "1402.82",
+              "isrProvisional": "1402.82",
+              "isrWithheld": "1402.82",
+              "subsidyDetermined": "0.00",
+              "subsidyPotential": "0.00",
+              "subsidyApplied": "0.00",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "394.54",
+              "imssDeducted": "394.54",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "13202.64",
+              "branch.pensioner-medical.calculated": "59.02",
+              "branch.pensioner-medical.deducted": "59.02",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "39.35",
+              "branch.cash-benefits.deducted": "39.35",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "98.37",
+              "branch.disability-life.deducted": "98.37",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "177.07",
+              "branch.unemployment-old-age.deducted": "177.07",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "20.73",
+              "branch.excess-medical.deducted": "20.73",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "14644.65",
+              "upper": "17533.64",
+              "fixedFee": "1339.14",
+              "ratePercent": "17.92"
+            }
+          }
+        }
+      ],
+      "expectedNearest": null
+    },
+    {
+      "id": "M10-off",
+      "family": "M10",
+      "request": {
+        "targetNet": "13597.18",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": false,
+        "confirmed": false,
+        "domain": null
+      },
+      "referenceWindows": [
+        [
+          "14999.00",
+          "15001.00"
+        ]
+      ],
+      "independentCoverage": "exhaustive-only-in-listed-windows-not-global-proof",
+      "expectedCandidates": [
+        {
+          "gross": "15000.00",
+          "net": "13597.18",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "15000.00",
+              "daily": "500.00",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "524.66",
+              "sbc": "524.66",
+              "isrTariff": "1402.82",
+              "isrProvisional": "1402.82",
+              "isrWithheld": "1402.82",
+              "subsidyDetermined": "0.00",
+              "subsidyPotential": "0.00",
+              "subsidyApplied": "0.00",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "394.54",
+              "imssDeducted": "0.00",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "394.54",
+              "net": "13597.18",
+              "branch.pensioner-medical.calculated": "59.02",
+              "branch.pensioner-medical.deducted": "0.00",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "59.02",
+              "branch.cash-benefits.calculated": "39.35",
+              "branch.cash-benefits.deducted": "0.00",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "39.35",
+              "branch.disability-life.calculated": "98.37",
+              "branch.disability-life.deducted": "0.00",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "98.37",
+              "branch.unemployment-old-age.calculated": "177.07",
+              "branch.unemployment-old-age.deducted": "0.00",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "177.07",
+              "branch.excess-medical.calculated": "20.73",
+              "branch.excess-medical.deducted": "0.00",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "20.73"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "14644.65",
+              "upper": "17533.64",
+              "fixedFee": "1339.14",
+              "ratePercent": "17.92"
+            }
+          }
+        }
+      ],
+      "expectedNearest": null
+    },
+    {
+      "id": "M11-unconfirmed",
+      "family": "M11",
+      "request": {
+        "targetNet": "9451.20",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false,
+        "domain": null
+      },
+      "referenceWindows": [
+        [
+          "9451.20",
+          "9451.21"
+        ],
+        [
+          "9876.00",
+          "9879.00"
+        ]
+      ],
+      "independentCoverage": "exhaustive-only-in-listed-windows-not-global-proof",
+      "expectedCandidates": [
+        {
+          "gross": "9877.38",
+          "net": "9451.20",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "9877.38",
+              "daily": "329.25",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "345.48",
+              "sbc": "345.48",
+              "isrTariff": "715.67",
+              "isrProvisional": "180.02",
+              "isrWithheld": "180.02",
+              "subsidyDetermined": "535.65",
+              "subsidyPotential": "535.65",
+              "subsidyApplied": "535.65",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "246.16",
+              "imssDeducted": "246.16",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "9451.20",
+              "branch.pensioner-medical.calculated": "38.87",
+              "branch.pensioner-medical.deducted": "38.87",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "25.91",
+              "branch.cash-benefits.deducted": "25.91",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "64.78",
+              "branch.disability-life.deducted": "64.78",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "116.60",
+              "branch.unemployment-old-age.deducted": "116.60",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "0.00",
+              "branch.excess-medical.deducted": "0.00",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "7168.52",
+              "upper": "12598.02",
+              "fixedFee": "420.95",
+              "ratePercent": "10.88"
+            }
+          }
+        },
+        {
+          "gross": "9877.39",
+          "net": "9451.20",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "9877.39",
+              "daily": "329.25",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "345.48",
+              "sbc": "345.48",
+              "isrTariff": "715.68",
+              "isrProvisional": "180.03",
+              "isrWithheld": "180.03",
+              "subsidyDetermined": "535.65",
+              "subsidyPotential": "535.65",
+              "subsidyApplied": "535.65",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "246.16",
+              "imssDeducted": "246.16",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "9451.20",
+              "branch.pensioner-medical.calculated": "38.87",
+              "branch.pensioner-medical.deducted": "38.87",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "25.91",
+              "branch.cash-benefits.deducted": "25.91",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "64.78",
+              "branch.disability-life.deducted": "64.78",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "116.60",
+              "branch.unemployment-old-age.deducted": "116.60",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "0.00",
+              "branch.excess-medical.deducted": "0.00",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "7168.52",
+              "upper": "12598.02",
+              "fixedFee": "420.95",
+              "ratePercent": "10.88"
+            }
+          }
+        }
+      ],
+      "expectedNearest": null
+    },
+    {
+      "id": "M11-confirmed",
+      "family": "M11",
+      "request": {
+        "targetNet": "9451.20",
+        "periodicity": "monthly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": true,
+        "domain": null
+      },
+      "referenceWindows": [
+        [
+          "9451.20",
+          "9451.21"
+        ],
+        [
+          "9876.00",
+          "9879.00"
+        ]
+      ],
+      "independentCoverage": "exhaustive-only-in-listed-windows-not-global-proof",
+      "expectedCandidates": [
+        {
+          "gross": "9451.20",
+          "net": "9451.20",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "9451.20",
+              "daily": "315.04",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "330.58",
+              "sbc": "330.58",
+              "isrTariff": "669.31",
+              "isrProvisional": "133.66",
+              "isrWithheld": "0.00",
+              "subsidyDetermined": "535.65",
+              "subsidyPotential": "535.65",
+              "subsidyApplied": "0.00",
+              "subsidyDisplaced": "535.65",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "535.65",
+              "subsidyCash": "0.00",
+              "imssCalculated": "235.53",
+              "imssDeducted": "0.00",
+              "imssAbsorbed": "235.53",
+              "imssExcluded": "0.00",
+              "net": "9451.20",
+              "branch.pensioner-medical.calculated": "37.19",
+              "branch.pensioner-medical.deducted": "0.00",
+              "branch.pensioner-medical.absorbed": "37.19",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "24.79",
+              "branch.cash-benefits.deducted": "0.00",
+              "branch.cash-benefits.absorbed": "24.79",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "61.98",
+              "branch.disability-life.deducted": "0.00",
+              "branch.disability-life.absorbed": "61.98",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "111.57",
+              "branch.unemployment-old-age.deducted": "0.00",
+              "branch.unemployment-old-age.absorbed": "111.57",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "0.00",
+              "branch.excess-medical.deducted": "0.00",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "7168.52",
+              "upper": "12598.02",
+              "fixedFee": "420.95",
+              "ratePercent": "10.88"
+            }
+          }
+        },
+        {
+          "gross": "9877.38",
+          "net": "9451.20",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "9877.38",
+              "daily": "329.25",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "345.48",
+              "sbc": "345.48",
+              "isrTariff": "715.67",
+              "isrProvisional": "180.02",
+              "isrWithheld": "180.02",
+              "subsidyDetermined": "535.65",
+              "subsidyPotential": "535.65",
+              "subsidyApplied": "535.65",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "246.16",
+              "imssDeducted": "246.16",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "9451.20",
+              "branch.pensioner-medical.calculated": "38.87",
+              "branch.pensioner-medical.deducted": "38.87",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "25.91",
+              "branch.cash-benefits.deducted": "25.91",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "64.78",
+              "branch.disability-life.deducted": "64.78",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "116.60",
+              "branch.unemployment-old-age.deducted": "116.60",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "0.00",
+              "branch.excess-medical.deducted": "0.00",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "7168.52",
+              "upper": "12598.02",
+              "fixedFee": "420.95",
+              "ratePercent": "10.88"
+            }
+          }
+        },
+        {
+          "gross": "9877.39",
+          "net": "9451.20",
+          "difference": "0.00",
+          "expectedForward": {
+            "status": "estimated",
+            "components": {
+              "gross": "9877.39",
+              "daily": "329.25",
+              "factor4": "1.0493",
+              "benefitDays": "18.00",
+              "sdi": "345.48",
+              "sbc": "345.48",
+              "isrTariff": "715.68",
+              "isrProvisional": "180.03",
+              "isrWithheld": "180.03",
+              "subsidyDetermined": "535.65",
+              "subsidyPotential": "535.65",
+              "subsidyApplied": "535.65",
+              "subsidyDisplaced": "0.00",
+              "subsidyExcess": "0.00",
+              "subsidyTotalUnused": "0.00",
+              "subsidyCash": "0.00",
+              "imssCalculated": "246.16",
+              "imssDeducted": "246.16",
+              "imssAbsorbed": "0.00",
+              "imssExcluded": "0.00",
+              "net": "9451.20",
+              "branch.pensioner-medical.calculated": "38.87",
+              "branch.pensioner-medical.deducted": "38.87",
+              "branch.pensioner-medical.absorbed": "0.00",
+              "branch.pensioner-medical.excluded": "0.00",
+              "branch.cash-benefits.calculated": "25.91",
+              "branch.cash-benefits.deducted": "25.91",
+              "branch.cash-benefits.absorbed": "0.00",
+              "branch.cash-benefits.excluded": "0.00",
+              "branch.disability-life.calculated": "64.78",
+              "branch.disability-life.deducted": "64.78",
+              "branch.disability-life.absorbed": "0.00",
+              "branch.disability-life.excluded": "0.00",
+              "branch.unemployment-old-age.calculated": "116.60",
+              "branch.unemployment-old-age.deducted": "116.60",
+              "branch.unemployment-old-age.absorbed": "0.00",
+              "branch.unemployment-old-age.excluded": "0.00",
+              "branch.excess-medical.calculated": "0.00",
+              "branch.excess-medical.deducted": "0.00",
+              "branch.excess-medical.absorbed": "0.00",
+              "branch.excess-medical.excluded": "0.00"
+            },
+            "rationalFactor": "383/365",
+            "umaDaily": "117.31",
+            "umaMonthly": "3566.22",
+            "subsidyRate": "751/5000",
+            "sbcCeiling": "2932.75",
+            "tariffRow": {
+              "lower": "7168.52",
+              "upper": "12598.02",
+              "fixedFee": "420.95",
+              "ratePercent": "10.88"
+            }
+          }
+        }
+      ],
+      "expectedNearest": null
+    },
+    {
+      "id": "M12-approximate",
+      "family": "M12",
+      "request": {
+        "targetNet": "5557.04",
+        "periodicity": "fortnightly",
+        "date": "2026-02-01",
+        "benefits": {
+          "annualBonusDays": "15",
+          "annualVacationDays": "12",
+          "vacationPremiumPercent": "25"
+        },
+        "includeImss": true,
+        "confirmed": false,
+        "domain": {
+          "from": "6216.15",
+          "to": "6216.16"
+        }
+      },
+      "referenceWindows": [
+        [
+          "6216.15",
+          "6216.16"
+        ]
+      ],
+      "independentCoverage": "exhaustive-only-in-listed-windows-not-global-proof",
+      "expectedCandidates": [],
+      "expectedNearest": {
+        "gross": "6216.15",
+        "net": "5557.03",
+        "difference": "-0.01",
+        "expectedForward": {
+          "status": "estimated",
+          "components": {
+            "gross": "6216.15",
+            "daily": "414.41",
+            "factor4": "1.0493",
+            "benefitDays": "18.00",
+            "sdi": "434.85",
+            "sbc": "434.85",
+            "isrTariff": "499.22",
+            "isrProvisional": "499.22",
+            "isrWithheld": "499.22",
+            "subsidyDetermined": "0.00",
+            "subsidyPotential": "0.00",
+            "subsidyApplied": "0.00",
+            "subsidyDisplaced": "0.00",
+            "subsidyExcess": "0.00",
+            "subsidyTotalUnused": "0.00",
+            "subsidyCash": "0.00",
+            "imssCalculated": "159.90",
+            "imssDeducted": "159.90",
+            "imssAbsorbed": "0.00",
+            "imssExcluded": "0.00",
+            "net": "5557.03",
+            "branch.pensioner-medical.calculated": "24.46",
+            "branch.pensioner-medical.deducted": "24.46",
+            "branch.pensioner-medical.absorbed": "0.00",
+            "branch.pensioner-medical.excluded": "0.00",
+            "branch.cash-benefits.calculated": "16.31",
+            "branch.cash-benefits.deducted": "16.31",
+            "branch.cash-benefits.absorbed": "0.00",
+            "branch.cash-benefits.excluded": "0.00",
+            "branch.disability-life.calculated": "40.77",
+            "branch.disability-life.deducted": "40.77",
+            "branch.disability-life.absorbed": "0.00",
+            "branch.disability-life.excluded": "0.00",
+            "branch.unemployment-old-age.calculated": "73.38",
+            "branch.unemployment-old-age.deducted": "73.38",
+            "branch.unemployment-old-age.absorbed": "0.00",
+            "branch.unemployment-old-age.excluded": "0.00",
+            "branch.excess-medical.calculated": "4.98",
+            "branch.excess-medical.deducted": "4.98",
+            "branch.excess-medical.absorbed": "0.00",
+            "branch.excess-medical.excluded": "0.00"
+          },
+          "rationalFactor": "383/365",
+          "umaDaily": "117.31",
+          "umaMonthly": "3566.22",
+          "subsidyRate": "751/5000",
+          "sbcCeiling": "2932.75",
+          "tariffRow": {
+            "lower": "3537.16",
+            "upper": "6216.15",
+            "fixedFee": "207.75",
+            "ratePercent": "10.88"
+          }
+        }
+      }
+    }
+  ]
+}

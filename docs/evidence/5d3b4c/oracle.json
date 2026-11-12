@@ -1,0 +1,84 @@
+{
+  "method": "Python Fraction, explicitly scoped ordinary fixed-period controls; no production code imports",
+  "cases": [
+    {
+      "name": "package1",
+      "envelopeSha256": "2f3ca9e266e54a259e99765ebc00c23bdde9a98ea53e74f7738e86ad1a8085ba",
+      "capture": {
+        "amount": "15000.00",
+        "period": "monthly",
+        "effectiveDate": "2026-02-01",
+        "includeImss": true,
+        "bonusDays": "15",
+        "vacationDays": "12",
+        "vacationPremium": "25"
+      },
+      "direct": {
+        "gross": "15000.00",
+        "net": "13202.64",
+        "isr": "1402.82",
+        "imss": "394.54",
+        "sbc": "524.66",
+        "branches": {
+          "cash-benefits": "39.35",
+          "disability-life": "98.37",
+          "excess-medical": "20.73",
+          "pensioner-medical": "59.02",
+          "unemployment-old-age": "177.07"
+        }
+      },
+      "inverse": {
+        "target": "13202.64",
+        "window": {
+          "from": "14999.50",
+          "through": "15000.50"
+        },
+        "exactCandidatesInWindow": [
+          "15000.00"
+        ],
+        "globalMinimumClaim": false
+      }
+    },
+    {
+      "name": "package2",
+      "envelopeSha256": "e3955d40b6938cf9cc238fb0877fdc35c35217303357025129ad8cd27a2f9b2a",
+      "capture": {
+        "amount": "15000.00",
+        "period": "monthly",
+        "effectiveDate": "2026-02-01",
+        "includeImss": true,
+        "bonusDays": "15",
+        "vacationDays": "12",
+        "vacationPremium": "25"
+      },
+      "direct": {
+        "gross": "15000.00",
+        "net": "13194.77",
+        "isr": "1402.82",
+        "imss": "402.41",
+        "sbc": "524.66",
+        "branches": {
+          "cash-benefits": "47.22",
+          "disability-life": "98.37",
+          "excess-medical": "20.73",
+          "pensioner-medical": "59.02",
+          "unemployment-old-age": "177.07"
+        }
+      },
+      "inverse": {
+        "target": "13194.77",
+        "window": {
+          "from": "14999.50",
+          "through": "15000.50"
+        },
+        "exactCandidatesInWindow": [
+          "15000.00"
+        ],
+        "globalMinimumClaim": false
+      }
+    }
+  ],
+  "expectedDifference": "7.87",
+  "sameFormulaBothPackages": true,
+  "syntheticNotOfficial": true
+}

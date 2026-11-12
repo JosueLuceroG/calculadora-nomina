@@ -1,0 +1,16 @@
+{
+  "measuredOn": "2026-10-23T19:55:23.955Z",
+  "kind": "unsigned QA source; signature placeholders used only for size",
+  "registryCanonicalBytes": 13267,
+  "envelopeCanonicalEstimateBytes": 22148,
+  "nodes": 750,
+  "depth": 8,
+  "properties": 14,
+  "stringBytes": 168,
+  "keyBytes": 31,
+  "arrayItems": 12,
+  "parameterSets": 11,
+  "sources": 12,
+  "tariffRows": 33,
+  "legacySha256": "7e9f13084e64633b29959d79eec5f9c02333fe2695809c662d71fa7fc8393ab0"
+}

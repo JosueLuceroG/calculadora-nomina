@@ -1,0 +1,158 @@
+{
+  "applicationVersion": "0.1.0",
+  "engineVersion": "payroll-js-sha256:4f90d957a9948f8a90c661ccbe1f59ea5afd3a6e56df341f4318570e1985a842",
+  "fiscalPackage": {
+    "id": "mx-fiscal-2026-source-v3",
+    "version": "mx-fiscal-2026-source-v3",
+    "sha256": "7e9f13084e64633b29959d79eec5f9c02333fe2695809c662d71fa7fc8393ab0",
+    "exercise": 2026,
+    "supportedDates": {
+      "from": "2026-01-01",
+      "through": "2026-12-31"
+    },
+    "parameterSets": [
+      {
+        "id": "mx-isr-2026-weekly",
+        "version": "mx-isr-2026-weekly-source-2026-10-13"
+      },
+      {
+        "id": "mx-isr-2026-fortnightly",
+        "version": "mx-isr-2026-fortnightly-source-2026-10-13"
+      },
+      {
+        "id": "mx-isr-2026-monthly",
+        "version": "mx-isr-2026-monthly-source-2026-10-13"
+      },
+      {
+        "id": "mx-uma-2025-for-january-2026",
+        "version": "mx-uma-2025-for-january-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-uma-2026",
+        "version": "mx-uma-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-minimum-wages-2026",
+        "version": "mx-minimum-wages-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-employment-subsidy-january-2026",
+        "version": "mx-employment-subsidy-january-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-employment-subsidy-february-2026",
+        "version": "mx-employment-subsidy-february-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-imss-worker-constants-2026",
+        "version": "mx-imss-worker-constants-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-contractual-divisors",
+        "version": "mx-contractual-divisors-source-2026-10-13"
+      },
+      {
+        "id": "mx-labor-benefit-minima-2026",
+        "version": "mx-labor-benefit-minima-2026-source-2026-10-13"
+      }
+    ]
+  },
+  "engineModules": [
+    {
+      "path": "src/domain/payroll/civil-date.ts",
+      "sha256": "ffbb3dd52c221f98e5f0ceb54ffd7b0eb7cee3c1c8f82c0892635e06e7e45dc0"
+    },
+    {
+      "path": "src/domain/payroll/contracts.ts",
+      "sha256": "67321c5b0128855b02514f7e078c25bc51d1246cc200b3d6287b0d672d436a44"
+    },
+    {
+      "path": "src/domain/payroll/employment-subsidy-contracts.ts",
+      "sha256": "7cc79c23cc12bf9341186fe63d18a8f1819c9878fd836a7cc287ee4b58c7e9d4"
+    },
+    {
+      "path": "src/domain/payroll/employment-subsidy.ts",
+      "sha256": "74ce6d9e213f6cd308646c1affc6b7390a3c7235505ec1ff53b7a46cea2a2254"
+    },
+    {
+      "path": "src/domain/payroll/errors.ts",
+      "sha256": "141b7b8d028effab945387c5e247e085e7e4f5f5df47e9cd5960e52e4d2df69d"
+    },
+    {
+      "path": "src/domain/payroll/gross-to-net-contracts.ts",
+      "sha256": "f2c7abc85bc205cfa8550fc04052a247aa5ef0f52e0918349be8fe7bec35a197"
+    },
+    {
+      "path": "src/domain/payroll/gross-to-net.ts",
+      "sha256": "085f8e253fa0770ea26e0b76c158feb865b0270692ece067111a81ab687b8235"
+    },
+    {
+      "path": "src/domain/payroll/index.ts",
+      "sha256": "a0cfca15a48b57867b9384a2508914eb36f1085b526e6e688d108b51b2482109"
+    },
+    {
+      "path": "src/domain/payroll/isr-tariff-contracts.ts",
+      "sha256": "de4b7204b3d277488293056fae60a00f03e825f311d710ccf61a0cac3027eff5"
+    },
+    {
+      "path": "src/domain/payroll/isr-tariff.ts",
+      "sha256": "8d27a05136ffb3bce3cd2cfe6927c71bfb374ce9db467b155c16de2291544bed"
+    },
+    {
+      "path": "src/domain/payroll/minimum-retention-context.ts",
+      "sha256": "0c4fc19a64fe37916e107e1ff23f13bc01b2f61b20f41863a26593f50c720e55"
+    },
+    {
+      "path": "src/domain/payroll/money.ts",
+      "sha256": "84955fb2551e08714a9dd7fea680364c482f1e1e74965a4b513196b38800421b"
+    },
+    {
+      "path": "src/domain/payroll/net-to-gross-certificate.ts",
+      "sha256": "cdb18b0a124334fd82b8fef320658c0288577e7150961d413dc82df34b939efa"
+    },
+    {
+      "path": "src/domain/payroll/net-to-gross-contracts.ts",
+      "sha256": "657b7443a55afb396407f1a5cdec5c961f03a33818063a2fb337bb78b384f490"
+    },
+    {
+      "path": "src/domain/payroll/net-to-gross.ts",
+      "sha256": "e65aa5f47e7f1a611915563791146757ed1084f14095274f5f800f751971e80d"
+    },
+    {
+      "path": "src/domain/payroll/parameters.ts",
+      "sha256": "f0f487465fe254e452e13521b0f4871d218735d803986353bcc4a39b8e1eae86"
+    },
+    {
+      "path": "src/domain/payroll/salary-integration.ts",
+      "sha256": "4b2757854aff5817f7a3709ec91996384d11962fd32cbd390dacbf1e33b5a43b"
+    },
+    {
+      "path": "src/domain/payroll/sbc-contracts.ts",
+      "sha256": "06fd9fd35c1ee1fabdaa484ba0a7ad32fb53b36ca7fb4f86a1975b1dd0b6f3c4"
+    },
+    {
+      "path": "src/domain/payroll/sbc.ts",
+      "sha256": "37891eb65abf09f0bcd9faf4a9477a83157db1ec323111162266bcf0c46c8943"
+    },
+    {
+      "path": "src/domain/payroll/simulation-conventions.ts",
+      "sha256": "fe93ba791c89573fee171cc1820a3939f8c0d73ae4f4a557a5967bb8a6fc503b"
+    },
+    {
+      "path": "src/domain/payroll/standard-integration-contracts.ts",
+      "sha256": "6f2521f41083e0f176e0b65b71d19a16fcfd8afbd9ec3f14d5a7e3c0ef7faec4"
+    },
+    {
+      "path": "src/domain/payroll/standard-profile-validation.ts",
+      "sha256": "897d4be9e664ba0a326b2e9ac34d546d4e3da418184e1f5837c4192c1bd18c1e"
+    },
+    {
+      "path": "src/domain/payroll/worker-imss-contracts.ts",
+      "sha256": "4b3477671d293dc0c8c670ad6bd333680eab978943ac2a5cd79b41999410774a"
+    },
+    {
+      "path": "src/domain/payroll/worker-imss.ts",
+      "sha256": "42829c9e434dbceeda677a727e8e91a03c3d599c0434a263d331cb53e44312da"
+    }
+  ]
+}

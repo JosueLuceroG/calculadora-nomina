@@ -1,0 +1,559 @@
+{
+  "producerId": "nomina-contextual-2026-5d2b-v1",
+  "reportContractId": "standard-payroll-2026-contextual-v2",
+  "presentationContractId": "nomina-presentation-5c2-v1",
+  "versions": {
+    "application": "0.1.0",
+    "engine": "payroll-js-sha256:4f90d957a9948f8a90c661ccbe1f59ea5afd3a6e56df341f4318570e1985a842"
+  },
+  "manifest": {
+    "manifestVersion": 1,
+    "packageId": "mx-fiscal-2026-source-v3",
+    "parameterVersion": "mx-fiscal-2026-source-v3",
+    "exercise": 2026,
+    "supportedDates": {
+      "from": "2026-01-01",
+      "through": "2026-12-31"
+    },
+    "parameterSchemaId": "embedded-registry-2026-v1",
+    "requiredRuleProfileId": "mx-standard-2026-contextual-v2",
+    "requiredContextualPolicyId": "standard-isr-withholding-2026-independent-context-v2",
+    "requiredCapabilities": [
+      "direct"
+    ],
+    "parameterSets": [
+      {
+        "id": "mx-isr-2026-weekly",
+        "version": "mx-isr-2026-weekly-source-2026-10-13"
+      },
+      {
+        "id": "mx-isr-2026-fortnightly",
+        "version": "mx-isr-2026-fortnightly-source-2026-10-13"
+      },
+      {
+        "id": "mx-isr-2026-monthly",
+        "version": "mx-isr-2026-monthly-source-2026-10-13"
+      },
+      {
+        "id": "mx-uma-2025-for-january-2026",
+        "version": "mx-uma-2025-for-january-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-uma-2026",
+        "version": "mx-uma-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-minimum-wages-2026",
+        "version": "mx-minimum-wages-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-employment-subsidy-january-2026",
+        "version": "mx-employment-subsidy-january-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-employment-subsidy-february-2026",
+        "version": "mx-employment-subsidy-february-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-imss-worker-constants-2026",
+        "version": "mx-imss-worker-constants-2026-source-2026-10-13"
+      },
+      {
+        "id": "mx-contractual-divisors",
+        "version": "mx-contractual-divisors-source-2026-10-13"
+      },
+      {
+        "id": "mx-labor-benefit-minima-2026",
+        "version": "mx-labor-benefit-minima-2026-source-2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "SAT",
+        "document": "Anexo 8 de la RMF para 2026",
+        "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anexos/Anexo-8-RMF-2026_DOF-28122025.pdf",
+        "locator": "B.II (7 días), B.IV (15 días), B.V (mensual); 11 tramos completos por tabla",
+        "publicationDate": "2025-12-28",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "DOF",
+        "document": "Anexos 4, 5, 6, 8, 15 y 25 de la RMF para 2026",
+        "url": "https://sidof.segob.gob.mx/notas/docFuente/5777219",
+        "locator": "Anexo 8, B.II, B.IV y B.V; cotejo contra PDF SAT",
+        "publicationDate": "2025-12-28",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "INEGI",
+        "document": "Comunicado de prensa 1/25, UMA 2025",
+        "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/uma/uma2025.pdf",
+        "locator": "Cuadro 1 y vigencia desde 1 de febrero de 2025",
+        "publicationDate": "2025-01-09",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "INEGI",
+        "document": "Comunicado de prensa 1/26, UMA 2026",
+        "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/uma/uma2026.pdf",
+        "locator": "Cuadro 1 y vigencia desde 1 de febrero de 2026",
+        "publicationDate": "2026-01-08",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "CONASAMI",
+        "document": "Resolución que fija los salarios mínimos generales y profesionales para 2026",
+        "url": "https://sidof.segob.gob.mx/notas/docFuente/5775534",
+        "locator": "Resolutivos Primero (zonas municipales), Tercero (diarios) y Cuarto (expresión mensual)",
+        "publicationDate": "2025-12-09",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "Cámara de Diputados",
+        "document": "Ley Federal del Trabajo, texto vigente",
+        "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+        "locator": "Arts. 85 y 90; salario remunerador y mínimo laboral, distinto del piso de SBC",
+        "publicationDate": "1970-04-01",
+        "currentTextAsOf": "2026-05-14",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "DOF",
+        "document": "Decreto por el que se modifica el diverso que otorga el subsidio para el empleo",
+        "url": "https://sidof.segob.gob.mx/notas/docFuente/5777649",
+        "locator": "Artículo Segundo y Transitorios Primero y Segundo; porcentajes, límite y divisor",
+        "publicationDate": "2025-12-31",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "Cámara de Diputados",
+        "document": "Ley del Seguro Social, texto vigente",
+        "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf",
+        "locator": "Arts. 25, 28, 29, 36, 106, 107, 147, 168 y Transitorio Décimo Noveno",
+        "publicationDate": "1995-12-21",
+        "currentTextAsOf": "2026-01-15",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "DOF",
+        "document": "Decreto de desindexación del salario mínimo",
+        "url": "https://sidof.segob.gob.mx/notas/docFuente/5423663",
+        "locator": "Transitorio Tercero; UMA como unidad de referencia de obligaciones",
+        "publicationDate": "2016-01-27",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "Cámara de Diputados",
+        "document": "Ley Federal del Trabajo, texto vigente",
+        "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+        "locator": "Arts. 76 (primer derecho anual y antigüedad), 80 (prima mínima), 87 (aguinaldo anual mínimo)",
+        "publicationDate": "1970-04-01",
+        "currentTextAsOf": "2026-05-14",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "authority": "DOF",
+        "document": "Decreto que otorga el subsidio para el empleo, disposiciones no reformadas",
+        "url": "https://sidof.segob.gob.mx/notas/docFuente/5725287",
+        "locator": "Artículo Segundo, segundo párrafo: excedente no entregado ni aplicable posteriormente; párrafos sexto/séptimo: elección de empleador; Artículo Cuarto",
+        "publicationDate": "2024-05-01",
+        "verifiedOn": "2026-10-14"
+      },
+      {
+        "authority": "Cámara de Diputados",
+        "document": "Ley del Impuesto sobre la Renta, texto vigente",
+        "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf",
+        "locator": "Artículo 96, primer párrafo: no retención cuando en el mes únicamente se percibe salario mínimo general del área; segundo párrafo: ingresos del mes de calendario",
+        "publicationDate": "2013-12-11",
+        "currentTextAsOf": "2024-04-01",
+        "verifiedOn": "2026-10-14"
+      }
+    ],
+    "contentIdentity": {
+      "scheme": "legacy-registry-v1",
+      "sha256": "7e9f13084e64633b29959d79eec5f9c02333fe2695809c662d71fa7fc8393ab0"
+    }
+  },
+  "authorization": {
+    "capabilityId": "mx-2026-standard-contextual-v2",
+    "implementationBindingId": "embedded-2026-standard-v1",
+    "exercise": 2026,
+    "simulationProfileId": "standard-estimate-2026-v1",
+    "ruleProfileId": "mx-standard-2026-contextual-v2",
+    "contextualPolicyId": "standard-isr-withholding-2026-independent-context-v2",
+    "parameterSchemaId": "embedded-registry-2026-v1",
+    "content": {
+      "packageId": "mx-fiscal-2026-source-v3",
+      "parameterVersion": "mx-fiscal-2026-source-v3",
+      "scheme": "legacy-registry-v1",
+      "sha256": "7e9f13084e64633b29959d79eec5f9c02333fe2695809c662d71fa7fc8393ab0"
+    },
+    "periodicities": [
+      "weekly",
+      "fortnightly",
+      "monthly"
+    ],
+    "direct": true,
+    "inverse": true,
+    "policyVersions": [
+      {
+        "component": "gross-to-net",
+        "version": "standard-gross-to-net-2026-component-cent-reconciliation-v1"
+      },
+      {
+        "component": "withholding",
+        "version": "standard-isr-withholding-2026-independent-context-v2"
+      },
+      {
+        "component": "decimal",
+        "version": "decimal-50-v1"
+      },
+      {
+        "component": "convention",
+        "version": "standard-estimate-2026-v1"
+      },
+      {
+        "component": "integration",
+        "version": "theoretical-fixed-integration-2026-v1"
+      },
+      {
+        "component": "sbc",
+        "version": "estimated-sbc-general-2026-half-up-v1"
+      },
+      {
+        "component": "worker-imss",
+        "version": "standard-worker-imss-general-2026-half-up-per-branch-v1"
+      },
+      {
+        "component": "isr-tariff",
+        "version": "standard-isr-tariff-2026-final-half-up-v1"
+      },
+      {
+        "component": "employment-subsidy",
+        "version": "standard-employment-subsidy-2026-period-half-up-v1"
+      },
+      {
+        "component": "net-to-gross",
+        "version": "standard-net-to-gross-2026-contextual-partitions-v2"
+      }
+    ]
+  },
+  "packageRegistryRevision": "embedded-package-registry-5d2a-v1",
+  "capabilityRegistryVersion": "fiscal-capabilities-5d2a-v1",
+  "effectiveSeries": [
+    {
+      "role": "isrTariff",
+      "id": "mx-isr-2026-weekly",
+      "kind": "isr-tariff",
+      "key": "weekly",
+      "version": "mx-isr-2026-weekly-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "SAT",
+          "document": "Anexo 8 de la RMF para 2026",
+          "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anexos/Anexo-8-RMF-2026_DOF-28122025.pdf",
+          "locator": "B.II (7 días), B.IV (15 días), B.V (mensual); 11 tramos completos por tabla",
+          "publicationDate": "2025-12-28",
+          "verifiedOn": "2026-10-13"
+        },
+        {
+          "authority": "DOF",
+          "document": "Anexos 4, 5, 6, 8, 15 y 25 de la RMF para 2026",
+          "url": "https://sidof.segob.gob.mx/notas/docFuente/5777219",
+          "locator": "Anexo 8, B.II, B.IV y B.V; cotejo contra PDF SAT",
+          "publicationDate": "2025-12-28",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "isrTariff",
+      "id": "mx-isr-2026-fortnightly",
+      "kind": "isr-tariff",
+      "key": "fortnightly",
+      "version": "mx-isr-2026-fortnightly-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "SAT",
+          "document": "Anexo 8 de la RMF para 2026",
+          "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anexos/Anexo-8-RMF-2026_DOF-28122025.pdf",
+          "locator": "B.II (7 días), B.IV (15 días), B.V (mensual); 11 tramos completos por tabla",
+          "publicationDate": "2025-12-28",
+          "verifiedOn": "2026-10-13"
+        },
+        {
+          "authority": "DOF",
+          "document": "Anexos 4, 5, 6, 8, 15 y 25 de la RMF para 2026",
+          "url": "https://sidof.segob.gob.mx/notas/docFuente/5777219",
+          "locator": "Anexo 8, B.II, B.IV y B.V; cotejo contra PDF SAT",
+          "publicationDate": "2025-12-28",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "isrTariff",
+      "id": "mx-isr-2026-monthly",
+      "kind": "isr-tariff",
+      "key": "monthly",
+      "version": "mx-isr-2026-monthly-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "SAT",
+          "document": "Anexo 8 de la RMF para 2026",
+          "url": "https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anexos/Anexo-8-RMF-2026_DOF-28122025.pdf",
+          "locator": "B.II (7 días), B.IV (15 días), B.V (mensual); 11 tramos completos por tabla",
+          "publicationDate": "2025-12-28",
+          "verifiedOn": "2026-10-13"
+        },
+        {
+          "authority": "DOF",
+          "document": "Anexos 4, 5, 6, 8, 15 y 25 de la RMF para 2026",
+          "url": "https://sidof.segob.gob.mx/notas/docFuente/5777219",
+          "locator": "Anexo 8, B.II, B.IV y B.V; cotejo contra PDF SAT",
+          "publicationDate": "2025-12-28",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "uma",
+      "id": "mx-uma-2025-for-january-2026",
+      "kind": "uma",
+      "key": "daily-monthly-annual",
+      "version": "mx-uma-2025-for-january-2026-source-2026-10-13",
+      "effectiveFrom": "2025-02-01",
+      "effectiveThrough": "2026-01-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "INEGI",
+          "document": "Comunicado de prensa 1/25, UMA 2025",
+          "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/uma/uma2025.pdf",
+          "locator": "Cuadro 1 y vigencia desde 1 de febrero de 2025",
+          "publicationDate": "2025-01-09",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "uma",
+      "id": "mx-uma-2026",
+      "kind": "uma",
+      "key": "daily-monthly-annual",
+      "version": "mx-uma-2026-source-2026-10-13",
+      "effectiveFrom": "2026-02-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "INEGI",
+          "document": "Comunicado de prensa 1/26, UMA 2026",
+          "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/uma/uma2026.pdf",
+          "locator": "Cuadro 1 y vigencia desde 1 de febrero de 2026",
+          "publicationDate": "2026-01-08",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "minimumWages",
+      "id": "mx-minimum-wages-2026",
+      "kind": "minimum-wages",
+      "key": "official-zones",
+      "version": "mx-minimum-wages-2026-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "CONASAMI",
+          "document": "Resolución que fija los salarios mínimos generales y profesionales para 2026",
+          "url": "https://sidof.segob.gob.mx/notas/docFuente/5775534",
+          "locator": "Resolutivos Primero (zonas municipales), Tercero (diarios) y Cuarto (expresión mensual)",
+          "publicationDate": "2025-12-09",
+          "verifiedOn": "2026-10-13"
+        },
+        {
+          "authority": "Cámara de Diputados",
+          "document": "Ley Federal del Trabajo, texto vigente",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+          "locator": "Arts. 85 y 90; salario remunerador y mínimo laboral, distinto del piso de SBC",
+          "publicationDate": "1970-04-01",
+          "currentTextAsOf": "2026-05-14",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "subsidy",
+      "id": "mx-employment-subsidy-january-2026",
+      "kind": "employment-subsidy",
+      "key": "2026-decree",
+      "version": "mx-employment-subsidy-january-2026-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-01-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "DOF",
+          "document": "Decreto por el que se modifica el diverso que otorga el subsidio para el empleo",
+          "url": "https://sidof.segob.gob.mx/notas/docFuente/5777649",
+          "locator": "Artículo Segundo y Transitorios Primero y Segundo; porcentajes, límite y divisor",
+          "publicationDate": "2025-12-31",
+          "verifiedOn": "2026-10-13"
+        },
+        {
+          "authority": "INEGI",
+          "document": "Comunicado de prensa 1/25, UMA 2025",
+          "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/uma/uma2025.pdf",
+          "locator": "Cuadro 1 y vigencia desde 1 de febrero de 2025",
+          "publicationDate": "2025-01-09",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "subsidy",
+      "id": "mx-employment-subsidy-february-2026",
+      "kind": "employment-subsidy",
+      "key": "2026-decree",
+      "version": "mx-employment-subsidy-february-2026-source-2026-10-13",
+      "effectiveFrom": "2026-02-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "DOF",
+          "document": "Decreto por el que se modifica el diverso que otorga el subsidio para el empleo",
+          "url": "https://sidof.segob.gob.mx/notas/docFuente/5777649",
+          "locator": "Artículo Segundo y Transitorios Primero y Segundo; porcentajes, límite y divisor",
+          "publicationDate": "2025-12-31",
+          "verifiedOn": "2026-10-13"
+        },
+        {
+          "authority": "INEGI",
+          "document": "Comunicado de prensa 1/26, UMA 2026",
+          "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/uma/uma2026.pdf",
+          "locator": "Cuadro 1 y vigencia desde 1 de febrero de 2026",
+          "publicationDate": "2026-01-08",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "imssConstants",
+      "id": "mx-imss-worker-constants-2026",
+      "kind": "imss-constants",
+      "key": "ordinary-regime",
+      "version": "mx-imss-worker-constants-2026-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "Cámara de Diputados",
+          "document": "Ley del Seguro Social, texto vigente",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf",
+          "locator": "Arts. 25, 28, 29, 36, 106, 107, 147, 168 y Transitorio Décimo Noveno",
+          "publicationDate": "1995-12-21",
+          "currentTextAsOf": "2026-01-15",
+          "verifiedOn": "2026-10-13"
+        },
+        {
+          "authority": "DOF",
+          "document": "Decreto de desindexación del salario mínimo",
+          "url": "https://sidof.segob.gob.mx/notas/docFuente/5423663",
+          "locator": "Transitorio Tercero; UMA como unidad de referencia de obligaciones",
+          "publicationDate": "2016-01-27",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "contractualDivisors",
+      "id": "mx-contractual-divisors",
+      "kind": "contractual-divisors",
+      "key": "LSS-29-II",
+      "version": "mx-contractual-divisors-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "Cámara de Diputados",
+          "document": "Ley del Seguro Social, texto vigente",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf",
+          "locator": "Arts. 25, 28, 29, 36, 106, 107, 147, 168 y Transitorio Décimo Noveno",
+          "publicationDate": "1995-12-21",
+          "currentTextAsOf": "2026-01-15",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "role": "laborBenefitMinima",
+      "id": "mx-labor-benefit-minima-2026",
+      "kind": "labor-benefit-minima",
+      "key": "LFT-annual-benefits",
+      "version": "mx-labor-benefit-minima-2026-source-2026-10-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveThrough": "2026-12-31",
+      "validation": "source-verified",
+      "validationScope": "source-data-only",
+      "sources": [
+        {
+          "authority": "Cámara de Diputados",
+          "document": "Ley Federal del Trabajo, texto vigente",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+          "locator": "Arts. 76 (primer derecho anual y antigüedad), 80 (prima mínima), 87 (aguinaldo anual mínimo)",
+          "publicationDate": "1970-04-01",
+          "currentTextAsOf": "2026-05-14",
+          "verifiedOn": "2026-10-13"
+        }
+      ]
+    }
+  ],
+  "ruleSources": {
+    "subsidy": [
+      {
+        "authority": "DOF",
+        "document": "Decreto que otorga el subsidio para el empleo, disposiciones no reformadas",
+        "url": "https://sidof.segob.gob.mx/notas/docFuente/5725287",
+        "locator": "Artículo Segundo, segundo párrafo: excedente no entregado ni aplicable posteriormente; párrafos sexto/séptimo: elección de empleador; Artículo Cuarto",
+        "publicationDate": "2024-05-01",
+        "verifiedOn": "2026-10-14"
+      }
+    ],
+    "retention": [
+      {
+        "authority": "Cámara de Diputados",
+        "document": "Ley del Impuesto sobre la Renta, texto vigente",
+        "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf",
+        "locator": "Artículo 96, primer párrafo: no retención cuando en el mes únicamente se percibe salario mínimo general del área; segundo párrafo: ingresos del mes de calendario",
+        "publicationDate": "2013-12-11",
+        "currentTextAsOf": "2024-04-01",
+        "verifiedOn": "2026-10-14"
+      }
+    ]
+  }
+}

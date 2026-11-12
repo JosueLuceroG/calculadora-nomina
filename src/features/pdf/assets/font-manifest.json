@@ -1,0 +1,25 @@
+{
+  "family": "DejaVu Sans",
+  "license": "Bitstream Vera / Arev font license; DejaVu additions public domain",
+  "sourceNote": "TTF redistribuibles de Matplotlib v3.10.7, con licencia completa y hashes fijados.",
+  "files": [
+    {
+      "name": "DejaVuSans.ttf",
+      "url": "https://raw.githubusercontent.com/matplotlib/matplotlib/v3.10.7/lib/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf",
+      "bytes": 756072,
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+    },
+    {
+      "name": "DejaVuSans-Bold.ttf",
+      "url": "https://raw.githubusercontent.com/matplotlib/matplotlib/v3.10.7/lib/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
+      "bytes": 704128,
+      "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    {
+      "name": "LICENSE-DejaVu.txt",
+      "url": "https://raw.githubusercontent.com/matplotlib/matplotlib/v3.10.7/lib/matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    }
+  ]
+}

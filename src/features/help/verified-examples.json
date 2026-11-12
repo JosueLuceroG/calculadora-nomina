@@ -1,0 +1,62 @@
+{
+  "provenance": {
+    "sourceFile": "src/tests/fixtures/operational-4b1.expected.json",
+    "sourceSha256": "328314571E100E56BF4AD0F9AB92880081EA11E7C0A64F77592B86489FF6D371",
+    "sourceCutoff": "2026-10-16",
+    "method": "Python Fraction exact; fresh DOF HTML and independent SAT PDF cross-check; no production imports"
+  },
+  "direct": {
+    "fixtureId": "M01-on",
+    "intermediateFixtureId": "M01-off",
+    "request": {
+      "gross": "15000.00",
+      "periodicity": "monthly",
+      "date": "2026-02-01",
+      "benefits": {
+        "annualBonusDays": "15",
+        "annualVacationDays": "12",
+        "vacationPremiumPercent": "25"
+      },
+      "includeImss": true,
+      "confirmed": false
+    },
+    "values": {
+      "gross": "15000.00",
+      "isrTariff": "1402.82",
+      "subsidyApplied": "0.00",
+      "isrWithheld": "1402.82",
+      "imssDeducted": "394.54",
+      "net": "13202.64"
+    },
+    "afterIsr": "13597.18"
+  },
+  "inverse": {
+    "fixtureId": "M09-week",
+    "request": {
+      "targetNet": "3076.67",
+      "periodicity": "weekly",
+      "date": "2026-02-01",
+      "benefits": {
+        "annualBonusDays": "15",
+        "annualVacationDays": "12",
+        "vacationPremiumPercent": "25"
+      },
+      "includeImss": true,
+      "confirmed": false,
+      "domain": null
+    },
+    "coverage": "exhaustive-only-in-listed-windows-not-global-proof",
+    "candidates": [
+      {
+        "gross": "3499.99",
+        "net": "3076.67",
+        "difference": "0.00"
+      },
+      {
+        "gross": "3500.00",
+        "net": "3076.67",
+        "difference": "0.00"
+      }
+    ]
+  }
+}

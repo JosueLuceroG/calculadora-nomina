@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "producerId": "nomina-signed-fiscal-document-v3-v1",
+  "reportContractId": "standard-payroll-2026-contextual-v2",
+  "presentationContractId": "nomina-presentation-5c2-v1",
+  "representation": "jcs-envelope-object-v1",
+  "evidenceScope": "package-and-observed-head;history-not-replayed",
+  "javascriptAttestation": "not-provided",
+  "productiveWritePolicy": "closed-until-5d3b4",
+  "fixtureNotice": "Fixture documental de QA. No acredita una ejecución externa autorizada."
+}

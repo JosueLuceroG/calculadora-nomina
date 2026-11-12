@@ -1,0 +1,25 @@
+{
+  "provenance": "Independent rational/BigInt oracles from DOF CSV, UMA and decree. Candidate observations are not by themselves proofs of global minima. Exhaustive comparisons use bounded domains explicitly.",
+  "cases": [
+    { "id": "A-monthly", "periodicity": "monthly", "target": "13202.64", "from": "14998.00", "to": "15002.00", "includeImss": true, "january": false, "zeroBenefits": false, "confirmed": false, "expected": ["15000.00"] },
+    { "id": "B-monthly-imss-off", "periodicity": "monthly", "target": "13597.18", "from": "14998.00", "to": "15002.00", "includeImss": false, "january": false, "zeroBenefits": false, "confirmed": false, "expected": ["15000.00"] },
+    { "id": "C-weekly-two-roots", "periodicity": "weekly", "target": "3076.67", "from": "3498.00", "to": "3502.00", "includeImss": true, "january": false, "zeroBenefits": false, "confirmed": false, "expected": ["3499.99", "3500.00"] },
+    { "id": "D-fortnightly", "periodicity": "fortnightly", "target": "6592.87", "from": "7498.00", "to": "7502.00", "includeImss": true, "january": false, "zeroBenefits": false, "confirmed": false, "expected": ["7500.00"] },
+    { "id": "E-subsidy-separated-roots", "periodicity": "monthly", "target": "10500.00", "from": "11000.00", "to": "12000.00", "includeImss": true, "january": false, "zeroBenefits": false, "confirmed": false, "expected": ["11093.07", "11714.44"] },
+    { "id": "F-isr-hole-04", "periodicity": "fortnightly", "target": "5557.04", "from": "6216.15", "to": "6216.16", "includeImss": true, "january": false, "zeroBenefits": false, "confirmed": false, "expected": [] },
+    { "id": "F-isr-hole-05", "periodicity": "fortnightly", "target": "5557.05", "from": "6216.15", "to": "6216.16", "includeImss": true, "january": false, "zeroBenefits": false, "confirmed": false, "expected": [] },
+    { "id": "minimum-confirmed", "periodicity": "monthly", "target": "9451.20", "from": "9451.19", "to": "9451.25", "includeImss": true, "january": false, "zeroBenefits": false, "confirmed": true, "expected": ["9451.20"] },
+    { "id": "three-uma", "periodicity": "monthly", "target": "10053.09", "from": "10557.60", "to": "10558.20", "includeImss": true, "january": false, "zeroBenefits": true, "confirmed": false, "expected": ["10557.90", "10557.91"] },
+    { "id": "25uma-february", "periodicity": "monthly", "target": "65452.39", "from": "87982.49", "to": "87982.51", "includeImss": true, "january": false, "zeroBenefits": true, "confirmed": false, "expected": ["87982.50", "87982.51"] },
+    { "id": "25uma-january", "periodicity": "monthly", "target": "63348.42", "from": "84854.99", "to": "84855.01", "includeImss": true, "january": true, "zeroBenefits": true, "confirmed": false, "expected": ["84855.00", "84855.01"] },
+    { "id": "january-monthly", "periodicity": "monthly", "target": "13201.14", "from": "14998.00", "to": "15002.00", "includeImss": true, "january": true, "zeroBenefits": false, "confirmed": false, "expected": ["15000.00"] }
+  ],
+  "observations": [
+    { "periodicity": "monthly", "gross": "15000.21", "net": "13202.81" },
+    { "periodicity": "monthly", "gross": "15000.22", "net": "13202.79" },
+    { "periodicity": "monthly", "gross": "11492.66", "net": "10844.47" },
+    { "periodicity": "monthly", "gross": "11492.67", "net": "10308.83" },
+    { "periodicity": "fortnightly", "gross": "6216.15", "net": "5557.03" },
+    { "periodicity": "fortnightly", "gross": "6216.16", "net": "5557.06" }
+  ]
+}

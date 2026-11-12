@@ -1,0 +1,11 @@
+{
+  "filename": "CalculadoraNomina_0.1.1-rc.1_x64-setup.exe",
+  "version": "0.1.1-rc.1",
+  "architecture": "Windows x64",
+  "bytes": 6922120,
+  "sha256": "3c0f5738446b6c79a68e34c9425a53ed9c80649408b9d2165de0b3905419e7ac",
+  "authenticode": "NotSigned",
+  "purpose": "release-candidate-for-validation",
+  "webview": "Evergreen bootstrapper; internet required if runtime absent",
+  "reference010Sha256": "146cb6bdf9ae121846c15d692e5a5594b5b89433d2e4aeadb0809ea3bfde7f2a"
+}

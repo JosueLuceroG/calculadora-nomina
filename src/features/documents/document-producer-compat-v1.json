@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "producerId": "nomina-signed-fiscal-document-v3-v2",
+  "reportContractId": "standard-payroll-2026-contextual-document-compat-v1",
+  "presentationContractId": "nomina-presentation-document-compat-v1",
+  "representation": "jcs-envelope-object-v1",
+  "evidenceScope": "package-and-observed-head;history-not-replayed",
+  "javascriptAttestation": "not-provided",
+  "productiveWritePolicy": "closed-cd2-read-only",
+  "wireEncoding": "exact-sorted-nomina-json-v1-subset; canonical numeric representation; historical codec behavior unchanged"
+}

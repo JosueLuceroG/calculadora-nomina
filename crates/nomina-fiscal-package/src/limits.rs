@@ -1,0 +1,15 @@
+pub const MAX_BYTES:usize=2_097_152;
+pub const MAX_DEPTH:usize=32;
+pub const MAX_NODES:usize=50_000;
+pub const MAX_PROPERTIES:usize=128;
+pub const MAX_KEY_BYTES:usize=128;
+pub const MAX_STRING_BYTES:usize=16_384;
+pub const MAX_ID_BYTES:usize=128;
+pub const MAX_ARRAY_ITEMS:usize=2_048;
+pub const MAX_SOURCES:usize=256;
+pub const MAX_SETS:usize=128;
+pub const MAX_SIGNATURES:usize=8;
+pub const MAX_KEYS:usize=32;
+pub const MAX_TRANSITIONS:usize=16;
+pub const MAX_SAFE_INTEGER:u64=9_007_199_254_740_991;
+pub const MAX_TRUST_BYTES:usize=262_144;

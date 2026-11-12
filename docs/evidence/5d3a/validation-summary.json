@@ -1,0 +1,119 @@
+{
+  "hito": "5D.3a",
+  "checkedOn": "2026-10-24",
+  "status": "implemented-and-verified-awaiting-ChatGPT-review",
+  "scope": "isolated-native-verifier-and-QA-editorial-tools",
+  "coreRust": {
+    "passed": 25,
+    "failed": 0,
+    "command": "cargo test --locked --offline --manifest-path crates/nomina-fiscal-package/Cargo.toml"
+  },
+  "editorialNode": {
+    "passed": 267,
+    "failed": 0,
+    "skipped": 0,
+    "command": "npm --prefix tools/fiscal-editorial test",
+    "evidence": "editorial-tests.json"
+  },
+  "applicationVitest": {
+    "passed": 4178,
+    "files": 41,
+    "failed": 0,
+    "command": "npm test -- --maxWorkers=2",
+    "invokedBy": "node tools/fiscal-editorial/exercise.mjs --fiscal"
+  },
+  "applicationRust": {
+    "passed": 58,
+    "failed": 0,
+    "ignoredHelpers": 1,
+    "ignoredHelperExplanation": "crash_child is exercised in four subprocesses by its passing parent test",
+    "command": "cargo test --locked --offline --manifest-path src-tauri/Cargo.toml"
+  },
+  "checks": {
+    "typecheck": "passed",
+    "frontendBuild": "passed",
+    "editorialNativeBuildLockedOffline": "passed",
+    "storageIdentity": "passed",
+    "documentProducerIdentity": "passed",
+    "editorialExercise": "passed",
+    "independentOpenSSLAuthentication": "passed",
+    "localPublicInputReplay": "passed",
+    "originalPdfVerification": "passed"
+  },
+  "vectors": {
+    "rfc8032PublicCases": 3,
+    "wycheproofCases": 210,
+    "wycheproofCommit": "d17cc89fa5c8f4f4d378b5385ebf75da5d0926c9",
+    "jcsGoldenCases": 6,
+    "jcsCommit": "32a48195b9b20fe67b1795e39e4509f14d860b45",
+    "countsAreNotAdditionalTestSuiteTotals": true,
+    "privateSeedsIncluded": false,
+    "testsUseLocalInputs": true
+  },
+  "fiscalRegression": {
+    "directReports": 1260,
+    "independentComponents": 20160,
+    "inverseWindows": 42,
+    "inverseCents": 12786,
+    "legacyComparisons": 1312,
+    "monetaryDifferences": [],
+    "oraclesModified": false
+  },
+  "pdf": {
+    "documents": 18,
+    "pages": 50,
+    "uriLinks": 180,
+    "verification": "existing originals reverified with pypdf and PDFium",
+    "newNativeApplicationScenario": false
+  },
+  "integrity": {
+    "baselineFiles": 301,
+    "modifiedBaselineFiles": [],
+    "unauthorized": [],
+    "compiledCssSha256": "519b8c151b647e55e9b2bfe4e37576ec2d6ea0676805a90d31d690e244b4497d",
+    "cssRulesAdded": [],
+    "cssRulesRemoved": [],
+    "cssRulesChanged": [],
+    "applicationManifestsAndLocksUnchanged": true,
+    "coreLinkedToTauri": false
+  },
+  "identity": {
+    "applicationVersion": "0.1.0",
+    "engineVersion": "payroll-js-sha256:4f90d957a9948f8a90c661ccbe1f59ea5afd3a6e56df341f4318570e1985a842",
+    "fiscalPackage": "mx-fiscal-2026-source-v3",
+    "fiscalPackageSha256": "7e9f13084e64633b29959d79eec5f9c02333fe2695809c662d71fa7fc8393ab0",
+    "documentProducer": "nomina-contextual-2026-5d2b-v1",
+    "legacyCanonicalRegistryBytes": 13267,
+    "legacyRustAndNodeCanonicalBytesEqual": true
+  },
+  "qaExample": {
+    "path": "qa-example/candidate.nomina-fiscal",
+    "contentSha256": "7e9f13084e64633b29959d79eec5f9c02333fe2695809c662d71fa7fc8393ab0",
+    "signedPayloadSha256": "59bb5ebc75998715554a2a74fe9d01e5b2e6e17b20e0af37fc221f118f504416",
+    "containerSha256": "18e886f38b9b6c2387b5f61af3280deb262a815da8c1eda0c1f769d849b2023b",
+    "verificationTime": "2026-10-23T12:00:00Z",
+    "authentication": "authenticated",
+    "editorialApproval": "approved-by-distinct-delegated-key",
+    "fiscalData": "coherent-not-normatively-certified",
+    "contentMatchesIntegratedPin": true,
+    "dynamicAdmissionEnabled": false,
+    "execution": "not-installed-not-authorized",
+    "trustEpoch": 1,
+    "rootVersion": 1,
+    "rootKeys": 3,
+    "rootThreshold": 2,
+    "productionBootstrapProvisioned": false,
+    "privateMaterial": "temporary QA files removed; root private keys never serialized"
+  },
+  "limitsEvidence": "../../hito-5d-3a-limits.md",
+  "limitations": [
+    "Production fails closed with PRODUCTION_BOOTSTRAP_MISSING; QA is not a fallback.",
+    "Trust and revision states are in memory only; no durable antirollback or rollback-nonce consumption.",
+    "Explicit time and observed trust metadata do not guarantee knowledge of later offline revocations.",
+    "Compatibility and editorial signatures do not install, activate, certify an inverse result or certify normative correctness.",
+    "The exact runtime pin and compiled document producer remain unchanged; dynamic admission is disabled.",
+    "The 2027 exercise and new rule/context/schema/convention profiles require an authorized application update.",
+    "New fiscal content requires its own independent controls and review evidence."
+  ],
+  "nextStep": "ChatGPT review of docs/hito-5d-3a-build.md; do not start 5D.3b"
+}

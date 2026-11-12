@@ -1,0 +1,32 @@
+use super::*;
+use tauri::{Runtime,WebviewWindow,State as TauriState,Manager};
+use tauri_plugin_dialog::DialogExt;
+type Service=Arc<ImportService>;
+pub(crate) fn caller<R:Runtime>(w:&WebviewWindow<R>,s:&Service)->Result<Owner>{if !host_context::allowed_url(&w.url().map_err(|_|fail("UNAUTHORIZED_ORIGIN"))?){return Err(fail("UNAUTHORIZED_ORIGIN"));}
+    #[cfg(windows)]let handle=w.hwnd().map_err(|_|fail("UNAUTHORIZED_WINDOW"))?.0 as usize;
+    #[cfg(not(windows))]let handle=0;
+    s.owner(w.label(),handle)
+}
+fn id(value:&str)->Result<()>{if value.len()!=36||uuid::Uuid::parse_str(value).is_err(){Err(fail("INVALID_ID"))}else{Ok(())}}
+fn bounded<T:serde::Serialize>(v:T)->Result<T>{if serde_json::to_vec(&v).map_err(|_|fail("SERIALIZATION_ERROR"))?.len()>65536{Err(fail("RESPONSE_LIMIT"))}else{Ok(v)}}
+#[tauri::command]
+pub async fn fiscal_import_info<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:InfoRequest)->Result<Info>{let s=state.inner().clone();caller(&window,&s)?;if request.repository{s.management_enabled()?;let _work=s.work()?;let s2=s.clone();let status=tauri::async_runtime::spawn_blocking(move||->Result<_>{if s2.repository.inspect_presence()?=="absent"{Ok(None)}else{Ok(Some(s2.repository.open_existing()?))}}).await.map_err(|_|fail("UNAVAILABLE"))??;return bounded(s.info(status));}bounded(s.info(None))}
+#[tauri::command]
+pub async fn fiscal_import_begin<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:BeginRequest)->Result<super::contracts::State>{let s=state.inner().clone();let owner=caller(&window,&s)?;let result=s.begin(&owner,request.kind)?;let sid=result.session_id.clone();tauri::async_runtime::spawn_blocking(move||{
+    let chosen=(||->Result<Vec<std::path::PathBuf>>{if caller(&window,&s)?!=owner{return Err(fail("SESSION_OWNER_MISMATCH"));}let picker=window.dialog().file().set_parent(&window);let paths=if request.kind==Kind::Package{picker.set_title("Importar paquete fiscal — sin activación").add_filter("Paquete fiscal",&["nomina-fiscal"]).blocking_pick_file().map(|p|vec![p])}else{picker.set_title("Importar documentos de confianza firmados").add_filter("Confianza fiscal firmada",&["json"]).blocking_pick_files()};let list=paths.ok_or_else(||fail("NO_SELECTION"))?;if list.is_empty()||list.len()>if request.kind==Kind::Package{1}else{16}{return Err(fail("INPUT_LIMIT"));}list.into_iter().map(|p|p.into_path().map_err(|_|fail("LOCAL_FILE_REQUIRED"))).collect()})();s.selector_closed();
+    let outcome=(||->Result<()>{let paths=chosen?;if caller(&window,&s)?!=owner||s.get(&owner,&sid)?.phase=="cancelled"{return Err(fail("SESSION_CANCELLED"));}let mut originals=vec![];for p in paths{originals.push(input::read_selected(&p,if request.kind==Kind::Package{2*1024*1024}else{256*1024})?);}s.selected(&owner,&sid,originals)})();if let Err(e)=outcome{s.finish_error(&sid,&e.code);}
+});bounded(result)}
+#[tauri::command]
+pub async fn fiscal_import_get<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:SessionRequest)->Result<super::contracts::State>{id(&request.session_id)?;let s=state.inner();let o=caller(&window,s)?;s.management_enabled()?;bounded(s.get(&o,&request.session_id)?)}
+#[tauri::command]
+pub async fn fiscal_import_details<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:DetailsRequest)->Result<Details>{id(&request.session_id)?;let s=state.inner();let o=caller(&window,s)?;s.management_enabled()?;bounded(s.details(&o,&request.session_id,request.section.name(),request.offset)?)}
+#[tauri::command]
+pub async fn fiscal_import_cancel<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:SessionRequest)->Result<super::contracts::State>{id(&request.session_id)?;let s=state.inner();let o=caller(&window,s)?;s.management_enabled()?;bounded(s.cancel(&o,&request.session_id)?)}
+#[tauri::command]
+pub async fn fiscal_import_refresh<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:SessionRequest)->Result<super::contracts::State>{id(&request.session_id)?;let s=state.inner().clone();let o=caller(&window,&s)?;s.management_enabled()?;let data=s.refresh_data(&o,&request.session_id)?;let sid=request.session_id.clone();let owner=o.clone();let s2=s.clone();tauri::async_runtime::spawn_blocking(move||{if let Err(e)=s2.selected(&owner,&sid,data){s2.finish_error(&sid,&e.code);}});bounded(s.get(&o,&request.session_id)?)}
+#[tauri::command]
+pub async fn fiscal_import_confirm<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:ConfirmRequest)->Result<super::contracts::State>{id(&request.session_id)?;id(&request.preview_nonce)?;let s=state.inner().clone();let o=caller(&window,&s)?;s.management_enabled()?;let s2=s.clone();let result=tauri::async_runtime::spawn_blocking(move||s2.confirm(&o,&request.session_id,&request.preview_nonce)).await.map_err(|_|fail("COMMIT_OUTCOME_UNKNOWN"))??;bounded(result)}
+#[tauri::command]
+pub async fn fiscal_packages_list<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:ListRequest)->Result<Listing>{let s=state.inner().clone();caller(&window,&s)?;s.management_enabled()?;if request.limit==0||request.limit>100||request.after.len()>36{return Err(fail("INVALID_CURSOR"));}let _work=s.work()?;let v=tauri::async_runtime::spawn_blocking(move||->Result<Listing>{if s.repository.inspect_presence()?=="absent"{return Ok(Listing{generation:0,items:vec![],next:None});}let(generation,items)=s.repository.installation_metadata(request.limit.min(24),&request.after)?;if request.generation.map(|g|g!=generation).unwrap_or(false){return Err(fail("STALE_LIST"));}let next=if items.len()==request.limit.min(24) as usize{items.last().map(|i|i.installation_id.clone())}else{None};Ok(Listing{generation,items,next})}).await.map_err(|_|fail("UNAVAILABLE"))??;bounded(v)}
+#[tauri::command]
+pub async fn fiscal_operation_status<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:OperationRequest)->Result<Option<Receipt>>{id(&request.operation_id)?;let s=state.inner().clone();caller(&window,&s)?;s.management_enabled()?;let _work=s.work()?;let operation=request.operation_id.clone();let result=tauri::async_runtime::spawn_blocking(move||->Result<_>{Ok(s.repository.operation_status(&request.operation_id)?)}).await.map_err(|_|fail("UNAVAILABLE"))??;if let Some(activation)=tauri::Manager::try_state::<Arc<crate::fiscal_activation::ActivationService>>(window.app_handle()){activation.reconciled(&operation,result.as_ref());}bounded(result)}

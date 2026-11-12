@@ -1,0 +1,2825 @@
+{
+  "run": "12e126b3-5ad8-4232-81a7-c2b301246f04",
+  "startedUtc": "2026-11-03T18:29:28.209Z",
+  "kind": "REAL Windows QA embedded executable, actual UI and native IPC; no module substitution, salary seeding or archived session reconstruction",
+  "binary": {
+    "recordedUtc": "2026-11-03T18:22:46.313Z",
+    "qa": true,
+    "artifact": "artifacts/calculadora-nomina.exe",
+    "sha256": "5ad87b12c3e0d73e3306437e75a4ccf0874610b6580e24c74c8582c47def828e",
+    "bytes": 26410496,
+    "previousProduct": {
+      "path": "artifacts/previous-9dcd5d41c4e7b3ec7a2753849f9bd1ac7369d83da9a32c2230a23d4ec557184b.exe",
+      "sha256": "9dcd5d41c4e7b3ec7a2753849f9bd1ac7369d83da9a32c2230a23d4ec557184b"
+    },
+    "kind": "Windows QA debug embedded frontend, no bundle/no release/no installer",
+    "productionExternal": false,
+    "sourceEdits": "Only expressly requested signatures wording; fiscal/authority/SQL unchanged"
+  },
+  "storage": "local-temp/5b7-5d3b2-cd6-12e126b3-5ad8-4232-81a7-c2b301246f04",
+  "checks": [
+    {
+      "id": "startup-offline",
+      "status": "PASS",
+      "elapsedMs": 1417,
+      "detail": {
+        "pid": 34780,
+        "url": "http://tauri.localhost/",
+        "offline": true
+      }
+    },
+    {
+      "id": "signed-source-selection",
+      "status": "PASS",
+      "elapsedMs": 15079,
+      "detail": {
+        "id": "abdba549-57e9-40ff-ae9c-32fd89a8ab50",
+        "generation": 1,
+        "kind": "external",
+        "installationId": "461fe2d7-3cd9-4210-b7cd-1fec33a972d0",
+        "admissionId": "8c0b1084-f0db-40df-85e1-4f568334397f"
+      }
+    },
+    {
+      "id": "late-consent",
+      "status": "PASS",
+      "elapsedMs": 6953,
+      "detail": {
+        "executionId": "9efdb1a4-574b-4f3e-86d3-6ab1a0c5ad91",
+        "notStored": true,
+        "lateOptInCannotRescue": true
+      }
+    },
+    {
+      "id": "automatic-save",
+      "status": "PASS",
+      "elapsedMs": 9308,
+      "detail": {
+        "label": "direct-automatic",
+        "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+        "sha256": "1231de908f1fa4df1a04abb762b54c3507b2a97f54a0ae8c6c1d1f6c8c008455",
+        "bytes": 88293,
+        "status": "estimated",
+        "net": "13202.64",
+        "gross": "15000.00",
+        "elapsedMs": 8557,
+        "outcomeUnchanged": true,
+        "origin": "Real UI/native authorized commit; no salary seeding"
+      }
+    },
+    {
+      "id": "manual-save",
+      "status": "PASS",
+      "elapsedMs": 13468,
+      "detail": {
+        "label": "direct-manual",
+        "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+        "sha256": "ac77b5dfe2eee40e240bd8035d17ab846db0764814128f994a4038e51c999ada",
+        "bytes": 88294,
+        "status": "estimated",
+        "net": "13202.64",
+        "gross": "15000.00",
+        "elapsedMs": 7608,
+        "outcomeUnchanged": true,
+        "origin": "Real UI/native authorized commit; no salary seeding"
+      }
+    },
+    {
+      "id": "inverse",
+      "status": "PASS",
+      "elapsedMs": 11275,
+      "detail": {
+        "phase": "stored",
+        "status": "estimated",
+        "match": "exact",
+        "coverage": "complete",
+        "net": "13202.64",
+        "minimum": true,
+        "certificate": true
+      }
+    },
+    {
+      "id": "pdf-original",
+      "status": "PASS",
+      "elapsedMs": 8933,
+      "detail": {
+        "nativePdfs": 3
+      }
+    },
+    {
+      "id": "diagnostics",
+      "status": "PASS",
+      "elapsedMs": 8677,
+      "detail": {
+        "unknownNet": null,
+        "knownImss": "0.00"
+      }
+    },
+    {
+      "id": "dw2-current",
+      "status": "PASS",
+      "elapsedMs": 13552,
+      "detail": {
+        "global": "not-determinable",
+        "match": "approximate",
+        "coverage": "limited",
+        "metrics": {
+          "directEvaluations": 2464,
+          "cacheHits": 79,
+          "cacheEntries": 2464,
+          "elapsedMs": 3003.199999988079,
+          "yields": 77,
+          "peakQueueIntervals": 19,
+          "certifiedClosures": 0,
+          "exhaustivePoints": 2453,
+          "maxEvaluations": 4096,
+          "maxDurationMs": 3000,
+          "stopReason": "time-budget"
+        },
+        "pending": 17,
+        "evidence": 2472,
+        "source": "Fresh actual UI/native acquisition and engine, not archived D-W2"
+      }
+    },
+    {
+      "id": "dpi-layout",
+      "status": "PASS",
+      "elapsedMs": 10839,
+      "detail": {
+        "renderingCases": 5,
+        "physicalHigherDpiValidated": false
+      }
+    },
+    {
+      "id": "restart",
+      "status": "PASS",
+      "elapsedMs": 11661,
+      "detail": {
+        "originals": 3,
+        "exactBytes": true
+      }
+    },
+    {
+      "id": "without-fiscal-repository",
+      "status": "PASS",
+      "elapsedMs": 12422,
+      "detail": {
+        "fiscalRepositoryAbsent": true,
+        "historyAndNativePdf": true
+      }
+    },
+    {
+      "id": "no-public-permit",
+      "status": "PASS",
+      "elapsedMs": 93,
+      "detail": {
+        "uncredentialed": "V3_WRITE_CLOSED",
+        "unknownHandle": "SESSION_UNKNOWN"
+      }
+    },
+    {
+      "id": "opt-out",
+      "status": "PASS",
+      "elapsedMs": 10123,
+      "detail": {
+        "nativeRejected": "STALE_GENERATION",
+        "initialGenerationNotRenewed": true
+      }
+    },
+    {
+      "id": "delete-clear",
+      "status": "PASS",
+      "elapsedMs": 12508,
+      "detail": {
+        "deleteTombstone": true,
+        "clearFencesPending": true,
+        "rows": 0
+      }
+    },
+    {
+      "id": "cas-real-processes",
+      "status": "FAIL",
+      "elapsedMs": 2683,
+      "error": "AssertionError [ERR_ASSERTION]: fiscal_selection_deactivate: BUSY"
+    }
+  ],
+  "documents": [
+    {
+      "label": "direct-automatic",
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "sha256": "1231de908f1fa4df1a04abb762b54c3507b2a97f54a0ae8c6c1d1f6c8c008455",
+      "bytes": 88293,
+      "status": "estimated",
+      "net": "13202.64",
+      "gross": "15000.00",
+      "elapsedMs": 8557,
+      "outcomeUnchanged": true,
+      "origin": "Real UI/native authorized commit; no salary seeding"
+    },
+    {
+      "label": "direct-manual",
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "sha256": "ac77b5dfe2eee40e240bd8035d17ab846db0764814128f994a4038e51c999ada",
+      "bytes": 88294,
+      "status": "estimated",
+      "net": "13202.64",
+      "gross": "15000.00",
+      "elapsedMs": 7608,
+      "outcomeUnchanged": true,
+      "origin": "Real UI/native authorized commit; no salary seeding"
+    },
+    {
+      "label": "inverse",
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "sha256": "50a9a43bd75a2cf002fd310d97b62cf04005fb967c1b7a584becd6a453949a22",
+      "bytes": 114048,
+      "status": "estimated",
+      "net": "13202.64",
+      "gross": "15000.00",
+      "elapsedMs": 9801,
+      "outcomeUnchanged": true,
+      "origin": "Real UI/native authorized commit; no salary seeding"
+    }
+  ],
+  "diagnostics": [
+    {
+      "label": "partial-null",
+      "executionId": "8c55495b-87d0-46ad-bf76-3894cba2902d",
+      "phase": "error",
+      "status": "not-determinable",
+      "writeGeneration": null,
+      "manualRejected": true,
+      "automaticRejected": true,
+      "rowsUnchanged": true,
+      "elapsedMs": 5897,
+      "realNativeSession": true,
+      "archivedFixtureUsed": false
+    },
+    {
+      "label": "dw2-fresh",
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "phase": "error",
+      "status": "not-determinable",
+      "match": "approximate",
+      "coverage": "limited",
+      "writeGeneration": null,
+      "manualRejected": true,
+      "automaticRejected": true,
+      "rowsUnchanged": true,
+      "elapsedMs": 9872,
+      "realNativeSession": true,
+      "archivedFixtureUsed": false
+    }
+  ],
+  "pdfs": [
+    {
+      "label": "current-original",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/current-original.pdf",
+      "sha256": "d69718dee1d5f6b52167a53f163ec1c739cca35259b3bfc70ac3f3ce75626978",
+      "bytes": 127402,
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "originalSha256": "ac77b5dfe2eee40e240bd8035d17ab846db0764814128f994a4038e51c999ada",
+      "expectedGross": "15000.00",
+      "expectedNet": "13202.64",
+      "origin": "UI current button re-read committed original",
+      "actualNativeDialog": true
+    },
+    {
+      "label": "history-original",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/history-original.pdf",
+      "sha256": "0f964e362240c2071c4e73e5964a9c49e676bc1a9c59f13aac3423e2eeebe315",
+      "bytes": 127590,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "originalSha256": "1231de908f1fa4df1a04abb762b54c3507b2a97f54a0ae8c6c1d1f6c8c008455",
+      "expectedGross": "15000.00",
+      "expectedNet": "13202.64",
+      "origin": "UI history original",
+      "actualNativeDialog": true
+    },
+    {
+      "label": "manual-original",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/manual-original.pdf",
+      "sha256": "103ab1efd7c1a3b6a2531276613fa8c47f9edf9e302b3b621c16ec0b84a5ad1a",
+      "bytes": 127398,
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "originalSha256": "ac77b5dfe2eee40e240bd8035d17ab846db0764814128f994a4038e51c999ada",
+      "expectedGross": "15000.00",
+      "expectedNet": "13202.64",
+      "origin": "UI history original",
+      "actualNativeDialog": true
+    },
+    {
+      "label": "after-restart",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/after-restart.pdf",
+      "sha256": "a88fc8c59ef7a969a3cd644a4bbdf8ae6b688a04b61a3cf430f2145adf382d01",
+      "bytes": 127589,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "originalSha256": "1231de908f1fa4df1a04abb762b54c3507b2a97f54a0ae8c6c1d1f6c8c008455",
+      "expectedGross": "15000.00",
+      "expectedNet": "13202.64",
+      "origin": "UI history original",
+      "actualNativeDialog": true
+    },
+    {
+      "label": "without-repository",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/without-repository.pdf",
+      "sha256": "be0695cee2c2db93e2404bccd945d3d9ea660453a42987123b08b4ce8c10f895",
+      "bytes": 127589,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "originalSha256": "1231de908f1fa4df1a04abb762b54c3507b2a97f54a0ae8c6c1d1f6c8c008455",
+      "expectedGross": "15000.00",
+      "expectedNet": "13202.64",
+      "origin": "UI history original",
+      "actualNativeDialog": true
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "startup",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/startup.png",
+      "sha256": "d189da963fadef9debede7d435a3bf18a689e74dc1dd77a0b081d0ec8322431f"
+    },
+    {
+      "name": "selected-source",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/selected-source.png",
+      "sha256": "73adafd21799b0c0ee6c1149e0f1902de422d93b98a2a45f43f249dc4e2ffd8c"
+    },
+    {
+      "name": "automatic-stored",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/automatic-stored.png",
+      "sha256": "becd4f3915133383997a101734bc5e2ad160ee09be6cb2be7607c06b983b545a"
+    },
+    {
+      "name": "manual-stored",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/manual-stored.png",
+      "sha256": "d3c23dc2cd4731ca0ca5ba42219683207f37624455c209e8860c17c7f306d839"
+    },
+    {
+      "name": "inverse-result",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/inverse-result.png",
+      "sha256": "504abf6dc802f71964bf2927d02e8d5529a2811730cdd6fad1aece9d132141b3"
+    },
+    {
+      "name": "partial-null-zero",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/partial-null-zero.png",
+      "sha256": "8047c0ca7a2521032fbb0b7d28e529ad5660db6ec5e19106f2da607580bcf53b"
+    },
+    {
+      "name": "dw2-evidence-page2",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/dw2-evidence-page2.png",
+      "sha256": "d1f929689bfb159dbcd4b7ce93ca4fbdcca7cbb990087876d5662e94af682dc8"
+    },
+    {
+      "name": "native-1180",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/native-1180.png",
+      "sha256": "d1f929689bfb159dbcd4b7ce93ca4fbdcca7cbb990087876d5662e94af682dc8"
+    },
+    {
+      "name": "native-900",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/native-900.png",
+      "sha256": "0840b600af28b7b536f0e3983e877242a0546c20a9f17c44f6dd7207caca7de4"
+    },
+    {
+      "name": "emulated-dpr-1",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/emulated-dpr-1.png",
+      "sha256": "0840b600af28b7b536f0e3983e877242a0546c20a9f17c44f6dd7207caca7de4"
+    },
+    {
+      "name": "emulated-dpr-1.25",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/emulated-dpr-1.25.png",
+      "sha256": "0840b600af28b7b536f0e3983e877242a0546c20a9f17c44f6dd7207caca7de4"
+    },
+    {
+      "name": "emulated-dpr-1.5",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/emulated-dpr-1.5.png",
+      "sha256": "0840b600af28b7b536f0e3983e877242a0546c20a9f17c44f6dd7207caca7de4"
+    },
+    {
+      "name": "history-restart",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/history-restart.png",
+      "sha256": "4d95f6700ae2ff93b83be760a9ce1cbddb96f7c1b0dc4558961581d351f01497"
+    },
+    {
+      "name": "without-repository",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/without-repository.png",
+      "sha256": "8bf7142573073439f409277aa396fe008ea42458cfa7cedc8a0c951761519edb"
+    },
+    {
+      "name": "failure",
+      "path": "runs/12e126b3-5ad8-4232-81a7-c2b301246f04/failure.png",
+      "sha256": "96f1991d0cfa15e0ddb3a3fbeea039fa2c122ef6db9c781180242d5bc3a38e26"
+    }
+  ],
+  "ipc": [
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 11,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 9,
+      "port": 9341
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 34,
+      "port": 9341
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 39,
+      "port": 9341
+    },
+    {
+      "command": "set_app_theme",
+      "elapsedMs": 8,
+      "port": 9341
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 9,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 4,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 10,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 7,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_packages_list",
+      "elapsedMs": 12,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_begin",
+      "elapsedMs": 1887,
+      "port": 9341,
+      "phase": "selecting"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 4,
+      "port": 9341,
+      "phase": "selecting"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 3,
+      "port": 9341,
+      "phase": "selecting"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 4,
+      "port": 9341,
+      "phase": "verifying"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 10,
+      "port": 9341,
+      "phase": "ready"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 3,
+      "port": 9341,
+      "phase": "confirming"
+    },
+    {
+      "command": "fiscal_import_confirm",
+      "elapsedMs": 293,
+      "port": 9341,
+      "phase": "committed"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_packages_list",
+      "elapsedMs": 109,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 107,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_begin",
+      "elapsedMs": 1318,
+      "port": 9341,
+      "phase": "selecting"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 4,
+      "port": 9341,
+      "phase": "selecting"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 3,
+      "port": 9341,
+      "phase": "selecting"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 8,
+      "port": 9341,
+      "phase": "ready"
+    },
+    {
+      "command": "fiscal_import_get",
+      "elapsedMs": 2,
+      "port": 9341,
+      "phase": "confirming"
+    },
+    {
+      "command": "fiscal_import_confirm",
+      "elapsedMs": 513,
+      "port": 9341,
+      "phase": "committed"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_packages_list",
+      "elapsedMs": 224,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 208,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_packages_list",
+      "elapsedMs": 212,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 208,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_activation_eligibility",
+      "elapsedMs": 334,
+      "port": 9341,
+      "reason": null
+    },
+    {
+      "command": "fiscal_activation_prepare",
+      "elapsedMs": 322,
+      "port": 9341,
+      "phase": "ready"
+    },
+    {
+      "command": "fiscal_activation_confirm",
+      "elapsedMs": 617,
+      "port": 9341,
+      "phase": "committed"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 311,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_activation_eligibility",
+      "elapsedMs": 436,
+      "port": 9341,
+      "reason": null
+    },
+    {
+      "command": "fiscal_activation_eligibility",
+      "elapsedMs": 434,
+      "port": 9341,
+      "reason": null
+    },
+    {
+      "command": "fiscal_activation_prepare",
+      "elapsedMs": 441,
+      "port": 9341,
+      "phase": "ready"
+    },
+    {
+      "command": "fiscal_activation_confirm",
+      "elapsedMs": 854,
+      "port": 9341,
+      "phase": "committed"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 536,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 545,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_activation_cancel",
+      "elapsedMs": 32,
+      "port": 9341,
+      "phase": "committed"
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 32,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 11,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 14,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 2,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 3,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 603,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 8,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 555,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1373,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "9efdb1a4-574b-4f3e-86d3-6ab1a0c5ad91",
+      "handle": "1c894a54-e1f3-4fc9-8147-b2cfab2c6cd3",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 782,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 5,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 759,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "9efdb1a4-574b-4f3e-86d3-6ab1a0c5ad91",
+      "handle": "1c894a54-e1f3-4fc9-8147-b2cfab2c6cd3",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 692,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "9efdb1a4-574b-4f3e-86d3-6ab1a0c5ad91",
+      "handle": "1c894a54-e1f3-4fc9-8147-b2cfab2c6cd3",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 726,
+      "port": 9341,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "9efdb1a4-574b-4f3e-86d3-6ab1a0c5ad91",
+      "handle": "1c894a54-e1f3-4fc9-8147-b2cfab2c6cd3",
+      "resultSha256": "771b6034064aeb7bef6a45764ce9da956ab4abfbef7759172110965a0b824af4"
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 998,
+      "port": 9341,
+      "phase": "document-finalized",
+      "executionId": "9efdb1a4-574b-4f3e-86d3-6ab1a0c5ad91",
+      "documentSha256": "d8ba3efe619d996e3f898b6d82ebdc64eaad1f0405eec71d48ea20240c400462",
+      "stored": false
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 10,
+      "port": 9341
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 15,
+      "port": 9341
+    },
+    {
+      "command": "storage_set_preferences",
+      "elapsedMs": 13,
+      "port": 9341
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 9,
+      "port": 9341
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 10,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_cancel",
+      "elapsedMs": 11,
+      "port": 9341,
+      "phase": "cancelled",
+      "reason": "CANCELLED",
+      "executionId": "9efdb1a4-574b-4f3e-86d3-6ab1a0c5ad91",
+      "handle": "1c894a54-e1f3-4fc9-8147-b2cfab2c6cd3",
+      "resultSha256": "771b6034064aeb7bef6a45764ce9da956ab4abfbef7759172110965a0b824af4"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 12,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 17,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 4,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 2,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 729,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 724,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1337,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "handle": "73f842ff-59e9-4a14-9e43-e5fce928b927",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 816,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 6,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 766,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "handle": "73f842ff-59e9-4a14-9e43-e5fce928b927",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 746,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "handle": "73f842ff-59e9-4a14-9e43-e5fce928b927",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 775,
+      "port": 9341,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "handle": "73f842ff-59e9-4a14-9e43-e5fce928b927",
+      "resultSha256": "3420c5ae7bd272d7a0fd043a202aebe81f3134e298163152dcf72ef4da55bbb4"
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 1447,
+      "port": 9341,
+      "phase": "document-finalized",
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "documentSha256": "1231de908f1fa4df1a04abb762b54c3507b2a97f54a0ae8c6c1d1f6c8c008455",
+      "stored": false
+    },
+    {
+      "command": "storage_insert_automatic",
+      "elapsedMs": 1284,
+      "port": 9341,
+      "status": "COMMITTED",
+      "reason": null,
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "stored": true
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 191,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 355,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_cancel",
+      "elapsedMs": 14,
+      "port": 9341,
+      "phase": "stored",
+      "reason": "ALREADY_COMMITTED",
+      "executionId": "3d32c077-4af8-4edd-b443-b10f13ca965b",
+      "handle": "73f842ff-59e9-4a14-9e43-e5fce928b927",
+      "resultSha256": "3420c5ae7bd272d7a0fd043a202aebe81f3134e298163152dcf72ef4da55bbb4"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 14,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 12,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 7,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 6,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 5,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 862,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 6,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 763,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1455,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "handle": "fb67a3ac-c9a3-49f6-997a-e8512eec4682",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 802,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 880,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "handle": "fb67a3ac-c9a3-49f6-997a-e8512eec4682",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 784,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "handle": "fb67a3ac-c9a3-49f6-997a-e8512eec4682",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 792,
+      "port": 9341,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "handle": "fb67a3ac-c9a3-49f6-997a-e8512eec4682",
+      "resultSha256": "b95b4b4357f773177a015d96a6a283363ec7a94cd2ac4f86060c749ce884528a"
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 1143,
+      "port": 9341,
+      "phase": "document-finalized",
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "documentSha256": "ac77b5dfe2eee40e240bd8035d17ab846db0764814128f994a4038e51c999ada",
+      "stored": false
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 11,
+      "port": 9341
+    },
+    {
+      "command": "storage_insert",
+      "elapsedMs": 1285,
+      "port": 9341,
+      "status": "COMMITTED",
+      "reason": null,
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "stored": true
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 407,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 571,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 1156,
+      "port": 9341
+    },
+    {
+      "command": "save_pdf_report",
+      "elapsedMs": 2211,
+      "port": 9341,
+      "status": "saved"
+    },
+    {
+      "command": "fiscal_execution_cancel",
+      "elapsedMs": 14,
+      "port": 9341,
+      "phase": "stored",
+      "reason": "ALREADY_COMMITTED",
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "handle": "fb67a3ac-c9a3-49f6-997a-e8512eec4682",
+      "resultSha256": "b95b4b4357f773177a015d96a6a283363ec7a94cd2ac4f86060c749ce884528a"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 13,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 15,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 2,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 3,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 933,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 4,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 715,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1292,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "handle": "66ef0fc3-7353-4bc0-912e-e9b4a1464f25",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 751,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 2,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 759,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "handle": "66ef0fc3-7353-4bc0-912e-e9b4a1464f25",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 875,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "handle": "66ef0fc3-7353-4bc0-912e-e9b4a1464f25",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 869,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "handle": "66ef0fc3-7353-4bc0-912e-e9b4a1464f25",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 819,
+      "port": 9341,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "handle": "66ef0fc3-7353-4bc0-912e-e9b4a1464f25",
+      "resultSha256": "38dfd2e61bfd9cf19a4ee3a81c66a82b4f0ff0e597589c760fa5884e57e54f32"
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 1234,
+      "port": 9341,
+      "phase": "document-finalized",
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "documentSha256": "50a9a43bd75a2cf002fd310d97b62cf04005fb967c1b7a584becd6a453949a22",
+      "stored": false
+    },
+    {
+      "command": "storage_insert_automatic",
+      "elapsedMs": 1471,
+      "port": 9341,
+      "status": "COMMITTED",
+      "reason": null,
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "stored": true
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 630,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 840,
+      "port": 9341
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 715,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 1000,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 241,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 346,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 344,
+      "port": 9341
+    },
+    {
+      "command": "save_pdf_report",
+      "elapsedMs": 2172,
+      "port": 9341,
+      "status": "saved"
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 337,
+      "port": 9341
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 173,
+      "port": 9341
+    },
+    {
+      "command": "save_pdf_report",
+      "elapsedMs": 1759,
+      "port": 9341,
+      "status": "saved"
+    },
+    {
+      "command": "fiscal_execution_cancel",
+      "elapsedMs": 15,
+      "port": 9341,
+      "phase": "stored",
+      "reason": "ALREADY_COMMITTED",
+      "executionId": "ebfa6d3b-7aa3-4c19-8c7b-7beaad7ed482",
+      "handle": "66ef0fc3-7353-4bc0-912e-e9b4a1464f25",
+      "resultSha256": "38dfd2e61bfd9cf19a4ee3a81c66a82b4f0ff0e597589c760fa5884e57e54f32"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 14,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 8,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 5,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 2,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 899,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 741,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1432,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "8c55495b-87d0-46ad-bf76-3894cba2902d",
+      "handle": "ff3ea952-9c2d-4a8d-af0f-5021b50d3b7c",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 738,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 749,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "8c55495b-87d0-46ad-bf76-3894cba2902d",
+      "handle": "ff3ea952-9c2d-4a8d-af0f-5021b50d3b7c",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 786,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "8c55495b-87d0-46ad-bf76-3894cba2902d",
+      "handle": "ff3ea952-9c2d-4a8d-af0f-5021b50d3b7c",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 785,
+      "port": 9341,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "8c55495b-87d0-46ad-bf76-3894cba2902d",
+      "handle": "ff3ea952-9c2d-4a8d-af0f-5021b50d3b7c",
+      "resultSha256": "84faeed568e711aed17502ac0bbf82435e56ca4df48ae36fb7e44e5610dae84e"
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 565,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 901,
+      "port": 9341,
+      "phase": "document-finalized",
+      "executionId": "8c55495b-87d0-46ad-bf76-3894cba2902d",
+      "documentSha256": "912b200bac79a33b48ce5a8e874f820f9af1d76a49d5a225e2adbaaeb8634295",
+      "stored": false
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 11,
+      "port": 9341
+    },
+    {
+      "command": "storage_insert",
+      "elapsedMs": 11,
+      "port": 9341,
+      "code": "DOCUMENT_MANUAL_FLOW_REQUIRED"
+    },
+    {
+      "command": "storage_insert_automatic",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "DOCUMENT_MANUAL_FLOW_REQUIRED"
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 9,
+      "port": 9341
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 551,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_cancel",
+      "elapsedMs": 10,
+      "port": 9341,
+      "phase": "cancelled",
+      "reason": "CANCELLED",
+      "executionId": "8c55495b-87d0-46ad-bf76-3894cba2902d",
+      "handle": "ff3ea952-9c2d-4a8d-af0f-5021b50d3b7c",
+      "resultSha256": "84faeed568e711aed17502ac0bbf82435e56ca4df48ae36fb7e44e5610dae84e"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 11,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 7,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 7,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 6,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 847,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 725,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1391,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "handle": "17cd94bc-f6e4-449e-b2c8-7ad4c1beeea0",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 830,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 3,
+      "port": 9341,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 860,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "handle": "17cd94bc-f6e4-449e-b2c8-7ad4c1beeea0",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 1063,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "handle": "17cd94bc-f6e4-449e-b2c8-7ad4c1beeea0",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 1058,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "handle": "17cd94bc-f6e4-449e-b2c8-7ad4c1beeea0",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 941,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "handle": "17cd94bc-f6e4-449e-b2c8-7ad4c1beeea0",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 872,
+      "port": 9341,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "handle": "17cd94bc-f6e4-449e-b2c8-7ad4c1beeea0",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 868,
+      "port": 9341,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "handle": "17cd94bc-f6e4-449e-b2c8-7ad4c1beeea0",
+      "resultSha256": "6b8b6b5cb8437c24a68190ab2b87d1f765c26f6b69f8cd20edcb7e7f2c4c3ad9"
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 542,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 1402,
+      "port": 9341,
+      "phase": "document-finalized",
+      "executionId": "71641a1f-f284-4665-808f-1b3c081f8ff2",
+      "documentSha256": "cb8cbe4ef75e7c503c2bb8caf319c2dbbf1cb91e33a4e03a17039e8d621664b4",
+      "stored": false
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 15,
+      "port": 9341
+    },
+    {
+      "command": "storage_insert",
+      "elapsedMs": 25,
+      "port": 9341,
+      "code": "DOCUMENT_MANUAL_FLOW_REQUIRED"
+    },
+    {
+      "command": "storage_insert_automatic",
+      "elapsedMs": 18,
+      "port": 9341,
+      "code": "DOCUMENT_MANUAL_FLOW_REQUIRED"
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 12,
+      "port": 9341
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 710,
+      "port": 9341
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 13,
+      "port": 9342
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 35,
+      "port": 9342
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 41,
+      "port": 9342
+    },
+    {
+      "command": "set_app_theme",
+      "elapsedMs": 9,
+      "port": 9342
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 11,
+      "port": 9342
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 986,
+      "port": 9342
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 9,
+      "port": 9342
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 661,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 445,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 219,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 296,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 267,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 360,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 233,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 288,
+      "port": 9342
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 240,
+      "port": 9342
+    },
+    {
+      "command": "save_pdf_report",
+      "elapsedMs": 1924,
+      "port": 9342,
+      "status": "saved"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 15,
+      "port": 9343
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 13,
+      "port": 9343,
+      "code": "REPOSITORY_MISSING"
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 26,
+      "port": 9343
+    },
+    {
+      "command": "set_app_theme",
+      "elapsedMs": 9,
+      "port": 9343
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 35,
+      "port": 9343
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 18,
+      "port": 9343
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9343
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 631,
+      "port": 9343
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 284,
+      "port": 9343
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 205,
+      "port": 9343
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 270,
+      "port": 9343
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 230,
+      "port": 9343
+    },
+    {
+      "command": "save_pdf_report",
+      "elapsedMs": 2259,
+      "port": 9343,
+      "status": "saved"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 12,
+      "port": 9344
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 22,
+      "port": 9344
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 27,
+      "port": 9344
+    },
+    {
+      "command": "set_app_theme",
+      "elapsedMs": 7,
+      "port": 9344
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 12,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 889,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 4,
+      "port": 9344
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 10,
+      "port": 9344
+    },
+    {
+      "command": "storage_insert",
+      "elapsedMs": 11,
+      "port": 9344,
+      "code": "V3_WRITE_CLOSED"
+    },
+    {
+      "command": "storage_insert_automatic",
+      "elapsedMs": 11,
+      "port": 9344,
+      "code": "V3_WRITE_CLOSED"
+    },
+    {
+      "command": "storage_insert",
+      "elapsedMs": 4,
+      "port": 9344,
+      "code": "SESSION_UNKNOWN"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 13,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 15,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 3,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 2,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 715,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 7,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 5,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 881,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 3,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 687,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1459,
+      "port": 9344,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "handle": "b8d793ab-4d12-4e37-98af-135c97e817cb",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 768,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 5,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 746,
+      "port": 9344,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "handle": "b8d793ab-4d12-4e37-98af-135c97e817cb",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 750,
+      "port": 9344,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "handle": "b8d793ab-4d12-4e37-98af-135c97e817cb",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 728,
+      "port": 9344,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "handle": "b8d793ab-4d12-4e37-98af-135c97e817cb",
+      "resultSha256": "7d1bb76cb262622568017aca19dbc07d30c9d87d0733788e8caf695672afc9e4"
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 1028,
+      "port": 9344,
+      "phase": "document-finalized",
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "documentSha256": "9a1b2c2ec94c6ee19331a2ac1720e49a6f40f6282a656522bc97828810812966",
+      "stored": false
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 798,
+      "port": 9344,
+      "phase": "document-finalized",
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "documentSha256": "9a1b2c2ec94c6ee19331a2ac1720e49a6f40f6282a656522bc97828810812966",
+      "stored": false
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 620,
+      "port": 9344
+    },
+    {
+      "command": "storage_set_preferences",
+      "elapsedMs": 576,
+      "port": 9344
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 7,
+      "port": 9344
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 726,
+      "port": 9344
+    },
+    {
+      "command": "storage_insert",
+      "elapsedMs": 1100,
+      "port": 9344,
+      "code": "STALE_GENERATION"
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 10,
+      "port": 9344
+    },
+    {
+      "command": "storage_set_preferences",
+      "elapsedMs": 11,
+      "port": 9344
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 7,
+      "port": 9344
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 666,
+      "port": 9344
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 841,
+      "port": 9344
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 216,
+      "port": 9344
+    },
+    {
+      "command": "storage_delete",
+      "elapsedMs": 4,
+      "port": 9344
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 409,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_execution_reconcile",
+      "elapsedMs": 409,
+      "port": 9344,
+      "status": "NOT_STORED_OBSERVED",
+      "reason": null,
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "stored": false
+    },
+    {
+      "command": "storage_get",
+      "elapsedMs": 408,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_execution_reconcile",
+      "elapsedMs": 8,
+      "port": 9344,
+      "status": "NOT_STORED_OBSERVED",
+      "reason": "DELETED_EXECUTION",
+      "executionId": "7c9a85c9-3507-4f4d-b0bd-15803efc23c1",
+      "stored": false
+    },
+    {
+      "command": "fiscal_execution_cancel",
+      "elapsedMs": 7,
+      "port": 9344,
+      "phase": "cancelled",
+      "reason": "CANCELLED",
+      "executionId": "e77c69a7-f90b-4df1-a4b8-be79e6ecc738",
+      "handle": "b8d793ab-4d12-4e37-98af-135c97e817cb",
+      "resultSha256": "7d1bb76cb262622568017aca19dbc07d30c9d87d0733788e8caf695672afc9e4"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 8,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 12,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 5,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 4,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 2,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 883,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 3,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 721,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_execution_prepare",
+      "elapsedMs": 1374,
+      "port": 9344,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "handle": "5b69320e-aba4-42f9-9490-086028471371",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_material",
+      "elapsedMs": 808,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 4,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 3,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 763,
+      "port": 9344,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "handle": "5b69320e-aba4-42f9-9490-086028471371",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 770,
+      "port": 9344,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "handle": "5b69320e-aba4-42f9-9490-086028471371",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_status",
+      "elapsedMs": 763,
+      "port": 9344,
+      "phase": "ready",
+      "reason": null,
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "handle": "5b69320e-aba4-42f9-9490-086028471371",
+      "resultSha256": null
+    },
+    {
+      "command": "fiscal_execution_complete",
+      "elapsedMs": 758,
+      "port": 9344,
+      "phase": "complete",
+      "reason": null,
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "handle": "5b69320e-aba4-42f9-9490-086028471371",
+      "resultSha256": "484d423b42bd510a311d6773e0905a6cd379f089a570ba2d05c60f4341a4e600"
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 1094,
+      "port": 9344,
+      "phase": "document-finalized",
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "documentSha256": "8f2bf13cf1ca4a5c194a3c7a0eb2e04d16f9076630ff046a03991c0066104f8c",
+      "stored": false
+    },
+    {
+      "command": "fiscal_execution_finalize",
+      "elapsedMs": 735,
+      "port": 9344,
+      "phase": "document-finalized",
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "documentSha256": "8f2bf13cf1ca4a5c194a3c7a0eb2e04d16f9076630ff046a03991c0066104f8c",
+      "stored": false
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 432,
+      "port": 9344
+    },
+    {
+      "command": "storage_clear",
+      "elapsedMs": 335,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_execution_reconcile",
+      "elapsedMs": 10,
+      "port": 9344,
+      "status": "NOT_STORED_OBSERVED",
+      "reason": null,
+      "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+      "stored": false
+    },
+    {
+      "command": "storage_insert",
+      "elapsedMs": 872,
+      "port": 9344,
+      "code": "STALE_GENERATION"
+    },
+    {
+      "command": "storage_list",
+      "elapsedMs": 9,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 19,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 3,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 7,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 8,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 5,
+      "port": 9344,
+      "code": "BUSY"
+    },
+    {
+      "command": "fiscal_packages_list",
+      "elapsedMs": 971,
+      "port": 9344
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 20,
+      "port": 9345
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 37,
+      "port": 9345
+    },
+    {
+      "command": "set_app_theme",
+      "elapsedMs": 7,
+      "port": 9345
+    },
+    {
+      "command": "storage_get_preferences",
+      "elapsedMs": 44,
+      "port": 9345
+    },
+    {
+      "command": "storage_begin_write",
+      "elapsedMs": 13,
+      "port": 9345
+    },
+    {
+      "command": "fiscal_selection_get",
+      "elapsedMs": 986,
+      "port": 9345
+    },
+    {
+      "command": "fiscal_import_info",
+      "elapsedMs": 5,
+      "port": 9345
+    },
+    {
+      "command": "fiscal_selection_deactivate",
+      "elapsedMs": 9,
+      "port": 9344,
+      "code": "BUSY"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "failures": [
+    "AssertionError [ERR_ASSERTION]: fiscal_selection_deactivate: BUSY\n    at native (file:///<repo>/docs/evidence/snapshot-v3-compat/cd6/windows-qa.mjs:15:85)\n    at async file:///<repo>/docs/evidence/snapshot-v3-compat/cd6/windows-qa.mjs:127:151\n    at async check (file:///<repo>/docs/evidence/snapshot-v3-compat/cd6/windows-qa.mjs:18:73)\n    at async file:///<repo>/docs/evidence/snapshot-v3-compat/cd6/windows-qa.mjs:127:2"
+  ],
+  "limitations": [
+    "Higher DPI scales are CDP renderer emulations in real WebView2, not physical Windows monitor DPI changes. Only native reported monitor DPI was available."
+  ],
+  "sessions": [
+    {
+      "pid": 34780,
+      "port": 9341,
+      "url": "http://tauri.localhost/",
+      "offline": true,
+      "qa": true,
+      "startedUtc": "2026-11-03T18:29:29.469Z"
+    },
+    {
+      "pid": 30808,
+      "port": 9342,
+      "url": "http://tauri.localhost/",
+      "offline": true,
+      "qa": true,
+      "startedUtc": "2026-11-03T18:31:11.389Z"
+    },
+    {
+      "pid": 33024,
+      "port": 9343,
+      "url": "http://tauri.localhost/",
+      "offline": true,
+      "qa": true,
+      "startedUtc": "2026-11-03T18:31:21.805Z"
+    },
+    {
+      "pid": 13760,
+      "port": 9344,
+      "url": "http://tauri.localhost/",
+      "offline": true,
+      "qa": true,
+      "startedUtc": "2026-11-03T18:31:31.796Z"
+    },
+    {
+      "pid": 15844,
+      "port": 9345,
+      "url": "http://tauri.localhost/",
+      "offline": true,
+      "qa": true,
+      "startedUtc": "2026-11-03T18:31:57.115Z"
+    }
+  ],
+  "dpi": [
+    {
+      "name": "native-1180",
+      "native": {
+        "handle": 5047180,
+        "session": 9,
+        "clientPhysical": [
+          1475,
+          950
+        ],
+        "monitor": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1080
+        },
+        "outer": {
+          "Left": 213,
+          "Top": 11,
+          "Right": 1706,
+          "Bottom": 1008
+        },
+        "pingAtUtc": "2026-11-03T18:30:59.4701226+00:00",
+        "nativePingMs": 6.1179,
+        "visible": true,
+        "executable": "artifacts/calculadora-nomina.exe",
+        "pid": 34780,
+        "responding": true,
+        "dpi": 120,
+        "maximized": false,
+        "work": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1020
+        },
+        "scale": 1.25,
+        "hung": false,
+        "screenshot": "",
+        "minimumClientLogical": [
+          900,
+          600
+        ],
+        "title": "Calculadora de Nómina — QA de importación fiscal",
+        "clientLogical": [
+          1180,
+          760
+        ],
+        "webviewProcesses": []
+      },
+      "dom": {
+        "width": 1180,
+        "height": 760,
+        "dpr": 1.25,
+        "scrollWidth": 1180,
+        "clientWidth": 1180,
+        "clipped": [],
+        "heartbeatMax": 288.0999999642372
+      },
+      "kind": "Actual Windows window, native DPI observed"
+    },
+    {
+      "name": "native-900",
+      "native": {
+        "title": "Calculadora de Nómina — QA de importación fiscal",
+        "responding": true,
+        "pingAtUtc": "2026-11-03T18:31:02.6082395+00:00",
+        "monitor": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1080
+        },
+        "executable": "artifacts/calculadora-nomina.exe",
+        "dpi": 120,
+        "webviewProcesses": [],
+        "outer": {
+          "Left": 213,
+          "Top": 11,
+          "Right": 1356,
+          "Bottom": 808
+        },
+        "screenshot": "",
+        "work": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1020
+        },
+        "maximized": false,
+        "nativePingMs": 5.7875,
+        "pid": 34780,
+        "hung": false,
+        "clientLogical": [
+          900,
+          600
+        ],
+        "minimumClientLogical": [
+          900,
+          600
+        ],
+        "clientPhysical": [
+          1125,
+          750
+        ],
+        "session": 9,
+        "handle": 5047180,
+        "visible": true,
+        "scale": 1.25
+      },
+      "dom": {
+        "width": 900,
+        "height": 600,
+        "dpr": 1.25,
+        "scrollWidth": 885,
+        "clientWidth": 885,
+        "clipped": [],
+        "heartbeatMax": 269.80000001192093
+      },
+      "kind": "Actual Windows window, native DPI observed"
+    },
+    {
+      "name": "emulated-dpr-1",
+      "native": {
+        "nativePingMs": 6.1062,
+        "dpi": 120,
+        "executable": "artifacts/calculadora-nomina.exe",
+        "responding": true,
+        "pingAtUtc": "2026-11-03T18:31:04.0470390+00:00",
+        "screenshot": "",
+        "work": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1020
+        },
+        "hung": false,
+        "session": 9,
+        "maximized": false,
+        "pid": 34780,
+        "clientPhysical": [
+          1125,
+          750
+        ],
+        "clientLogical": [
+          900,
+          600
+        ],
+        "title": "Calculadora de Nómina — QA de importación fiscal",
+        "scale": 1.25,
+        "handle": 5047180,
+        "webviewProcesses": [],
+        "minimumClientLogical": [
+          900,
+          600
+        ],
+        "outer": {
+          "Left": 213,
+          "Top": 11,
+          "Right": 1356,
+          "Bottom": 808
+        },
+        "visible": true,
+        "monitor": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1080
+        }
+      },
+      "dom": {
+        "width": 900,
+        "height": 600,
+        "dpr": 1.0000000149011612,
+        "scrollWidth": 900,
+        "clientWidth": 900,
+        "clipped": [],
+        "heartbeatMax": 269.80000001192093
+      },
+      "kind": "Actual WebView2 with CDP DPR emulation; OS monitor DPI unchanged"
+    },
+    {
+      "name": "emulated-dpr-1.25",
+      "native": {
+        "pid": 34780,
+        "visible": true,
+        "clientPhysical": [
+          1125,
+          750
+        ],
+        "pingAtUtc": "2026-11-03T18:31:05.3588625+00:00",
+        "session": 9,
+        "webviewProcesses": [],
+        "responding": true,
+        "executable": "artifacts/calculadora-nomina.exe",
+        "nativePingMs": 5.0652,
+        "maximized": false,
+        "dpi": 120,
+        "hung": false,
+        "outer": {
+          "Left": 213,
+          "Top": 11,
+          "Right": 1356,
+          "Bottom": 808
+        },
+        "clientLogical": [
+          900,
+          600
+        ],
+        "title": "Calculadora de Nómina — QA de importación fiscal",
+        "screenshot": "",
+        "monitor": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1080
+        },
+        "minimumClientLogical": [
+          900,
+          600
+        ],
+        "work": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1020
+        },
+        "handle": 5047180,
+        "scale": 1.25
+      },
+      "dom": {
+        "width": 900,
+        "height": 600,
+        "dpr": 1.25,
+        "scrollWidth": 900,
+        "clientWidth": 900,
+        "clipped": [],
+        "heartbeatMax": 269.80000001192093
+      },
+      "kind": "Actual WebView2 with CDP DPR emulation; OS monitor DPI unchanged"
+    },
+    {
+      "name": "emulated-dpr-1.5",
+      "native": {
+        "pingAtUtc": "2026-11-03T18:31:06.8757463+00:00",
+        "scale": 1.25,
+        "title": "Calculadora de Nómina — QA de importación fiscal",
+        "dpi": 120,
+        "clientPhysical": [
+          1125,
+          750
+        ],
+        "visible": true,
+        "responding": true,
+        "clientLogical": [
+          900,
+          600
+        ],
+        "session": 9,
+        "work": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1020
+        },
+        "maximized": false,
+        "hung": false,
+        "executable": "artifacts/calculadora-nomina.exe",
+        "webviewProcesses": [],
+        "outer": {
+          "Left": 213,
+          "Top": 11,
+          "Right": 1356,
+          "Bottom": 808
+        },
+        "minimumClientLogical": [
+          900,
+          600
+        ],
+        "handle": 5047180,
+        "monitor": {
+          "Left": 0,
+          "Top": 0,
+          "Right": 1920,
+          "Bottom": 1080
+        },
+        "screenshot": "",
+        "nativePingMs": 6.3167,
+        "pid": 34780
+      },
+      "dom": {
+        "width": 900,
+        "height": 600,
+        "dpr": 1.5000000596046448,
+        "scrollWidth": 900,
+        "clientWidth": 900,
+        "clipped": [],
+        "heartbeatMax": 269.80000001192093
+      },
+      "kind": "Actual WebView2 with CDP DPR emulation; OS monitor DPI unchanged"
+    }
+  ],
+  "failureDiagnostic": {
+    "text": "Calculadora\nde Nómina\nCalcular\nHistorial\nParámetros\nAyuda\nTema claro\nTema claro activo.\nv0.1.0 · Simulación 2026\nCalculadora de Nómina\n\nSimula tu sueldo bruto o neto con base en las disposiciones fiscales vigentes.\n\nSimulación fiscal\nMéxico 2026 · Estimada\nParámetros\n\nEjercicio 2026 · Catálogo integrado · Consulta de solo lectura\n\n2026\n\nCatálogo independiente del cálculo: paquete mx-fiscal-2026-source-v3, cobertura 01/01/2026 a 31/12/2026.\n\nFecha fiscal de tu captura: 01/02/2026. Paquete de la simulación: mx-fiscal-2026-source-v3 · mx-fiscal-2026-source-v3. Consultar esta sección no cambia esos datos ni recalcula.\n\nTarifas ISR\nUMA\nSalarios mínimos\nSubsidio al empleo\nCuotas IMSS\nPrestaciones\nCriterios del simulador\nTarifas ISR\nDatos normativos del repositorio\n\nTarifas completas del Anexo 8 de la RMF 2026. Importes en MXN; porcentaje sobre el excedente del límite inferior.\n\nSemanal\nQuincenal\nMensual\n\nAplicación en el paquete: 01/01/2026 a 31/12/2026.\n\nISR 2026 · Mensual · 11 tramos · MXN\nLímite inferior\tLímite superior\tCuota fija\tPorcentaje sobre excedente\n$ 0.01\t$ 844.59\t$ 0.00\t1.92%\n$ 844.60\t$ 7,168.51\t$ 16.22\t6.40%\n$ 7,168.52\t$ 12,598.02\t$ 420.95\t10.88%\n$ 12,598.03\t$ 14,644.64\t$ 1,011.68\t16.00%\n$ 14,644.65\t$ 17,533.64\t$ 1,339.14\t17.92%\n$ 17,533.65\t$ 35,362.83\t$ 1,856.84\t21.36%\n$ 35,362.84\t$ 55,736.68\t$ 5,665.16\t23.52%\n$ 55,736.69\t$ 106,410.50\t$ 10,457.09\t30.00%\n$ 106,410.51\t$ 141,880.66\t$ 25,659.23\t32.00%\n$ 141,880.67\t$ 425,641.99\t$ 37,009.69\t34.00%\n$ 425,642.00\tEn adelante\t$ 133,488.54\t35.00%\nFuentes oficiales y verificación (2)\n\nLas vigencias de aplicación se muestran dentro de la cobertura del paquete 2026; su fecha final de cobertura no afirma la derogación de una disposición oficial. Consulta local disponible sin internet; los documentos externos solo se abren al elegir su enlace.\n\nGestión de paquetes fiscales\n\nInstalación local · La selección se confirma por separado\n\nEntorno QA\n\nInstalar conserva evidencia y parámetros; no selecciona otro paquete ni cambia tus cálculos. El catálogo integrado2026 permanece igual.\n\nNOMINA_FISCAL_IMPORT_QA_ONLY_5D3B2 · QA: paquetes de ensayo, no publicación fiscal oficial. Instalar no activa ni autoriza cálculos.\n\nImportar paquete fiscal\nConsultar instalaciones\n Gestionar confianza\nFuente fiscal y activación\n\nInstalación, admisión y selección son operaciones distintas.\n\nQA sintético\nFuente seleccionada: Pendiente de consulta nativa\nActualizar elegibilidad\nVolver al integrado\n\nConsultando o confirmando con el servicio nativo…\n\nmx-fiscal-2026-source-v3\n\nmx-fiscal-2026-source-v3 · Ejercicio 2026 · 2026-01-01 — 2026-12-31\n\nPerfil implementado: mx-standard-2026-contextual-v2 · Periodos: semanal, quincenal y mensual.\n\nInstalado · Admisión pendiente de consulta · No seleccionado\n\nElegibilidad actual: Sin consultar · Directo: no habilitado · Inverso: no habilitado\n\nCanal qa · Parámetros sintéticos QA, no valores oficiales de México.\n\nRevisar admisión\nSolicitar activación\nConsultar una operación después de recargar\n\nLa reversión excepcional permanece bloqueada y requiere revisión independiente.",
+    "audit": [
+      {
+        "command": "fiscal_execution_status",
+        "elapsedMs": 4,
+        "port": 9344,
+        "code": "BUSY"
+      },
+      {
+        "command": "fiscal_execution_status",
+        "elapsedMs": 3,
+        "port": 9344,
+        "code": "BUSY"
+      },
+      {
+        "command": "fiscal_execution_status",
+        "elapsedMs": 763,
+        "port": 9344,
+        "phase": "ready",
+        "reason": null,
+        "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+        "handle": "5b69320e-aba4-42f9-9490-086028471371",
+        "resultSha256": null
+      },
+      {
+        "command": "fiscal_execution_status",
+        "elapsedMs": 770,
+        "port": 9344,
+        "phase": "ready",
+        "reason": null,
+        "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+        "handle": "5b69320e-aba4-42f9-9490-086028471371",
+        "resultSha256": null
+      },
+      {
+        "command": "fiscal_execution_status",
+        "elapsedMs": 763,
+        "port": 9344,
+        "phase": "ready",
+        "reason": null,
+        "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+        "handle": "5b69320e-aba4-42f9-9490-086028471371",
+        "resultSha256": null
+      },
+      {
+        "command": "fiscal_execution_complete",
+        "elapsedMs": 758,
+        "port": 9344,
+        "phase": "complete",
+        "reason": null,
+        "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+        "handle": "5b69320e-aba4-42f9-9490-086028471371",
+        "resultSha256": "484d423b42bd510a311d6773e0905a6cd379f089a570ba2d05c60f4341a4e600"
+      },
+      {
+        "command": "fiscal_execution_finalize",
+        "elapsedMs": 1094,
+        "port": 9344,
+        "phase": "document-finalized",
+        "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+        "documentSha256": "8f2bf13cf1ca4a5c194a3c7a0eb2e04d16f9076630ff046a03991c0066104f8c",
+        "stored": false
+      },
+      {
+        "command": "fiscal_execution_finalize",
+        "elapsedMs": 735,
+        "port": 9344,
+        "phase": "document-finalized",
+        "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+        "documentSha256": "8f2bf13cf1ca4a5c194a3c7a0eb2e04d16f9076630ff046a03991c0066104f8c",
+        "stored": false
+      },
+      {
+        "command": "storage_list",
+        "elapsedMs": 432,
+        "port": 9344
+      },
+      {
+        "command": "storage_clear",
+        "elapsedMs": 335,
+        "port": 9344
+      },
+      {
+        "command": "fiscal_execution_reconcile",
+        "elapsedMs": 10,
+        "port": 9344,
+        "status": "NOT_STORED_OBSERVED",
+        "reason": null,
+        "executionId": "1b4c096e-08a5-40cb-abbd-b65eee4dd310",
+        "stored": false
+      },
+      {
+        "command": "storage_insert",
+        "elapsedMs": 872,
+        "port": 9344,
+        "code": "STALE_GENERATION"
+      },
+      {
+        "command": "storage_list",
+        "elapsedMs": 9,
+        "port": 9344
+      },
+      {
+        "command": "fiscal_import_info",
+        "elapsedMs": 19,
+        "port": 9344
+      },
+      {
+        "command": "fiscal_selection_get",
+        "elapsedMs": 3,
+        "port": 9344,
+        "code": "BUSY"
+      },
+      {
+        "command": "fiscal_selection_get",
+        "elapsedMs": 7,
+        "port": 9344,
+        "code": "BUSY"
+      },
+      {
+        "command": "fiscal_selection_get",
+        "elapsedMs": 8,
+        "port": 9344,
+        "code": "BUSY"
+      },
+      {
+        "command": "fiscal_selection_get",
+        "elapsedMs": 5,
+        "port": 9344,
+        "code": "BUSY"
+      },
+      {
+        "command": "fiscal_packages_list",
+        "elapsedMs": 971,
+        "port": 9344
+      },
+      {
+        "command": "fiscal_selection_deactivate",
+        "elapsedMs": 9,
+        "port": 9344,
+        "code": "BUSY"
+      }
+    ]
+  },
+  "finishedUtc": "2026-11-03T18:31:58.243Z"
+}

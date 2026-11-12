@@ -1,0 +1,12 @@
+[package]
+name = "nomina-fiscal-verify-editorial"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+publish = false
+
+[dependencies]
+nomina-fiscal-package = { path = "../../../crates/nomina-fiscal-package" }
+serde_json = "=1.0.154"
+serde = { version = "=1.0.229", features = ["derive"] }
+base64 = "=0.22.1"

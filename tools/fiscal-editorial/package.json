@@ -1,0 +1,9 @@
+{
+  "name": "nomina-fiscal-editorial-qa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": { "test": "node run-tests.mjs", "test:production": "node --test --test-concurrency=1 tests/production.cases.mjs" },
+  "dependencies": { "canonicalize": "5.1.0" }
+}

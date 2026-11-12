@@ -1,0 +1,41 @@
+{
+  "weekly": [
+    { "lower": "0.01", "upper": "194.46", "fixedFee": "0.00", "ratePercent": "1.92" },
+    { "lower": "194.47", "upper": "1650.67", "fixedFee": "3.71", "ratePercent": "6.40" },
+    { "lower": "1650.68", "upper": "2900.87", "fixedFee": "96.95", "ratePercent": "10.88" },
+    { "lower": "2900.88", "upper": "3372.11", "fixedFee": "232.96", "ratePercent": "16.00" },
+    { "lower": "3372.12", "upper": "4037.32", "fixedFee": "308.35", "ratePercent": "17.92" },
+    { "lower": "4037.33", "upper": "8142.75", "fixedFee": "427.56", "ratePercent": "21.36" },
+    { "lower": "8142.76", "upper": "12834.08", "fixedFee": "1304.45", "ratePercent": "23.52" },
+    { "lower": "12834.09", "upper": "24502.45", "fixedFee": "2407.86", "ratePercent": "30.00" },
+    { "lower": "24502.46", "upper": "32669.91", "fixedFee": "5908.35", "ratePercent": "32.00" },
+    { "lower": "32669.92", "upper": "98009.66", "fixedFee": "8521.94", "ratePercent": "34.00" },
+    { "lower": "98009.67", "upper": null, "fixedFee": "30737.49", "ratePercent": "35.00" }
+  ],
+  "fortnightly": [
+    { "lower": "0.01", "upper": "416.70", "fixedFee": "0.00", "ratePercent": "1.92" },
+    { "lower": "416.71", "upper": "3537.15", "fixedFee": "7.95", "ratePercent": "6.40" },
+    { "lower": "3537.16", "upper": "6216.15", "fixedFee": "207.75", "ratePercent": "10.88" },
+    { "lower": "6216.16", "upper": "7225.95", "fixedFee": "499.20", "ratePercent": "16.00" },
+    { "lower": "7225.96", "upper": "8651.40", "fixedFee": "660.75", "ratePercent": "17.92" },
+    { "lower": "8651.41", "upper": "17448.75", "fixedFee": "916.20", "ratePercent": "21.36" },
+    { "lower": "17448.76", "upper": "27501.60", "fixedFee": "2795.25", "ratePercent": "23.52" },
+    { "lower": "27501.61", "upper": "52505.25", "fixedFee": "5159.70", "ratePercent": "30.00" },
+    { "lower": "52505.26", "upper": "70006.95", "fixedFee": "12660.75", "ratePercent": "32.00" },
+    { "lower": "70006.96", "upper": "210020.70", "fixedFee": "18261.30", "ratePercent": "34.00" },
+    { "lower": "210020.71", "upper": null, "fixedFee": "65866.05", "ratePercent": "35.00" }
+  ],
+  "monthly": [
+    { "lower": "0.01", "upper": "844.59", "fixedFee": "0.00", "ratePercent": "1.92" },
+    { "lower": "844.60", "upper": "7168.51", "fixedFee": "16.22", "ratePercent": "6.40" },
+    { "lower": "7168.52", "upper": "12598.02", "fixedFee": "420.95", "ratePercent": "10.88" },
+    { "lower": "12598.03", "upper": "14644.64", "fixedFee": "1011.68", "ratePercent": "16.00" },
+    { "lower": "14644.65", "upper": "17533.64", "fixedFee": "1339.14", "ratePercent": "17.92" },
+    { "lower": "17533.65", "upper": "35362.83", "fixedFee": "1856.84", "ratePercent": "21.36" },
+    { "lower": "35362.84", "upper": "55736.68", "fixedFee": "5665.16", "ratePercent": "23.52" },
+    { "lower": "55736.69", "upper": "106410.50", "fixedFee": "10457.09", "ratePercent": "30.00" },
+    { "lower": "106410.51", "upper": "141880.66", "fixedFee": "25659.23", "ratePercent": "32.00" },
+    { "lower": "141880.67", "upper": "425641.99", "fixedFee": "37009.69", "ratePercent": "34.00" },
+    { "lower": "425642.00", "upper": null, "fixedFee": "133488.54", "ratePercent": "35.00" }
+  ]
+}

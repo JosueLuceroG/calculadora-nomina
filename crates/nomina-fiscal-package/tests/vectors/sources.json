@@ -1,0 +1,81 @@
+{
+  "wycheproofCommit": "d17cc89fa5c8f4f4d378b5385ebf75da5d0926c9",
+  "jcsCommit": "32a48195b9b20fe67b1795e39e4509f14d860b45",
+  "licenses": {
+    "wycheproof": "Apache-2.0",
+    "jcs": "Apache-2.0"
+  },
+  "selection": "public verification inputs; no private material",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/C2SP/wycheproof/d17cc89fa5c8f4f4d378b5385ebf75da5d0926c9/testvectors_v1/ed25519_test.json",
+      "sha256": "ea80ffebac085e21cb9d3e903e7fa2b448d96702da5b31f061d0b83b430b74b3",
+      "bytes": 172628
+    },
+    {
+      "url": "https://api.github.com/repos/cyberphone/json-canonicalization/contents/testdata/input?ref=32a48195b9b20fe67b1795e39e4509f14d860b45",
+      "sha256": "0516386d616027bfec37e5d79fcdbbcbd5beabc81896515ff8b17931dbd9c056",
+      "bytes": 6729
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/input/arrays.json",
+      "sha256": "e503b6d71d1afa595b1c74b1016445c944cd89f90418066b23de1aeda7d17563",
+      "bytes": 62
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/output/arrays.json",
+      "sha256": "099601b171cafed97c333f8878d68e7f8c8f795412adb34b2fdcf0e7c7beac42",
+      "bytes": 32
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/input/french.json",
+      "sha256": "03676a951cd8753ac62589f72eb2105cc782c33425418cfe1d517c111f6e5d5a",
+      "bytes": 150
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/output/french.json",
+      "sha256": "d99d0ebdcb0033cb858cfa830ae46bc0fb3309413b271f1da828c89901a27ed5",
+      "bytes": 130
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/input/structures.json",
+      "sha256": "d66893805be1784116af50af3110d08766c70a6b4aad93374723f72346e7aaa6",
+      "bytes": 138
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/output/structures.json",
+      "sha256": "605f65004ec2db7692522a0852c22f1c989e036d547e88963d1a3143cf3195d5",
+      "bytes": 98
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/input/unicode.json",
+      "sha256": "4621864e014d4a805a563f55b9ea20aba4a2d2dc09c7394f625496998c00702c",
+      "bytes": 39
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/output/unicode.json",
+      "sha256": "0d99aad92a125196ff887876643fd3206786a84ddce2cee52ba4ad256d2381d3",
+      "bytes": 30
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/input/values.json",
+      "sha256": "c4a041b503d6bc236036ef44db4dac499272f60fc22c40dc3b7a54870ba6f1c3",
+      "bytes": 182
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/output/values.json",
+      "sha256": "2d5e01a318d0f0879ab568c4be289c8b1f64ef8921a53c6277d5e069978baacb",
+      "bytes": 118
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/input/weird.json",
+      "sha256": "a3a905266bd4a49a969274ea69baa14ee0c4af0ead926d6fa2b7612b4af75387",
+      "bytes": 283
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cyberphone/json-canonicalization/32a48195b9b20fe67b1795e39e4509f14d860b45/testdata/output/weird.json",
+      "sha256": "6af595a9aa80110b964b4de3f82a05fa6ae7423005019bacfa2620dddc4e94d1",
+      "bytes": 214
+    }
+  ]
+}

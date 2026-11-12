@@ -1,0 +1,12 @@
+CREATE TABLE schema_migrations_new(version INTEGER PRIMARY KEY CHECK(version IN (1,2)),sha256 TEXT NOT NULL) STRICT;
+INSERT INTO schema_migrations_new SELECT version,sha256 FROM schema_migrations;
+DROP TABLE schema_migrations;
+ALTER TABLE schema_migrations_new RENAME TO schema_migrations;
+CREATE TABLE effective_admissions(id TEXT PRIMARY KEY,version INTEGER NOT NULL CHECK(version=1),installation TEXT NOT NULL REFERENCES installations(id),operation TEXT NOT NULL UNIQUE REFERENCES operations(id),binding BLOB NOT NULL CHECK(length(binding) BETWEEN 1 AND 8192)) STRICT;
+CREATE TABLE fiscal_selections(id TEXT PRIMARY KEY,version INTEGER NOT NULL CHECK(version=1),operation TEXT NOT NULL UNIQUE REFERENCES operations(id),generation INTEGER NOT NULL UNIQUE CHECK(generation BETWEEN 1 AND 9007199254740991),previous_id TEXT REFERENCES fiscal_selections(id),kind TEXT NOT NULL CHECK(kind IN ('external','embedded')),installation TEXT REFERENCES installations(id),admission TEXT REFERENCES effective_admissions(id),CHECK((kind='external' AND installation IS NOT NULL AND admission IS NOT NULL) OR (kind='embedded' AND installation IS NULL AND admission IS NULL))) STRICT;
+CREATE TABLE selection_head(id INTEGER PRIMARY KEY CHECK(id=1),selection TEXT NOT NULL REFERENCES fiscal_selections(id)) STRICT;
+CREATE TRIGGER effective_admission_no_update BEFORE UPDATE ON effective_admissions BEGIN SELECT RAISE(ABORT,'immutable'); END;
+CREATE TRIGGER effective_admission_no_delete BEFORE DELETE ON effective_admissions BEGIN SELECT RAISE(ABORT,'immutable'); END;
+CREATE TRIGGER fiscal_selection_no_update BEFORE UPDATE ON fiscal_selections BEGIN SELECT RAISE(ABORT,'immutable'); END;
+CREATE TRIGGER fiscal_selection_no_delete BEFORE DELETE ON fiscal_selections BEGIN SELECT RAISE(ABORT,'immutable'); END;
+PRAGMA user_version=2;

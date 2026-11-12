@@ -1,0 +1,46 @@
+# Dependencias
+node_modules/
+tools/fiscal-editorial/node_modules/
+
+# Compilación
+dist/
+*.tsbuildinfo
+src-tauri/target/
+src-tauri/gen/
+target/
+crates/**/target/
+tools/**/target/
+
+# Verificación y registros
+.verification/
+*.log
+
+# Artefactos de distribución (solo se publican hashes)
+artifacts/windows/*.exe
+artifacts/windows/*.zip
+artifacts/windows/*.rar
+
+# Archivos comprimidos accidentales del árbol fuente
+*.zip
+*.rar
+*.7z
+
+# Evidencia pesada; se conservan capturas, ejemplo PDF, documentación nueva
+# y los fixtures mínimos declarados en docs/evidence/.gitignore.
+docs/*
+!docs/evidence/
+!docs/screenshots/
+!docs/screenshots/*.png
+!docs/ejemplos/
+!docs/ejemplos/*.pdf
+!docs/ARQUITECTURA.md
+!docs/MOTOR-DE-CALCULO.md
+!docs/PAQUETES-FISCALES.md
+!docs/INSTALADORES.md
+!docs/r2-simple2-protected.json
+
+# Secretos y credenciales
+.env
+.env.*
+*.pem
+*.key

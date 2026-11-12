@@ -1,0 +1,321 @@
+{
+  "kind": "Approved 0.1.1-rc.1 legacy presentation baseline; v2 model/PDF hashes refreshed 2026-11-11 after document model change; v1/v3 model/PDF unchanged",
+  "files": [
+    {
+      "path": "src/features/history/historical-snapshot.ts",
+      "bytes": 1566,
+      "sha256": "b793e80858a97de31ed14d68a40fd7a6d273c24b9c09955147cce9c88edc39fd"
+    },
+    {
+      "path": "src/features/history/historical-results.tsx",
+      "bytes": 2823,
+      "sha256": "7d74b88ed7f695e88180d45008dc8f3ab64aca86e4d4eab9483a96a80d5be980"
+    },
+    {
+      "path": "src/features/history/history-section.tsx",
+      "bytes": 12429,
+      "sha256": "dfd97da211632e08d7394037992907eb09f18abd42a74c4174a8f08a9a0cea16"
+    },
+    {
+      "path": "src/features/storage/storage-api.ts",
+      "bytes": 5257,
+      "sha256": "48724320e961c5d20d7b5fcd041ee637ad2d811561cbc8b767726754cfd86652"
+    },
+    {
+      "path": "src/features/pdf/document-model.ts",
+      "bytes": 8113,
+      "sha256": "c0496a27c3830533b8d4ef1ed10d80742dd9f8959d500e85331574b61dfe5a7c"
+    },
+    {
+      "path": "src/features/pdf/render-report.ts",
+      "bytes": 22047,
+      "sha256": "c683d7127a3d1403769402500e767205a88bfcd8b38bbe6c6e0814ce9c52b706"
+    },
+    {
+      "path": "src/features/pdf/export-controller.ts",
+      "bytes": 3314,
+      "sha256": "1c61815fe102093a491adfb103b241673106341e749588f54493edc8014e31a1"
+    },
+    {
+      "path": "src/app/App.tsx",
+      "bytes": 22032,
+      "sha256": "bd6ea83ee29701252966d6606fa02fb505ce34db0847e527f0b4c2359e615438"
+    }
+  ],
+  "historical": [
+    {
+      "name": "legacy-direct-manual",
+      "accepted": true,
+      "modelSha256": "90275e43d79a837fa562849e4a29c7af28e69286c3abc03dba1a5406a019e540",
+      "htmlSha256": "df108d3a687f66a358924e85335e6e8bf375c3a7da14d620732656e8edf12905",
+      "pdfSha256": "ce5148b8edeff890fbaebe58203b9b854578cf9dec9029207acbe984c9455e55",
+      "pages": 3
+    },
+    {
+      "name": "legacy-direct-imss-off-auto",
+      "accepted": true,
+      "modelSha256": "97c28ea04518be3251604b4b4e1293b22217d3412c5c0edabce19ceb82a8840c",
+      "htmlSha256": "f74c8fb712051dbcfcd2cef15fcc8f370c34adbb2b3c3fc74ef883d4fc2023e1",
+      "pdfSha256": "9cd6b0b434066d79c5af2f238b81a43371f99ab65a436ca609e812bfda042458",
+      "pages": 3
+    },
+    {
+      "name": "legacy-inverse-exact",
+      "accepted": true,
+      "modelSha256": "e99a4a78f949f9e786b020d09f3bc045dc53073c84cbae783c8b7c0142db6724",
+      "htmlSha256": "18d5d5c3194da452c5b8928748c002a101080b2a952eb0b2ccb2638356b6704e",
+      "pdfSha256": "e77b1d7ad82c371a8fc9b3508077ad7abde4b103f146f590fddb8187ea36e5cb",
+      "pages": 3
+    },
+    {
+      "name": "legacy-inverse-approximate",
+      "accepted": true,
+      "modelSha256": "6ba056afe17ad69a12fe59168ff0b4efc52d230e7712239df630b23867c87d2e",
+      "htmlSha256": "561f659a30d11cb8618e5ad11bdb7383c402e108010cbcc8fbfc19ac10afd8ea",
+      "pdfSha256": "4d8d2361283d018f99eb8f2d229ec64074d9f5e1c3e682c6f9234011b98416ac",
+      "pages": 3
+    },
+    {
+      "name": "legacy-inverse-limited",
+      "accepted": true,
+      "modelSha256": "3a72562355713c1bee90ecbe2c07db9e6a056db574295b3145052669ba8108d6",
+      "htmlSha256": "c1323d051e70e20c9b30491577931412d80392fe7cc10949778ddd6e16f7bc4b",
+      "pdfSha256": "5eeaa7433283e4169d93b0102578226c6743d40f66273b31e504ee8aa033e8fb",
+      "pages": 3
+    },
+    {
+      "name": "legacy-direct-conditioned",
+      "accepted": true,
+      "modelSha256": "ef798ba57324b3b1230c353744c615d15135078287294e267623398831127020",
+      "htmlSha256": "8667bccc633b531c4f85c2f9399731c40dc4cb04baae1ab03523db3d620c7d0d",
+      "pdfSha256": "e1b223138a190393bd3e93aa671bc0ef804377b39ff8b0228265f3f3c76bcf86",
+      "pages": 3
+    },
+    {
+      "name": "legacy-never-falls-forward",
+      "accepted": false,
+      "error": "INVALID_V3_SHAPE"
+    },
+    {
+      "name": "v1-direct-manual",
+      "accepted": true,
+      "modelSha256": "2711b3b3d953d71ff1bd001ae3410ea6c15e6d2a3d3f44374a6721d2c7d9012a",
+      "htmlSha256": "05993f3d7dd16b6834372ebe56546c7470a3d7d49c3282be1f931cca18331d80",
+      "pdfSha256": "ad4755ba96e3dbfb7960212869fc28936dad0cba2a6c20a151517c3be9d6e650",
+      "pages": 2
+    },
+    {
+      "name": "v1-direct-imss-off-auto",
+      "accepted": true,
+      "modelSha256": "6a60ad77d38bd3f59a383b25f02f8edc82e91de08fc91312a579ae32609c1d50",
+      "htmlSha256": "c78b8615123334340e2e00edf7062952789d2a357906ea96624510f40fb786b7",
+      "pdfSha256": "97f0c1803d58ac0f4bd635735056a95a98d40ce249807b61f75a591e091f8db0",
+      "pages": 2
+    },
+    {
+      "name": "v1-inverse-exact",
+      "accepted": true,
+      "modelSha256": "250ee81c9a4ca7d91edf7f9df989b1f9d470d1a47afdda0c80339a95f27f2281",
+      "htmlSha256": "301c7a575ada044b50a539ec7ae8caa7055d99a17ec38458ec0a993a8251a901",
+      "pdfSha256": "81140c88ff285a996a919b05852b820f8ccb39a1db9081ce01fa9d23f012b32d",
+      "pages": 3
+    },
+    {
+      "name": "v1-inverse-approximate",
+      "accepted": true,
+      "modelSha256": "7958d3293b47a97a86340026b4c5bb2ba1faf2a78eb08ae0fcf12ae2ac591455",
+      "htmlSha256": "0984a90822c7b1b32f8a750c49f71dcf77c606e93b2811964befd6fe53669626",
+      "pdfSha256": "d93c158ec0fe1c3c1ac885e56c3048544a0942cf9a629f84c83b7fe11266bd7f",
+      "pages": 3
+    },
+    {
+      "name": "v1-inverse-limited",
+      "accepted": true,
+      "modelSha256": "c3463507ccb9169538cb5edb4b8a8af0c117081642df83d515cd027748c3f8f1",
+      "htmlSha256": "7b2693ac46df11d748aa5d37da837b5c6f6892b7640601edb3d88597c996f00f",
+      "pdfSha256": "48a333bb9a28a7336eac6f09c3666bf0db4db8432df31c814b21fb59978585ab",
+      "pages": 3
+    },
+    {
+      "name": "v1-direct-conditioned",
+      "accepted": true,
+      "modelSha256": "a610971494b4ae179cbc73302edba18e8378023cee0bd47277644deebf0a984a",
+      "htmlSha256": "e336d9a7eb60697e3997748f0c2b76872f4c1b775474694039cb2bb29f3f0c42",
+      "pdfSha256": "7d53afcba2575f4559d99db6e6b39c93ae5e111b53cf272f83045d305af5323b",
+      "pages": 3
+    },
+    {
+      "name": "v2-direct-manual",
+      "accepted": true,
+      "modelSha256": "4c442c440931853035d7c7254644cf70f66eecdeeccab59299d690311d7844e8",
+      "htmlSha256": "df108d3a687f66a358924e85335e6e8bf375c3a7da14d620732656e8edf12905",
+      "pdfSha256": "3fb0051fdd471a673f054b8e060a8dfdf7cd1054d3bcbfe005f06b43894cb368",
+      "pages": 3
+    },
+    {
+      "name": "v2-direct-imss-off-auto",
+      "accepted": true,
+      "modelSha256": "16447ac330927f91d0710d08ad89920bcbb5c0c9ac7bbbb17ff38773cdb26009",
+      "htmlSha256": "f74c8fb712051dbcfcd2cef15fcc8f370c34adbb2b3c3fc74ef883d4fc2023e1",
+      "pdfSha256": "8d52d7a348d363901ca11e786cc91367416fa638761069ef778a98d0579359e9",
+      "pages": 3
+    },
+    {
+      "name": "v2-inverse-exact",
+      "accepted": true,
+      "modelSha256": "691f5f361a82e93ea7a069c7d117bccc6da0639cab6176d81344dbda774f3a1a",
+      "htmlSha256": "18d5d5c3194da452c5b8928748c002a101080b2a952eb0b2ccb2638356b6704e",
+      "pdfSha256": "9ce0b4c0e0882ca65ff17a84b78d7f7bc28038eb4678b3a7982d5bb79c78f2db",
+      "pages": 3
+    },
+    {
+      "name": "v2-inverse-approximate",
+      "accepted": true,
+      "modelSha256": "de2073f33741168ea13d60eb53beae48e197127f5a2ac04c5d2eebef83700a1f",
+      "htmlSha256": "561f659a30d11cb8618e5ad11bdb7383c402e108010cbcc8fbfc19ac10afd8ea",
+      "pdfSha256": "f26c78f323d1e8b6d2e6a0df60c38ec58e13a1ef14e3184e4c954548f9d19021",
+      "pages": 3
+    },
+    {
+      "name": "v2-inverse-limited",
+      "accepted": true,
+      "modelSha256": "0662f9f0733fd1f852943c2b96630731950c1cfec7d5b7ba67327ff15ed01c6a",
+      "htmlSha256": "c1323d051e70e20c9b30491577931412d80392fe7cc10949778ddd6e16f7bc4b",
+      "pdfSha256": "cc9cc90185bf14cba003bed2bb4b13428b57727ccda217fdfb4a9f312fb82be9",
+      "pages": 3
+    },
+    {
+      "name": "v2-direct-conditioned",
+      "accepted": true,
+      "modelSha256": "a095fe5d5839bea66292a0036ea51d47254ceadd1fc6fd2b2b6d563776a0fa97",
+      "htmlSha256": "8667bccc633b531c4f85c2f9399731c40dc4cb04baae1ab03523db3d620c7d0d",
+      "pdfSha256": "afa7bd4c8c61104d7f65d9789bae460d75b62a7dd50cddabe630da4b5093d114",
+      "pages": 3
+    },
+    {
+      "name": "approved-reject-extra-top",
+      "accepted": false,
+      "error": "INVALID_V3_CLOSED_OBJECT"
+    },
+    {
+      "name": "approved-reject-extra-report",
+      "accepted": false,
+      "error": "INVALID_V3_CLOSED_OBJECT"
+    },
+    {
+      "name": "approved-reject-producer",
+      "accepted": false,
+      "error": "INCOMPATIBLE_DOCUMENT_CONTRACT"
+    },
+    {
+      "name": "approved-reject-hash",
+      "accepted": false,
+      "error": "V3_HASH_MISMATCH"
+    },
+    {
+      "name": "approved-reject-payload-hash",
+      "accepted": false,
+      "error": "V3_HASH_MISMATCH"
+    },
+    {
+      "name": "approved-reject-head-hash",
+      "accepted": false,
+      "error": "V3_HASH_MISMATCH"
+    },
+    {
+      "name": "approved-reject-root-version",
+      "accepted": false,
+      "error": "V3_HASH_MISMATCH"
+    },
+    {
+      "name": "approved-reject-trust-epoch",
+      "accepted": false,
+      "error": "V3_HASH_MISMATCH"
+    },
+    {
+      "name": "approved-reject-set-reference",
+      "accepted": false,
+      "error": "INVALID_V3_SETS"
+    },
+    {
+      "name": "approved-reject-fiscal-date",
+      "accepted": false,
+      "error": "INVALID_SNAPSHOT_EXECUTION"
+    },
+    {
+      "name": "approved-reject-numeric-money",
+      "accepted": false,
+      "error": "INVALID_SNAPSHOT_CAPTURE"
+    },
+    {
+      "name": "approved-reject-authority",
+      "accepted": false,
+      "error": "INVALID_V3_FIXTURE_AUTHORITY"
+    },
+    {
+      "name": "approved-reject-fake-authorized",
+      "accepted": false,
+      "error": "INVALID_V3_CLOSED_OBJECT"
+    },
+    {
+      "name": "approved-reject-net",
+      "accepted": false,
+      "error": "INVALID_V3_RECONCILIATION"
+    },
+    {
+      "name": "approved-reject-policy",
+      "accepted": false,
+      "error": "INVALID_V3_POLICY"
+    },
+    {
+      "name": "approved-reject-engine",
+      "accepted": false,
+      "error": "INVALID_V3_VERSIONS"
+    },
+    {
+      "name": "approved-reject-unknown-schema",
+      "accepted": false,
+      "error": "INCOMPATIBLE_SNAPSHOT_VERSION"
+    },
+    {
+      "name": "approved-reject-negative-zero",
+      "accepted": false,
+      "error": "UNSAFE_JSON_NUMBER"
+    },
+    {
+      "name": "approved-reject-duplicate",
+      "accepted": false,
+      "error": "INVALID_SNAPSHOT_DUPLICATE_OR_UNICODE"
+    },
+    {
+      "name": "approved-reject-application-type",
+      "accepted": false,
+      "error": "INVALID_V3_VERSIONS"
+    },
+    {
+      "name": "approved-reject-negative-benefit",
+      "accepted": false,
+      "error": "INVALID_V3_CAPTURE"
+    },
+    {
+      "name": "approved-reject-unknown-period",
+      "accepted": false,
+      "error": "INVALID_V3_CAPTURE"
+    },
+    {
+      "name": "approved-reject-invalid-observation-time",
+      "accepted": false,
+      "error": "INVALID_OBSERVED_TRUST"
+    },
+    {
+      "name": "approved-reject-limited-uniqueness",
+      "accepted": false,
+      "error": "INCONSISTENT_DOCUMENT_GUARANTEES"
+    },
+    {
+      "name": "approved-reject-presentation-uniqueness",
+      "accepted": false,
+      "error": "INCONSISTENT_DOCUMENT_PRESENTATION"
+    }
+  ]
+}

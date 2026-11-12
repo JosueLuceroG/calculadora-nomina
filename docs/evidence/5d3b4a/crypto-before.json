@@ -1,0 +1,2049 @@
+{
+  "recordedAt": "2026-10-28T17:39:00.804Z",
+  "runtime": "v24.21.0",
+  "versions": {
+    "curves": "1.9.7",
+    "hashes": "1.8.0",
+    "canonicalize": "5.1.0"
+  },
+  "bundleSha256": "05c9a03990dc3e33b07f2cc2c9fb70e70507867bfc02853195c839928ad9cb71",
+  "productionEvidenceSha256": "f207dbbd7051f04f0828fb824bcbc3b01fb13acb217b7db02ff8b5c25679d3d7",
+  "result": {
+    "status": "passed",
+    "groups": {
+      "rfc8032": {
+        "total": 3,
+        "failed": 0
+      },
+      "wycheproof": {
+        "total": 210,
+        "failed": 0
+      },
+      "strict-signatures": {
+        "total": 8,
+        "failed": 0
+      },
+      "public-points": {
+        "total": 8,
+        "failed": 0
+      },
+      "hashes": {
+        "total": 8,
+        "failed": 0
+      },
+      "jcs": {
+        "total": 9,
+        "failed": 0
+      },
+      "documents": {
+        "total": 31,
+        "failed": 0
+      },
+      "original-bytes": {
+        "total": 6,
+        "failed": 0
+      },
+      "budget": {
+        "total": 2,
+        "failed": 0
+      }
+    },
+    "checks": [
+      {
+        "group": "rfc8032",
+        "id": "RFC8032-7.1-TEST1",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "rfc8032",
+        "id": "RFC8032-7.1-TEST2",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "rfc8032",
+        "id": "RFC8032-7.1-TEST3",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "1",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "2",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "3",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "4",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "5",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "6",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "7",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "8",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "9",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "10",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "11",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "12",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "13",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "14",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "15",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "16",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "17",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "18",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "19",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "20",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "21",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "22",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "23",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "24",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "25",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "26",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "27",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "28",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "29",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "30",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "31",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "32",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "33",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "34",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "35",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "36",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "37",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "38",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "39",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "40",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "41",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "42",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "43",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "44",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "45",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "46",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "47",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "48",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "49",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "50",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "51",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "52",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "53",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "54",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "55",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "56",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "57",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "58",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "59",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "60",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "61",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "62",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "63",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "64",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "65",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "66",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "67",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "68",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "69",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "70",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "71",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "72",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "73",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "74",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "75",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "76",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "77",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "78",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "79",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "80",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "81",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "82",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "83",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "84",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "85",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "86",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "87",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "88",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "89",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "90",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "91",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "92",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "93",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "94",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "95",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "96",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "97",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "98",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "99",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "100",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "101",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "102",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "103",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "104",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "105",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "106",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "107",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "108",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "109",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "110",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "111",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "112",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "113",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "114",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "115",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "116",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "117",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "118",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "119",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "120",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "121",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "122",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "123",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "124",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "125",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "126",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "127",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "128",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "129",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "130",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "131",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "132",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "133",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "134",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "135",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "136",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "137",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "138",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "139",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "140",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "141",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "142",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "143",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "144",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "145",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "146",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "147",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "148",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "149",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "150",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "151",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "152",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "153",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "154",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "155",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "156",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "157",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "158",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "159",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "160",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "161",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "162",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "163",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "164",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "165",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "166",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "167",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "168",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "169",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "170",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "171",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "172",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "173",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "174",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "175",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "176",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "177",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "178",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "179",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "180",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "181",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "182",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "183",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "184",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "185",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "186",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "187",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "188",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "189",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "190",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "191",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "192",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "193",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "194",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "195",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "196",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "197",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "198",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "199",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "200",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "201",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "202",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "203",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "204",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "205",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "206",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "207",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "208",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "209",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "wycheproof",
+        "id": "210",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "S-equals-order",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "identity-R",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "signature-63",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "signature-65",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "key-31",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "key-33",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "changed-message",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "strict-signatures",
+        "id": "identity-key",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "rfc-key",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "zero",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "identity",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "minus-identity",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "noncanonical-p",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "noncanonical-maximum",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "short",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "public-points",
+        "id": "long",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "sha256-empty",
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "production-sha256-empty",
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "sha512-empty",
+        "expected": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "actual": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "sha512-incremental-empty",
+        "expected": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "actual": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "sha256-abc",
+        "expected": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+        "actual": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "production-sha256-abc",
+        "expected": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+        "actual": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "sha512-abc",
+        "expected": "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f",
+        "actual": "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f",
+        "passed": true
+      },
+      {
+        "group": "hashes",
+        "id": "sha512-incremental-abc",
+        "expected": "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f",
+        "actual": "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "0",
+        "expected": "[56,{\"1\":[],\"10\":null,\"d\":true}]",
+        "actual": "[56,{\"1\":[],\"10\":null,\"d\":true}]",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "1",
+        "expected": "{\"peach\":\"This sorting order\",\"péché\":\"is wrong according to French\",\"pêche\":\"but canonicalization MUST\",\"sin\":\"ignore locale\"}",
+        "actual": "{\"peach\":\"This sorting order\",\"péché\":\"is wrong according to French\",\"pêche\":\"but canonicalization MUST\",\"sin\":\"ignore locale\"}",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "2",
+        "expected": "{\"\":\"empty\",\"1\":{\"\\n\":56,\"f\":{\"F\":5,\"f\":\"hi\"}},\"10\":{},\"111\":[{\"E\":\"no\",\"e\":\"yes\"}],\"A\":{},\"a\":{}}",
+        "actual": "{\"\":\"empty\",\"1\":{\"\\n\":56,\"f\":{\"F\":5,\"f\":\"hi\"}},\"10\":{},\"111\":[{\"E\":\"no\",\"e\":\"yes\"}],\"A\":{},\"a\":{}}",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "3",
+        "expected": "{\"Unnormalized Unicode\":\"Å\"}",
+        "actual": "{\"Unnormalized Unicode\":\"Å\"}",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "4",
+        "expected": "{\"literals\":[null,true,false],\"numbers\":[333333333.3333333,1e+30,4.5,0.002,1e-27],\"string\":\"€$\\u000f\\nA'B\\\"\\\\\\\\\\\"/\"}",
+        "actual": "{\"literals\":[null,true,false],\"numbers\":[333333333.3333333,1e+30,4.5,0.002,1e-27],\"string\":\"€$\\u000f\\nA'B\\\"\\\\\\\\\\\"/\"}",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "5",
+        "expected": "{\"\\n\":\"Newline\",\"\\r\":\"Carriage Return\",\"1\":\"One\",\"</script>\":\"Browser Challenge\",\"\":\"Control\",\"ö\":\"Latin Small Letter O With Diaeresis\",\"€\":\"Euro Sign\",\"😂\":\"Smiley\",\"דּ\":\"Hebrew Letter Dalet With Dagesh\"}",
+        "actual": "{\"\\n\":\"Newline\",\"\\r\":\"Carriage Return\",\"1\":\"One\",\"</script>\":\"Browser Challenge\",\"\":\"Control\",\"ö\":\"Latin Small Letter O With Diaeresis\",\"€\":\"Euro Sign\",\"😂\":\"Smiley\",\"דּ\":\"Hebrew Letter Dalet With Dagesh\"}",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "UTF16-order",
+        "expected": "{\"😀\":2,\"דּ\":1}",
+        "actual": "{\"😀\":2,\"דּ\":1}",
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "no-normalization",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "jcs",
+        "id": "lone-surrogate",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "direct-manual",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "direct-imss-off-auto",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "inverse-exact",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "inverse-approximate",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "inverse-limited",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "direct-conditioned",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "extra-top",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "extra-report",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "producer",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "hash",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "payload-hash",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "head-hash",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "root-version",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "trust-epoch",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "set-reference",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "fiscal-date",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "numeric-money",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "authority",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "fake-authorized",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "net",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "policy",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "engine",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "unknown-schema",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "negative-zero",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "duplicate",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "application-type",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "negative-benefit",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "unknown-period",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "invalid-observation-time",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "limited-uniqueness",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "documents",
+        "id": "presentation-uniqueness",
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "group": "original-bytes",
+        "id": "direct-manual",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "original-bytes",
+        "id": "direct-imss-off-auto",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "original-bytes",
+        "id": "inverse-exact",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "original-bytes",
+        "id": "inverse-approximate",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "original-bytes",
+        "id": "inverse-limited",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "original-bytes",
+        "id": "direct-conditioned",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "budget",
+        "id": "valid-3145728",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "group": "budget",
+        "id": "reject-3145729",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      }
+    ]
+  }
+}

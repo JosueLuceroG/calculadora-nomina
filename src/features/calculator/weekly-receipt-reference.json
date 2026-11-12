@@ -1,0 +1,17 @@
+{
+  "kind": "anonymized-user-receipt-reference-not-fiscal-certification",
+  "periodFrom": "2026-10-12",
+  "periodThrough": "2026-10-18",
+  "paymentDate": null,
+  "dailySalary": "542.05",
+  "salaryDays": "6",
+  "restDays": "1",
+  "salary": "3252.30",
+  "rest": "542.05",
+  "gross": "3794.35",
+  "declaredMixedSbc": "568.77",
+  "receiptIsr": "384.02",
+  "receiptImss": "100.62",
+  "receiptNet": "3309.71",
+  "retentions": "declared-reference-values-require-fiscal-context"
+}

@@ -1,0 +1,9 @@
+import assert from 'node:assert/strict'
+import {readFileSync,readdirSync,writeFileSync} from 'node:fs'
+import {createHash} from 'node:crypto'
+import postcss from 'postcss'
+const out=new URL('../docs/evidence/5d3b4e/',import.meta.url),assets=new URL('../dist/assets/',import.meta.url),before=readFileSync(new URL('baseline.css',out),'utf8'),after=readFileSync(new URL(readdirSync(assets).find(n=>n.endsWith('.css')),assets),'utf8'),sha=t=>createHash('sha256').update(t).digest('hex')
+function rules(text){const result=new Map();postcss.parse(text).walkRules(rule=>{const parents=[];for(let p=rule.parent;p?.type!=='root';p=p.parent)if(p.type==='atrule')parents.unshift(`@${p.name} ${p.params}`);for(const selector of rule.selectors){const key=[...parents,selector].join(' / '),declarations=rule.nodes.map(n=>n.type==='decl'?`${n.prop}:${n.value}${n.important?'!important':''}`:n.toString());result.set(key,[...result.get(key)??[],...declarations])}});return result}
+const oldRules=rules(before),newRules=rules(after),changed=[...oldRules].filter(([k,v])=>JSON.stringify(newRules.get(k))!==JSON.stringify(v)).map(([selector])=>selector),added=[...newRules.keys()].filter(k=>!oldRules.has(k)),unrelated=added.filter(k=>!/^\.?fiscal-(?:activation|source|execution|operation)/.test(k.split(' / ').at(-1)))
+const report={recordedAt:new Date().toISOString(),baselineSha256:sha(before),compiledSha256:sha(after),baselineBytes:Buffer.byteLength(before),compiledBytes:Buffer.byteLength(after),existingSelectorsChecked:oldRules.size,changedExistingSelectors:changed,addedSelectors:added,unrelatedAddedSelectors:unrelated,globalSourceStyles:'unchanged and protected in baseline',purpose:'Only local fiscal activation modal, source/execution notices and operation query controls'}
+writeFileSync(new URL('css-review.json',out),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));assert.deepEqual(changed,[]);assert.deepEqual(unrelated,[])

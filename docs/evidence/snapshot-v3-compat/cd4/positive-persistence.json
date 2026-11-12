@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "backup": {
+        "backupFileSha256": "f66b2cf1fae12e4f544efe822c9176a86968fc675ae9df2b3177d27efea3fdca",
+        "cleanupInterruptedAfterDurableMarker": true,
+        "corruptRestoredIndex": "CORRUPT_RECORD",
+        "exactBytesValidated": true,
+        "nativeCommittedOriginal": true,
+        "newJsonImportEndpoint": false,
+        "reopenCompletedRecovery": true,
+        "testCopyRestoredAndReconciled": true,
+        "vacuumBackupCreated": true
+      },
+      "documentBytes": 88293,
+      "documentSha256": "a57a230fd0d680c495e5331961a00f77947a03999128ad85078f3f5f751dfe55",
+      "duplicateInserted": false,
+      "executionId": "859804e9-0d9e-437f-8942-cddfab2d1508",
+      "label": "direct-manual",
+      "outcomeUnchanged": true,
+      "route": "manual",
+      "run": "docs/evidence/snapshot-v3-compat/cd4/runs/direct-manual-859804e9-0d9e-437f-8942-cddfab2d1508",
+      "status": "COMMITTED",
+      "stored": true
+    },
+    {
+      "backup": null,
+      "documentBytes": 88296,
+      "documentSha256": "2f3f64de527a361ac1cad57f9c255c6b130778933f85e3dd025411856f9d062b",
+      "duplicateInserted": false,
+      "executionId": "7363b272-d716-41f3-b12c-8a329e3e5d5d",
+      "label": "direct-automatic",
+      "outcomeUnchanged": true,
+      "route": "automatic",
+      "run": "docs/evidence/snapshot-v3-compat/cd4/runs/direct-automatic-7363b272-d716-41f3-b12c-8a329e3e5d5d",
+      "status": "COMMITTED",
+      "stored": true
+    },
+    {
+      "backup": null,
+      "documentBytes": 95421,
+      "documentSha256": "e3376b5ea6727a84c31c70e522cc11839965d176c78196a505a8cd0931f7a163",
+      "duplicateInserted": false,
+      "executionId": "4bcd8aa0-5387-45e2-bc54-35fccec48688",
+      "label": "inverse-complete",
+      "outcomeUnchanged": true,
+      "route": "automatic",
+      "run": "docs/evidence/snapshot-v3-compat/cd4/runs/inverse-complete-4bcd8aa0-5387-45e2-bc54-35fccec48688",
+      "status": "COMMITTED",
+      "stored": true
+    }
+  ],
+  "freshNativeSessions": true,
+  "newPublicJsonWriter": false,
+  "salaryRows": 3
+}

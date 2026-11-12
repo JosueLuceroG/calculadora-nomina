@@ -1,0 +1,20 @@
+use super::*;
+use tauri::{Runtime,WebviewWindow,State as TauriState};
+type Service=Arc<ActivationService>;
+fn caller<R:Runtime>(w:&WebviewWindow<R>,s:&Service)->Result<Owner>{crate::fiscal_import::commands::caller(w,&s.imports).map_err(|e|error(&e.code))}
+fn id(s:&str)->Result<()>{if s.len()!=36||uuid::Uuid::parse_str(s).is_err(){Err(error("INVALID_ID"))}else{Ok(())}}
+fn bounded<T:serde::Serialize>(v:T)->Result<T>{if serde_json::to_vec(&v).map_err(|_|error("SERIALIZATION_ERROR"))?.len()>65536{Err(error("RESPONSE_LIMIT"))}else{Ok(v)}}
+#[tauri::command]
+pub async fn fiscal_activation_eligibility<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:EligibilityRequest)->Result<Eligibility>{let s=state.inner().clone();caller(&window,&s)?;s.enabled()?;id(&request.installation_id)?;if let Some(a)=&request.admission_id{id(a)?;}let work=s.imports.work().map_err(|e|error(&e.code))?;let result=tauri::async_runtime::spawn_blocking(move||{let _work=work;s.imports.repository.activation_eligibility(&request.installation_id,request.admission_id.as_deref())}).await.map_err(|_|error("UNAVAILABLE"))??;bounded(result)}
+#[tauri::command]
+pub async fn fiscal_activation_prepare<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:PrepareRequest)->Result<State>{let s=state.inner().clone();let owner=caller(&window,&s)?;s.enabled()?;id(&request.installation_id)?;if let Some(a)=&request.admission_id{id(a)?;}if request.exception_grant_sha256.as_ref().map(|h|!nomina_fiscal_package::validation_2026::digest(h)).unwrap_or(false){return Err(error("INVALID_HASH"));}let work=s.imports.work().map_err(|e|error(&e.code))?;let reserved=s.reserve(&owner)?;let result=tauri::async_runtime::spawn_blocking(move||{let _work=work;s.prepare(&owner,&reserved.session_id,match request.intent{PrepareKind::Admit=>ActivationIntent::Admit,PrepareKind::Select=>ActivationIntent::Select},Some(&request.installation_id),request.admission_id.as_deref(),request.exception_grant_sha256.as_deref())}).await.map_err(|_|error("UNAVAILABLE"))??;bounded(result)}
+#[tauri::command]
+pub async fn fiscal_activation_get<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:SessionRequest)->Result<State>{let s=state.inner();let o=caller(&window,s)?;s.enabled()?;id(&request.session_id)?;bounded(s.get(&o,&request.session_id)?)}
+#[tauri::command]
+pub async fn fiscal_activation_cancel<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:SessionRequest)->Result<State>{let s=state.inner();let o=caller(&window,s)?;s.enabled()?;id(&request.session_id)?;bounded(s.cancel(&o,&request.session_id)?)}
+#[tauri::command]
+pub async fn fiscal_activation_confirm<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:ConfirmRequest)->Result<State>{let s=state.inner().clone();let o=caller(&window,&s)?;s.enabled()?;id(&request.session_id)?;id(&request.preview_nonce)?;let work=s.imports.work().map_err(|e|error(&e.code))?;let result=tauri::async_runtime::spawn_blocking(move||{let _work=work;s.confirm(&o,&request.session_id,&request.preview_nonce)}).await.map_err(|_|error("COMMIT_OUTCOME_UNKNOWN"))??;bounded(result)}
+#[tauri::command]
+pub async fn fiscal_selection_get<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:Empty)->Result<SelectionStatus>{let _=request;let s=state.inner().clone();caller(&window,&s)?;s.enabled()?;let work=s.imports.work().map_err(|e|error(&e.code))?;bounded(tauri::async_runtime::spawn_blocking(move||{let _work=work;s.selection()}).await.map_err(|_|error("UNAVAILABLE"))??)}
+#[tauri::command]
+pub async fn fiscal_selection_deactivate<R:Runtime>(window:WebviewWindow<R>,state:TauriState<'_,Service>,request:Empty)->Result<State>{let _=request;let s=state.inner().clone();let o=caller(&window,&s)?;s.enabled()?;let work=s.imports.work().map_err(|e|error(&e.code))?;let reserved=s.reserve(&o)?;bounded(tauri::async_runtime::spawn_blocking(move||{let _work=work;s.prepare(&o,&reserved.session_id,ActivationIntent::Deactivate,None,None,None)}).await.map_err(|_|error("UNAVAILABLE"))??)}
