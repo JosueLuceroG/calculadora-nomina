@@ -1,7 +1,7 @@
 {
   "provenance": {
     "sourceFile": "src/tests/fixtures/operational-4b1.expected.json",
-    "sourceSha256": "328314571E100E56BF4AD0F9AB92880081EA11E7C0A64F77592B86489FF6D371",
+    "sourceSha256": "04B57DDD3A4A430A455DDEBAFDEEE8A1ABA0735B6823C0E8FBDDC2265BCF6944",
     "sourceCutoff": "2026-10-16",
     "method": "Python Fraction exact; fresh DOF HTML and independent SAT PDF cross-check; no production imports"
   },
