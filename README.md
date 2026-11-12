@@ -99,6 +99,29 @@ Quedan fuera de alcance:
 
 Esta es una versión de prueba. El instalador aún no está firmado, no se ha probado en una instalación limpia de Windows y la revisión fiscal sigue pendiente. Por eso no debe usarse como cálculo oficial ni para tomar decisiones fiscales sin revisión profesional.
 
+## Preguntas frecuentes
+
+**¿Necesito internet para usarla?**  
+No. Después de instalar, el cálculo funciona sin conexión. El instalador normal solo necesita internet si Windows no tiene WebView2.
+
+**¿Dónde se guarda mi historial?**  
+En `%LOCALAPPDATA%\mx.calculadoranomina.desktop\payroll.sqlite3`. La base no está cifrada.
+
+**Windows dice que el editor es desconocido. ¿Es seguro?**  
+El instalador todavía no tiene firma digital. Puedes comprobar el SHA-256 publicado en la versión antes de ejecutarlo. Si decides continuar, Windows te pedirá confirmación.
+
+**¿Sirve para CFDI, SUA o CONTPAQi?**  
+No. Es una calculadora de estimación y no genera ni valida esos documentos.
+
+**¿Funciona en Windows 10?**  
+No se validó en esta versión. La plataforma probada es Windows 11 de 64 bits.
+
+**¿Puedo borrar mi historial?**  
+Sí, desde la aplicación. Si desinstalas, deja sin marcar “Eliminar los datos de la aplicación” para conservarlo.
+
+**¿Dónde reporto un problema?**  
+Puedes abrir un [issue en GitHub](https://github.com/JosueLuceroG/calculadora-nomina/issues).
+
 ## Para desarrolladores
 
 <details>
