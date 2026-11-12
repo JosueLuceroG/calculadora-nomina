@@ -13,7 +13,7 @@
     "failed": 0,
     "skipped": 0,
     "command": "npm --prefix tools/fiscal-editorial test",
-    "evidence": "editorial-tests.json"
+    "evidence": "generated locally by tools/fiscal-editorial/run-tests.mjs (not versioned)"
   },
   "applicationVitest": {
     "passed": 4178,
