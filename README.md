@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JosueLuceroG/calculadora-nomina/releases/latest">
+  <a href="https://github.com/JosueLuceroG/calculadora-nomina/releases">
     <img src="https://img.shields.io/badge/Descargar-Windows%2011%20x64-2ea44f?style=for-the-badge" alt="Descargar para Windows">
   </a>
   <img src="https://img.shields.io/badge/versi%C3%B3n-0.1.1--rc.1-blue" alt="Versión 0.1.1-rc.1">
@@ -18,7 +18,7 @@
 
 ## Descargar
 
-La forma más fácil es abrir la página de [versiones](https://github.com/JosueLuceroG/calculadora-nomina/releases/latest) y descargar el instalador para Windows 11 de 64 bits.
+La forma más fácil es abrir la página de [versiones](https://github.com/JosueLuceroG/calculadora-nomina/releases) y descargar el instalador para Windows 11 de 64 bits.
 
 | Instalador | Tamaño | Cuándo usarlo |
 | --- | --- | --- |
